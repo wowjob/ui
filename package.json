@@ -8,6 +8,7 @@
     "test": "jest",
     "prepublishOnly": "npm run build",
     "sr": "bunx semantic-release",
+    "pub": "bunx semantic-release --no-ci",
     "build-css": "bun build-css.js",
     "build-ui": "bun src/css/css/ui.ts",
     "build": "tsup src/index.ts --format cjs,esm --dts --sourcemap --clean && bun run build-css && bun run build-ui",

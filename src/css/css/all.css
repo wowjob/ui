@@ -164,3060 +164,3060 @@ Website: https://wowjob.ai
 }
 
 /* CSS Properties */
-#wowjob-ui .accent-color {
-  --accent-color: auto;
-  accent-color: var(--accent-color);
-}
-#wowjob-ui .align-content {
-  --align-content: normal;
-  align-content: var(--align-content);
-}
-#wowjob-ui .align-items {
-  --align-items: normal;
-  align-items: var(--align-items);
-}
-#wowjob-ui .align-self {
-  --align-self: auto;
-  align-self: var(--align-self);
-}
-#wowjob-ui .animation {
-  --animation: none;
-  animation: var(--animation);
-}
-#wowjob-ui .appearance {
-  --appearance: none;
-  appearance: var(--appearance);
-}
-#wowjob-ui .aspect-ratio {
-  --aspect-ratio: auto;
-  aspect-ratio: var(--aspect-ratio);
-}
-#wowjob-ui .backdrop-filter {
-  --backdrop-filter: none;
-  backdrop-filter: var(--backdrop-filter);
-}
-#wowjob-ui .backface-visibility {
-  --backface-visibility: visible;
-  backface-visibility: var(--backface-visibility);
-}
-#wowjob-ui .background {
-  --background: transparent;
-  background: var(--background);
-}
-#wowjob-ui .background-blend-mode {
-  --background-blend-mode: normal;
-  background-blend-mode: var(--background-blend-mode);
-}
-#wowjob-ui .background-clip {
-  --background-clip: border-box;
-  background-clip: var(--background-clip);
-}
-#wowjob-ui .background-origin {
-  --background-origin: padding-box;
-  background-origin: var(--background-origin);
-}
-#wowjob-ui .block-size {
-  --block-size: auto;
-  block-size: var(--block-size);
-}
-#wowjob-ui .margin {
-  --margin: 0;
-  margin: var(--margin);
-}
-#wowjob-ui .padding {
-  --padding: 0;
-  padding: var(--padding);
-}
-#wowjob-ui .border {
-  --border: medium none currentcolor;
-  border: var(--border);
-}
-#wowjob-ui .border-block {
-  --border-block: undefined;
-  border-block: var(--border-block);
-}
-#wowjob-ui .border-block-start {
-  --border-block-start: none;
-  border-block-start: var(--border-block-start);
-}
-#wowjob-ui .border-bottom {
-  --border-bottom: undefined;
-  border-bottom: var(--border-bottom);
-}
-#wowjob-ui .border-bottom-left-radius {
-  --border-bottom-left-radius: 0;
-  border-bottom-left-radius: var(--border-bottom-left-radius);
-}
-#wowjob-ui .border-bottom-right-radius {
-  --border-bottom-right-radius: 0;
-  border-bottom-right-radius: var(--border-bottom-right-radius);
-}
-#wowjob-ui .border-block-end {
-  --border-block-end: none;
-  border-block-end: var(--border-block-end);
-}
-#wowjob-ui .border-collapse {
-  --border-collapse: separate;
-  border-collapse: var(--border-collapse);
-}
-#wowjob-ui .border-end-end-radius {
-  --border-end-end-radius: 0;
-  border-end-end-radius: var(--border-end-end-radius);
-}
-#wowjob-ui .border-end-start-radius {
-  --border-end-start-radius: 0;
-  border-end-start-radius: var(--border-end-start-radius);
-}
-#wowjob-ui .border-image {
-  --border-image: undefined;
-  border-image: var(--border-image);
-}
-#wowjob-ui .border-inline {
-  --border-inline: undefined;
-  border-inline: var(--border-inline);
-}
-#wowjob-ui .border-left {
-  --border-left: undefined;
-  border-left: var(--border-left);
-}
-#wowjob-ui .border-inline-start {
-  --border-inline-start: undefined;
-  border-inline-start: var(--border-inline-start);
-}
-#wowjob-ui .border-inline-end {
-  --border-inline-end: undefined;
-  border-inline-end: var(--border-inline-end);
-}
-#wowjob-ui .border-radius {
-  --border-radius: undefined;
-  border-radius: var(--border-radius);
-}
-#wowjob-ui .border-right {
-  --border-right: undefined;
-  border-right: var(--border-right);
-}
-#wowjob-ui .border-width {
-  --border-width: 0;
-  border-width: var(--border-width);
-}
-#wowjob-ui .border-style {
-  --border-style: none;
-  border-style: var(--border-style);
-}
-#wowjob-ui .border-start-end-radius {
-  --border-start-end-radius: 0;
-  border-start-end-radius: var(--border-start-end-radius);
-}
-#wowjob-ui .border-start-start-radius {
-  --border-start-start-radius: 0;
-  border-start-start-radius: var(--border-start-start-radius);
-}
-#wowjob-ui .border-top {
-  --border-top: undefined;
-  border-top: var(--border-top);
-}
-#wowjob-ui .border-top-left-radius {
-  --border-top-left-radius: 0;
-  border-top-left-radius: var(--border-top-left-radius);
-}
-#wowjob-ui .border-top-right-radius {
-  --border-top-right-radius: 0;
-  border-top-right-radius: var(--border-top-right-radius);
-}
-#wowjob-ui .bottom {
-  --bottom: auto;
-  bottom: var(--bottom);
-}
-#wowjob-ui .box-shadow {
-  --box-shadow: none;
-  box-shadow: var(--box-shadow);
-}
-#wowjob-ui .box-sizing {
-  --box-sizing: content-box;
-  box-sizing: var(--box-sizing);
-}
-#wowjob-ui .break-after {
-  --break-after: auto;
-  break-after: var(--break-after);
-}
-#wowjob-ui .break-before {
-  --break-before: auto;
-  break-before: var(--break-before);
-}
-#wowjob-ui .break-inside {
-  --break-inside: auto;
-  break-inside: var(--break-inside);
-}
-#wowjob-ui .caption-side {
-  --caption-side: top;
-  caption-side: var(--caption-side);
-}
-#wowjob-ui .caret-color {
-  --caret-color: auto;
-  caret-color: var(--caret-color);
-}
-#wowjob-ui .clear {
-  --clear: none;
-  clear: var(--clear);
-}
-#wowjob-ui .clip {
-  --clip: auto;
-  clip: var(--clip);
-}
-#wowjob-ui .clip-path {
-  --clip-path: none;
-  clip-path: var(--clip-path);
-}
-#wowjob-ui .color {
-  --color: currentcolor;
-  color: var(--color);
-}
-#wowjob-ui .color-interpolation {
-  --color-interpolation: srgb;
-  color-interpolation: var(--color-interpolation);
-}
-#wowjob-ui .color-interpolation-filters {
-  --color-interpolation-filters: linearrgb;
-  color-interpolation-filters: var(--color-interpolation-filters);
-}
-#wowjob-ui .color-scheme {
-  --color-scheme: normal;
-  color-scheme: var(--color-scheme);
-}
-#wowjob-ui .column-count {
-  --column-count: auto;
-  column-count: var(--column-count);
-}
-#wowjob-ui .column-fill {
-  --column-fill: balance;
-  column-fill: var(--column-fill);
-}
-#wowjob-ui .column-gap {
-  --column-gap: normal;
-  column-gap: var(--column-gap);
-}
-#wowjob-ui .column-rule {
-  --column-rule: undefined;
-  column-rule: var(--column-rule);
-}
-#wowjob-ui .column-span {
-  --column-span: none;
-  column-span: var(--column-span);
-}
-#wowjob-ui .column-width {
-  --column-width: auto;
-  column-width: var(--column-width);
-}
-#wowjob-ui .contain {
-  --contain: none;
-  contain: var(--contain);
-}
-#wowjob-ui .contain-intrinsic-block-size {
-  --contain-intrinsic-block-size: auto;
-  contain-intrinsic-block-size: var(--contain-intrinsic-block-size);
-}
-#wowjob-ui .contain-intrinsic-height {
-  --contain-intrinsic-height: auto;
-  contain-intrinsic-height: var(--contain-intrinsic-height);
-}
-#wowjob-ui .contain-intrinsic-inline-size {
-  --contain-intrinsic-inline-size: auto;
-  contain-intrinsic-inline-size: var(--contain-intrinsic-inline-size);
-}
-#wowjob-ui .contain-intrinsic-size {
-  --contain-intrinsic-size: undefined;
-  contain-intrinsic-size: var(--contain-intrinsic-size);
-}
-#wowjob-ui .contain-intrinsic-width {
-  --contain-intrinsic-width: auto;
-  contain-intrinsic-width: var(--contain-intrinsic-width);
-}
-#wowjob-ui .container {
-  --container: undefined;
-  container: var(--container);
-}
-#wowjob-ui .content {
-  --content: normal;
-  content: var(--content);
-}
-#wowjob-ui .content-visibility {
-  --content-visibility: visible;
-  content-visibility: var(--content-visibility);
-}
-#wowjob-ui .counter-increment {
-  --counter-increment: none;
-  counter-increment: var(--counter-increment);
-}
-#wowjob-ui .counter-reset {
-  --counter-reset: none;
-  counter-reset: var(--counter-reset);
-}
-#wowjob-ui .counter-set {
-  --counter-set: none;
-  counter-set: var(--counter-set);
-}
-#wowjob-ui .cursor {
-  --cursor: auto;
-  cursor: var(--cursor);
-}
-#wowjob-ui .cx {
-  --cx: undefined;
-  cx: var(--cx);
-}
-#wowjob-ui .cy {
-  --cy: undefined;
-  cy: var(--cy);
-}
-#wowjob-ui .d {
-  --d: undefined;
-  d: var(--d);
-}
-#wowjob-ui .direction {
-  --direction: ltr;
-  direction: var(--direction);
-}
-#wowjob-ui .dominant-baseline {
-  --dominant-baseline: auto;
-  dominant-baseline: var(--dominant-baseline);
-}
-#wowjob-ui .empty-cells {
-  --empty-cells: show;
-  empty-cells: var(--empty-cells);
-}
-#wowjob-ui .display {
-  --display: inline;
-  display: var(--display);
-}
-#wowjob-ui .flex {
-  --flex: 0 1 auto;
-  flex: var(--flex);
-}
-#wowjob-ui .flex-basis {
-  --flex-basis: auto;
-  flex-basis: var(--flex-basis);
-}
-#wowjob-ui .flex-direction {
-  --flex-direction: row;
-  flex-direction: var(--flex-direction);
-}
-#wowjob-ui .flex-grow {
-  --flex-grow: 0;
-  flex-grow: var(--flex-grow);
-}
-#wowjob-ui .flex-shrink {
-  --flex-shrink: 1;
-  flex-shrink: var(--flex-shrink);
-}
-#wowjob-ui .font-variant {
-  --font-variant: undefined;
-  font-variant: var(--font-variant);
-}
-#wowjob-ui .font-weight {
-  --font-weight: 400;
-  font-weight: var(--font-weight);
-}
-#wowjob-ui .flex-wrap {
-  --flex-wrap: nowrap;
-  flex-wrap: var(--flex-wrap);
-}
-#wowjob-ui .field-sizing {
-  --field-sizing: undefined;
-  field-sizing: var(--field-sizing);
-}
-#wowjob-ui .fill {
-  --fill: black;
-  fill: var(--fill);
-}
-#wowjob-ui .fill-opacity {
-  --fill-opacity: 1;
-  fill-opacity: var(--fill-opacity);
-}
-#wowjob-ui .fill-rule {
-  --fill-rule: nonzero;
-  fill-rule: var(--fill-rule);
-}
-#wowjob-ui .filter {
-  --filter: none;
-  filter: var(--filter);
-}
-#wowjob-ui .float {
-  --float: none;
-  float: var(--float);
-}
-#wowjob-ui .flood-color {
-  --flood-color: black;
-  flood-color: var(--flood-color);
-}
-#wowjob-ui .flood-opacity {
-  --flood-opacity: 1;
-  flood-opacity: var(--flood-opacity);
-}
-#wowjob-ui .font {
-  --font: 1rem sans-serif;
-  font: var(--font);
-}
-#wowjob-ui .font-family {
-  --font-family: serif;
-  font-family: var(--font-family);
-}
-#wowjob-ui .font-size {
-  --font-size: 16;
-  font-size: var(--font-size);
-}
-#wowjob-ui .font-stretch {
-  --font-stretch: normal;
-  font-stretch: var(--font-stretch);
-}
-#wowjob-ui .font-style {
-  --font-style: normal;
-  font-style: var(--font-style);
-}
-#wowjob-ui .font-feature-settings {
-  --font-feature-settings: normal;
-  font-feature-settings: var(--font-feature-settings);
-}
-#wowjob-ui .font-kerning {
-  --font-kerning: auto;
-  font-kerning: var(--font-kerning);
-}
-#wowjob-ui .font-language-override {
-  --font-language-override: undefined;
-  font-language-override: var(--font-language-override);
-}
-#wowjob-ui .font-optical-sizing {
-  --font-optical-sizing: auto;
-  font-optical-sizing: var(--font-optical-sizing);
-}
-#wowjob-ui .font-palette {
-  --font-palette: normal;
-  font-palette: var(--font-palette);
-}
-#wowjob-ui .font-size-adjust {
-  --font-size-adjust: none;
-  font-size-adjust: var(--font-size-adjust);
-}
-#wowjob-ui .font-synthesis-small-caps {
-  --font-synthesis-small-caps: auto;
-  font-synthesis-small-caps: var(--font-synthesis-small-caps);
-}
-#wowjob-ui .font-synthesis-style {
-  --font-synthesis-style: auto;
-  font-synthesis-style: var(--font-synthesis-style);
-}
-#wowjob-ui .font-synthesis-weight {
-  --font-synthesis-weight: auto;
-  font-synthesis-weight: var(--font-synthesis-weight);
-}
-#wowjob-ui .font-variant-alternates {
-  --font-variant-alternates: normal;
-  font-variant-alternates: var(--font-variant-alternates);
-}
-#wowjob-ui .font-variant-caps {
-  --font-variant-caps: normal;
-  font-variant-caps: var(--font-variant-caps);
-}
-#wowjob-ui .font-variant-east-asian {
-  --font-variant-east-asian: normal;
-  font-variant-east-asian: var(--font-variant-east-asian);
-}
-#wowjob-ui .font-variant-ligatures {
-  --font-variant-ligatures: normal;
-  font-variant-ligatures: var(--font-variant-ligatures);
-}
-#wowjob-ui .font-variant-numeric {
-  --font-variant-numeric: normal;
-  font-variant-numeric: var(--font-variant-numeric);
-}
-#wowjob-ui .font-variant-position {
-  --font-variant-position: normal;
-  font-variant-position: var(--font-variant-position);
-}
-#wowjob-ui .font-variation-settings {
-  --font-variation-settings: normal;
-  font-variation-settings: var(--font-variation-settings);
-}
-#wowjob-ui .forced-color-adjust {
-  --forced-color-adjust: undefined;
-  forced-color-adjust: var(--forced-color-adjust);
-}
-#wowjob-ui .gap {
-  --gap: normal;
-  gap: var(--gap);
-}
-#wowjob-ui .grid-auto-columns {
-  --grid-auto-columns: auto;
-  grid-auto-columns: var(--grid-auto-columns);
-}
-#wowjob-ui .grid-auto-flow {
-  --grid-auto-flow: row;
-  grid-auto-flow: var(--grid-auto-flow);
-}
-#wowjob-ui .grid-auto-rows {
-  --grid-auto-rows: auto;
-  grid-auto-rows: var(--grid-auto-rows);
-}
-#wowjob-ui .grid-column {
-  --grid-column: undefined;
-  grid-column: var(--grid-column);
-}
-#wowjob-ui .grid-row {
-  --grid-row: undefined;
-  grid-row: var(--grid-row);
-}
-#wowjob-ui .grid-template {
-  --grid-template: undefined;
-  grid-template: var(--grid-template);
-}
-#wowjob-ui .grid-template-columns {
-  --grid-template-columns: none;
-  grid-template-columns: var(--grid-template-columns);
-}
-#wowjob-ui .grid-template-rows {
-  --grid-template-rows: none;
-  grid-template-rows: var(--grid-template-rows);
-}
-#wowjob-ui .grid-template-areas {
-  --grid-template-areas: none;
-  grid-template-areas: var(--grid-template-areas);
-}
-#wowjob-ui .height {
-  --height: auto;
-  height: var(--height);
-}
-#wowjob-ui .hyphenate-character {
-  --hyphenate-character: auto;
-  hyphenate-character: var(--hyphenate-character);
-}
-#wowjob-ui .hyphens {
-  --hyphens: manual;
-  hyphens: var(--hyphens);
-}
-#wowjob-ui .image-orientation {
-  --image-orientation: from-image;
-  image-orientation: var(--image-orientation);
-}
-#wowjob-ui .image-rendering {
-  --image-rendering: auto;
-  image-rendering: var(--image-rendering);
-}
-#wowjob-ui .inline-size {
-  --inline-size: auto;
-  inline-size: var(--inline-size);
-}
-#wowjob-ui .inset {
-  --inset: auto;
-  inset: var(--inset);
-}
-#wowjob-ui .inset-block {
-  --inset-block: undefined;
-  inset-block: var(--inset-block);
-}
-#wowjob-ui .inset-inline {
-  --inset-inline: undefined;
-  inset-inline: var(--inset-inline);
-}
-#wowjob-ui .isolation {
-  --isolation: auto;
-  isolation: var(--isolation);
-}
-#wowjob-ui .justify-content {
-  --justify-content: normal;
-  justify-content: var(--justify-content);
-}
-#wowjob-ui .justify-items {
-  --justify-items: legacy;
-  justify-items: var(--justify-items);
-}
-#wowjob-ui .justify-self {
-  --justify-self: auto;
-  justify-self: var(--justify-self);
-}
-#wowjob-ui .left {
-  --left: auto;
-  left: var(--left);
-}
-#wowjob-ui .right {
-  --right: auto;
-  right: var(--right);
-}
-#wowjob-ui .top {
-  --top: auto;
-  top: var(--top);
-}
-#wowjob-ui .letter-spacing {
-  --letter-spacing: normal;
-  letter-spacing: var(--letter-spacing);
-}
-#wowjob-ui .lighting-color {
-  --lighting-color: white;
-  lighting-color: var(--lighting-color);
-}
-#wowjob-ui .line-break {
-  --line-break: auto;
-  line-break: var(--line-break);
-}
-#wowjob-ui .line-height {
-  --line-height: normal;
-  line-height: var(--line-height);
-}
-#wowjob-ui .list-style {
-  --list-style: undefined;
-  list-style: var(--list-style);
-}
-#wowjob-ui .margin-block {
-  --margin-block: undefined;
-  margin-block: var(--margin-block);
-}
-#wowjob-ui .margin-inline {
-  --margin-inline: undefined;
-  margin-inline: var(--margin-inline);
-}
-#wowjob-ui .mask {
-  --mask: none;
-  mask: var(--mask);
-}
-#wowjob-ui .mask-clip {
-  --mask-clip: border-box;
-  mask-clip: var(--mask-clip);
-}
-#wowjob-ui .math-style {
-  --math-style: normal;
-  math-style: var(--math-style);
-}
-#wowjob-ui .max-block-size {
-  --max-block-size: none;
-  max-block-size: var(--max-block-size);
-}
-#wowjob-ui .max-height {
-  --max-height: none;
-  max-height: var(--max-height);
-}
-#wowjob-ui .max-inline-size {
-  --max-inline-size: none;
-  max-inline-size: var(--max-inline-size);
-}
-#wowjob-ui .max-width {
-  --max-width: none;
-  max-width: var(--max-width);
-}
-#wowjob-ui .min-block-size {
-  --min-block-size: auto;
-  min-block-size: var(--min-block-size);
-}
-#wowjob-ui .min-height {
-  --min-height: auto;
-  min-height: var(--min-height);
-}
-#wowjob-ui .min-inline-size {
-  --min-inline-size: auto;
-  min-inline-size: var(--min-inline-size);
-}
-#wowjob-ui .min-width {
-  --min-width: auto;
-  min-width: var(--min-width);
-}
-#wowjob-ui .mix-blend-mode {
-  --mix-blend-mode: normal;
-  mix-blend-mode: var(--mix-blend-mode);
-}
-#wowjob-ui .object-fit {
-  --object-fit: fill;
-  object-fit: var(--object-fit);
-}
-#wowjob-ui .object-position {
-  --object-position: 50% 50%;
-  object-position: var(--object-position);
-}
-#wowjob-ui .offset-anchor {
-  --offset-anchor: auto;
-  offset-anchor: var(--offset-anchor);
-}
-#wowjob-ui .offset {
-  --offset: undefined;
-  offset: var(--offset);
-}
-#wowjob-ui .opacity {
-  --opacity: 1;
-  opacity: var(--opacity);
-}
-#wowjob-ui .order {
-  --order: 0;
-  order: var(--order);
-}
-#wowjob-ui .outline {
-  --outline: invert;
-  outline: var(--outline);
-}
-#wowjob-ui .outline-offset {
-  --outline-offset: 0;
-  outline-offset: var(--outline-offset);
-}
-#wowjob-ui .overflow {
-  --overflow: visible;
-  overflow: var(--overflow);
-}
-#wowjob-ui .overscroll-behavior {
-  --overscroll-behavior: undefined;
-  overscroll-behavior: var(--overscroll-behavior);
-}
-#wowjob-ui .overscroll-behavior-block {
-  --overscroll-behavior-block: auto;
-  overscroll-behavior-block: var(--overscroll-behavior-block);
-}
-#wowjob-ui .overscroll-behavior-inline {
-  --overscroll-behavior-inline: auto;
-  overscroll-behavior-inline: var(--overscroll-behavior-inline);
-}
-#wowjob-ui .perspective {
-  --perspective: none;
-  perspective: var(--perspective);
-}
-#wowjob-ui .perspective-origin {
-  --perspective-origin: 50% 50%;
-  perspective-origin: var(--perspective-origin);
-}
-#wowjob-ui .place-content {
-  --place-content: normal;
-  place-content: var(--place-content);
-}
-#wowjob-ui .place-items {
-  --place-items: normal;
-  place-items: var(--place-items);
-}
-#wowjob-ui .place-self {
-  --place-self: auto;
-  place-self: var(--place-self);
-}
-#wowjob-ui .pointer-events {
-  --pointer-events: auto;
-  pointer-events: var(--pointer-events);
-}
-#wowjob-ui .position {
-  --position: static;
-  position: var(--position);
-}
-#wowjob-ui .quotes {
-  --quotes: auto;
-  quotes: var(--quotes);
-}
-#wowjob-ui .resize {
-  --resize: none;
-  resize: var(--resize);
-}
-#wowjob-ui .rotate {
-  --rotate: none;
-  rotate: var(--rotate);
-}
-#wowjob-ui .ruby-align {
-  --ruby-align: space-around;
-  ruby-align: var(--ruby-align);
-}
-#wowjob-ui .ruby-position {
-  --ruby-position: over;
-  ruby-position: var(--ruby-position);
-}
-#wowjob-ui .scale {
-  --scale: 1;
-  scale: var(--scale);
-}
-#wowjob-ui .scroll-behavior {
-  --scroll-behavior: auto;
-  scroll-behavior: var(--scroll-behavior);
-}
-#wowjob-ui .scroll-margin {
-  --scroll-margin: 0;
-  scroll-margin: var(--scroll-margin);
-}
-#wowjob-ui .scroll-padding {
-  --scroll-padding: 0;
-  scroll-padding: var(--scroll-padding);
-}
-#wowjob-ui .scroll-snap-align {
-  --scroll-snap-align: none;
-  scroll-snap-align: var(--scroll-snap-align);
-}
-#wowjob-ui .scroll-snap-stop {
-  --scroll-snap-stop: normal;
-  scroll-snap-stop: var(--scroll-snap-stop);
-}
-#wowjob-ui .scroll-snap-type {
-  --scroll-snap-type: none;
-  scroll-snap-type: var(--scroll-snap-type);
-}
-#wowjob-ui .scroll-timeline {
-  --scroll-timeline: undefined;
-  scroll-timeline: var(--scroll-timeline);
-}
-#wowjob-ui .scroll-timeline-axis {
-  --scroll-timeline-axis: undefined;
-  scroll-timeline-axis: var(--scroll-timeline-axis);
-}
-#wowjob-ui .scroll-timeline-name {
-  --scroll-timeline-name: undefined;
-  scroll-timeline-name: var(--scroll-timeline-name);
-}
-#wowjob-ui .scrollbar-color {
-  --scrollbar-color: undefined;
-  scrollbar-color: var(--scrollbar-color);
-}
-#wowjob-ui .scrollbar-gutter {
-  --scrollbar-gutter: auto;
-  scrollbar-gutter: var(--scrollbar-gutter);
-}
-#wowjob-ui .scrollbar-width {
-  --scrollbar-width: auto;
-  scrollbar-width: var(--scrollbar-width);
-}
-#wowjob-ui .shape-image-threshold {
-  --shape-image-threshold: 0;
-  shape-image-threshold: var(--shape-image-threshold);
-}
-#wowjob-ui .shape-margin {
-  --shape-margin: 0;
-  shape-margin: var(--shape-margin);
-}
-#wowjob-ui .shape-outside {
-  --shape-outside: none;
-  shape-outside: var(--shape-outside);
-}
-#wowjob-ui .shape-rendering {
-  --shape-rendering: auto;
-  shape-rendering: var(--shape-rendering);
-}
-#wowjob-ui .stop-color {
-  --stop-color: black;
-  stop-color: var(--stop-color);
-}
-#wowjob-ui .stop-opacity {
-  --stop-opacity: 1;
-  stop-opacity: var(--stop-opacity);
-}
-#wowjob-ui .stroke {
-  --stroke: none;
-  stroke: var(--stroke);
-}
-#wowjob-ui .stroke-dasharray {
-  --stroke-dasharray: none;
-  stroke-dasharray: var(--stroke-dasharray);
-}
-#wowjob-ui .stroke-dashoffset {
-  --stroke-dashoffset: 0;
-  stroke-dashoffset: var(--stroke-dashoffset);
-}
-#wowjob-ui .stroke-linecap {
-  --stroke-linecap: butt;
-  stroke-linecap: var(--stroke-linecap);
-}
-#wowjob-ui .stroke-linejoin {
-  --stroke-linejoin: miter;
-  stroke-linejoin: var(--stroke-linejoin);
-}
-#wowjob-ui .stroke-miterlimit {
-  --stroke-miterlimit: 4;
-  stroke-miterlimit: var(--stroke-miterlimit);
-}
-#wowjob-ui .stroke-opacity {
-  --stroke-opacity: 1;
-  stroke-opacity: var(--stroke-opacity);
-}
-#wowjob-ui .stroke-width {
-  --stroke-width: 1;
-  stroke-width: var(--stroke-width);
-}
-#wowjob-ui .tab-size {
-  --tab-size: 8;
-  tab-size: var(--tab-size);
-}
-#wowjob-ui .table-layout {
-  --table-layout: auto;
-  table-layout: var(--table-layout);
-}
-#wowjob-ui .text-align {
-  --text-align: start;
-  text-align: var(--text-align);
-}
-#wowjob-ui .text-align-last {
-  --text-align-last: auto;
-  text-align-last: var(--text-align-last);
-}
-#wowjob-ui .text-anchor {
-  --text-anchor: start;
-  text-anchor: var(--text-anchor);
-}
-#wowjob-ui .text-combine-upright {
-  --text-combine-upright: none;
-  text-combine-upright: var(--text-combine-upright);
-}
-#wowjob-ui .text-decoration {
-  --text-decoration: undefined;
-  text-decoration: var(--text-decoration);
-}
-#wowjob-ui .text-emphasis {
-  --text-emphasis: undefined;
-  text-emphasis: var(--text-emphasis);
-}
-#wowjob-ui .text-indent {
-  --text-indent: 0;
-  text-indent: var(--text-indent);
-}
-#wowjob-ui .text-justify {
-  --text-justify: undefined;
-  text-justify: var(--text-justify);
-}
-#wowjob-ui .text-orientation {
-  --text-orientation: mixed;
-  text-orientation: var(--text-orientation);
-}
-#wowjob-ui .text-overflow {
-  --text-overflow: clip;
-  text-overflow: var(--text-overflow);
-}
-#wowjob-ui .text-rendering {
-  --text-rendering: auto;
-  text-rendering: var(--text-rendering);
-}
-#wowjob-ui .text-shadow {
-  --text-shadow: none;
-  text-shadow: var(--text-shadow);
-}
-#wowjob-ui .text-transform {
-  --text-transform: none;
-  text-transform: var(--text-transform);
-}
-#wowjob-ui .text-underline-offset {
-  --text-underline-offset: auto;
-  text-underline-offset: var(--text-underline-offset);
-}
-#wowjob-ui .text-underline-position {
-  --text-underline-position: auto;
-  text-underline-position: var(--text-underline-position);
-}
-#wowjob-ui .text-wrap {
-  --text-wrap: undefined;
-  text-wrap: var(--text-wrap);
-}
-#wowjob-ui .text-wrap-style {
-  --text-wrap-style: normal;
-  text-wrap-style: var(--text-wrap-style);
-}
-#wowjob-ui .touch-action {
-  --touch-action: auto;
-  touch-action: var(--touch-action);
-}
-#wowjob-ui .transform {
-  --transform: none;
-  transform: var(--transform);
-}
-#wowjob-ui .transform-box {
-  --transform-box: border-box;
-  transform-box: var(--transform-box);
-}
-#wowjob-ui .transform-origin {
-  --transform-origin: 50% 50% 0;
-  transform-origin: var(--transform-origin);
-}
-#wowjob-ui .transform-style {
-  --transform-style: flat;
-  transform-style: var(--transform-style);
-}
-#wowjob-ui .transition {
-  --transition: all 0s ease 0s;
-  transition: var(--transition);
-}
-#wowjob-ui .transition-behavior {
-  --transition-behavior: auto;
-  transition-behavior: var(--transition-behavior);
-}
-#wowjob-ui .translate {
-  --translate: none;
-  translate: var(--translate);
-}
-#wowjob-ui .user-select {
-  --user-select: auto;
-  user-select: var(--user-select);
-}
-#wowjob-ui .vector-effect {
-  --vector-effect: none;
-  vector-effect: var(--vector-effect);
-}
-#wowjob-ui .vertical-align {
-  --vertical-align: baseline;
-  vertical-align: var(--vertical-align);
-}
-#wowjob-ui .visibility {
-  --visibility: visible;
-  visibility: var(--visibility);
-}
-#wowjob-ui .white-space {
-  --white-space: undefined;
-  white-space: var(--white-space);
-}
-#wowjob-ui .width {
-  --width: auto;
-  width: var(--width);
-}
-#wowjob-ui .will-change {
-  --will-change: auto;
-  will-change: var(--will-change);
-}
-#wowjob-ui .word-break {
-  --word-break: normal;
-  word-break: var(--word-break);
-}
-#wowjob-ui .word-spacing {
-  --word-spacing: 0;
-  word-spacing: var(--word-spacing);
-}
-#wowjob-ui .writing-mode {
-  --writing-mode: horizontal-tb;
-  writing-mode: var(--writing-mode);
-}
-#wowjob-ui .z-index {
-  --z-index: auto;
-  z-index: var(--z-index);
-}
-#wowjob-ui .zoom {
-  --zoom: auto;
-  zoom: var(--zoom);
+#wowjob-ui .undefined {
+  --undefined: auto;
+  accent-color: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  align-content: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  align-items: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  align-self: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  animation: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  appearance: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  aspect-ratio: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  backdrop-filter: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: visible;
+  backface-visibility: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: transparent;
+  background: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  background-blend-mode: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: border-box;
+  background-clip: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: padding-box;
+  background-origin: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  block-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  margin: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  padding: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: medium none currentcolor;
+  border: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-block: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  border-block-start: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-bottom: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-bottom-left-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-bottom-right-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  border-block-end: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: separate;
+  border-collapse: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-end-end-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-end-start-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-image: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-inline: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-left: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-inline-start: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-inline-end: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-right: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  border-style: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-start-end-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-start-start-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  border-top: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-top-left-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  border-top-right-radius: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  bottom: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  box-shadow: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: content-box;
+  box-sizing: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  break-after: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  break-before: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  break-inside: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: top;
+  caption-side: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  caret-color: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  clear: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  clip: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  clip-path: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: currentcolor;
+  color: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: srgb;
+  color-interpolation: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: linearrgb;
+  color-interpolation-filters: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  color-scheme: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  column-count: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: balance;
+  column-fill: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  column-gap: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  column-rule: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  column-span: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  column-width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  contain: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  contain-intrinsic-block-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  contain-intrinsic-height: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  contain-intrinsic-inline-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  contain-intrinsic-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  contain-intrinsic-width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  container: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  content: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: visible;
+  content-visibility: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  counter-increment: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  counter-reset: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  counter-set: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  cursor: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  cx: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  cy: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  d: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: ltr;
+  direction: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  dominant-baseline: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: show;
+  empty-cells: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: inline;
+  display: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0 1 auto;
+  flex: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  flex-basis: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: row;
+  flex-direction: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  flex-grow: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  flex-shrink: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  font-variant: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 400;
+  font-weight: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: nowrap;
+  flex-wrap: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  field-sizing: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: black;
+  fill: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  fill-opacity: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: nonzero;
+  fill-rule: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  filter: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  float: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: black;
+  flood-color: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  flood-opacity: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1rem sans-serif;
+  font: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: serif;
+  font-family: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 16;
+  font-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-stretch: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-style: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-feature-settings: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  font-kerning: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  font-language-override: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  font-optical-sizing: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-palette: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  font-size-adjust: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  font-synthesis-small-caps: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  font-synthesis-style: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  font-synthesis-weight: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-variant-alternates: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-variant-caps: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-variant-east-asian: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-variant-ligatures: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-variant-numeric: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-variant-position: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  font-variation-settings: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  forced-color-adjust: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  gap: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  grid-auto-columns: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: row;
+  grid-auto-flow: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  grid-auto-rows: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  grid-column: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  grid-row: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  grid-template: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  grid-template-columns: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  grid-template-rows: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  grid-template-areas: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  height: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  hyphenate-character: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: manual;
+  hyphens: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: from-image;
+  image-orientation: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  image-rendering: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  inline-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  inset: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  inset-block: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  inset-inline: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  isolation: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  justify-content: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: legacy;
+  justify-items: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  justify-self: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  left: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  right: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  top: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  letter-spacing: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: white;
+  lighting-color: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  line-break: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  line-height: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  list-style: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  margin-block: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  margin-inline: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  mask: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: border-box;
+  mask-clip: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  math-style: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  max-block-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  max-height: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  max-inline-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  max-width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  min-block-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  min-height: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  min-inline-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  min-width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  mix-blend-mode: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: fill;
+  object-fit: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 50% 50%;
+  object-position: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  offset-anchor: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  offset: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  opacity: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  order: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: invert;
+  outline: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  outline-offset: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: visible;
+  overflow: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  overscroll-behavior: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  overscroll-behavior-block: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  overscroll-behavior-inline: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  perspective: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 50% 50%;
+  perspective-origin: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  place-content: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  place-items: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  place-self: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  pointer-events: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: static;
+  position: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  quotes: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  resize: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  rotate: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: space-around;
+  ruby-align: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: over;
+  ruby-position: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  scale: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  scroll-behavior: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  scroll-margin: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  scroll-padding: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  scroll-snap-align: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  scroll-snap-stop: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  scroll-snap-type: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  scroll-timeline: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  scroll-timeline-axis: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  scroll-timeline-name: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  scrollbar-color: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  scrollbar-gutter: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  scrollbar-width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  shape-image-threshold: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  shape-margin: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  shape-outside: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  shape-rendering: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: black;
+  stop-color: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  stop-opacity: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  stroke: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  stroke-dasharray: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  stroke-dashoffset: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: butt;
+  stroke-linecap: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: miter;
+  stroke-linejoin: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 4;
+  stroke-miterlimit: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  stroke-opacity: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 1;
+  stroke-width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 8;
+  tab-size: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  table-layout: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: start;
+  text-align: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  text-align-last: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: start;
+  text-anchor: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  text-combine-upright: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  text-decoration: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  text-emphasis: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  text-indent: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  text-justify: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: mixed;
+  text-orientation: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: clip;
+  text-overflow: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  text-rendering: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  text-shadow: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  text-transform: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  text-underline-offset: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  text-underline-position: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  text-wrap: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  text-wrap-style: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  touch-action: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  transform: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: border-box;
+  transform-box: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 50% 50% 0;
+  transform-origin: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: flat;
+  transform-style: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: all 0s ease 0s;
+  transition: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  transition-behavior: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  translate: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  user-select: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: none;
+  vector-effect: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: baseline;
+  vertical-align: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: visible;
+  visibility: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: undefined;
+  white-space: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  width: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  will-change: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: normal;
+  word-break: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: 0;
+  word-spacing: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: horizontal-tb;
+  writing-mode: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  z-index: var(--undefined);
+}
+#wowjob-ui .undefined {
+  --undefined: auto;
+  zoom: var(--undefined);
 }
 
 
 @media screen and (min-width: 48rem) {
-#wowjob-ui .tablet.accent-color {
-  --t-accent-color: var(--accent-color);
-  accent-color: var(--t-accent-color);
-}
-#wowjob-ui .tablet.align-content {
-  --t-align-content: var(--align-content);
-  align-content: var(--t-align-content);
-}
-#wowjob-ui .tablet.align-items {
-  --t-align-items: var(--align-items);
-  align-items: var(--t-align-items);
-}
-#wowjob-ui .tablet.align-self {
-  --t-align-self: var(--align-self);
-  align-self: var(--t-align-self);
-}
-#wowjob-ui .tablet.animation {
-  --t-animation: var(--animation);
-  animation: var(--t-animation);
-}
-#wowjob-ui .tablet.appearance {
-  --t-appearance: var(--appearance);
-  appearance: var(--t-appearance);
-}
-#wowjob-ui .tablet.aspect-ratio {
-  --t-aspect-ratio: var(--aspect-ratio);
-  aspect-ratio: var(--t-aspect-ratio);
-}
-#wowjob-ui .tablet.backdrop-filter {
-  --t-backdrop-filter: var(--backdrop-filter);
-  backdrop-filter: var(--t-backdrop-filter);
-}
-#wowjob-ui .tablet.backface-visibility {
-  --t-backface-visibility: var(--backface-visibility);
-  backface-visibility: var(--t-backface-visibility);
-}
-#wowjob-ui .tablet.background {
-  --t-background: var(--background);
-  background: var(--t-background);
-}
-#wowjob-ui .tablet.background-blend-mode {
-  --t-background-blend-mode: var(--background-blend-mode);
-  background-blend-mode: var(--t-background-blend-mode);
-}
-#wowjob-ui .tablet.background-clip {
-  --t-background-clip: var(--background-clip);
-  background-clip: var(--t-background-clip);
-}
-#wowjob-ui .tablet.background-origin {
-  --t-background-origin: var(--background-origin);
-  background-origin: var(--t-background-origin);
-}
-#wowjob-ui .tablet.block-size {
-  --t-block-size: var(--block-size);
-  block-size: var(--t-block-size);
-}
-#wowjob-ui .tablet.margin {
-  --t-margin: var(--margin);
-  margin: var(--t-margin);
-}
-#wowjob-ui .tablet.padding {
-  --t-padding: var(--padding);
-  padding: var(--t-padding);
-}
-#wowjob-ui .tablet.border {
-  --t-border: var(--border);
-  border: var(--t-border);
-}
-#wowjob-ui .tablet.border-block {
-  --t-border-block: var(--border-block);
-  border-block: var(--t-border-block);
-}
-#wowjob-ui .tablet.border-block-start {
-  --t-border-block-start: var(--border-block-start);
-  border-block-start: var(--t-border-block-start);
-}
-#wowjob-ui .tablet.border-bottom {
-  --t-border-bottom: var(--border-bottom);
-  border-bottom: var(--t-border-bottom);
-}
-#wowjob-ui .tablet.border-bottom-left-radius {
-  --t-border-bottom-left-radius: var(--border-bottom-left-radius);
-  border-bottom-left-radius: var(--t-border-bottom-left-radius);
-}
-#wowjob-ui .tablet.border-bottom-right-radius {
-  --t-border-bottom-right-radius: var(--border-bottom-right-radius);
-  border-bottom-right-radius: var(--t-border-bottom-right-radius);
-}
-#wowjob-ui .tablet.border-block-end {
-  --t-border-block-end: var(--border-block-end);
-  border-block-end: var(--t-border-block-end);
-}
-#wowjob-ui .tablet.border-collapse {
-  --t-border-collapse: var(--border-collapse);
-  border-collapse: var(--t-border-collapse);
-}
-#wowjob-ui .tablet.border-end-end-radius {
-  --t-border-end-end-radius: var(--border-end-end-radius);
-  border-end-end-radius: var(--t-border-end-end-radius);
-}
-#wowjob-ui .tablet.border-end-start-radius {
-  --t-border-end-start-radius: var(--border-end-start-radius);
-  border-end-start-radius: var(--t-border-end-start-radius);
-}
-#wowjob-ui .tablet.border-image {
-  --t-border-image: var(--border-image);
-  border-image: var(--t-border-image);
-}
-#wowjob-ui .tablet.border-inline {
-  --t-border-inline: var(--border-inline);
-  border-inline: var(--t-border-inline);
-}
-#wowjob-ui .tablet.border-left {
-  --t-border-left: var(--border-left);
-  border-left: var(--t-border-left);
-}
-#wowjob-ui .tablet.border-inline-start {
-  --t-border-inline-start: var(--border-inline-start);
-  border-inline-start: var(--t-border-inline-start);
-}
-#wowjob-ui .tablet.border-inline-end {
-  --t-border-inline-end: var(--border-inline-end);
-  border-inline-end: var(--t-border-inline-end);
-}
-#wowjob-ui .tablet.border-radius {
-  --t-border-radius: var(--border-radius);
-  border-radius: var(--t-border-radius);
-}
-#wowjob-ui .tablet.border-right {
-  --t-border-right: var(--border-right);
-  border-right: var(--t-border-right);
-}
-#wowjob-ui .tablet.border-width {
-  --t-border-width: var(--border-width);
-  border-width: var(--t-border-width);
-}
-#wowjob-ui .tablet.border-style {
-  --t-border-style: var(--border-style);
-  border-style: var(--t-border-style);
-}
-#wowjob-ui .tablet.border-start-end-radius {
-  --t-border-start-end-radius: var(--border-start-end-radius);
-  border-start-end-radius: var(--t-border-start-end-radius);
-}
-#wowjob-ui .tablet.border-start-start-radius {
-  --t-border-start-start-radius: var(--border-start-start-radius);
-  border-start-start-radius: var(--t-border-start-start-radius);
-}
-#wowjob-ui .tablet.border-top {
-  --t-border-top: var(--border-top);
-  border-top: var(--t-border-top);
-}
-#wowjob-ui .tablet.border-top-left-radius {
-  --t-border-top-left-radius: var(--border-top-left-radius);
-  border-top-left-radius: var(--t-border-top-left-radius);
-}
-#wowjob-ui .tablet.border-top-right-radius {
-  --t-border-top-right-radius: var(--border-top-right-radius);
-  border-top-right-radius: var(--t-border-top-right-radius);
-}
-#wowjob-ui .tablet.bottom {
-  --t-bottom: var(--bottom);
-  bottom: var(--t-bottom);
-}
-#wowjob-ui .tablet.box-shadow {
-  --t-box-shadow: var(--box-shadow);
-  box-shadow: var(--t-box-shadow);
-}
-#wowjob-ui .tablet.box-sizing {
-  --t-box-sizing: var(--box-sizing);
-  box-sizing: var(--t-box-sizing);
-}
-#wowjob-ui .tablet.break-after {
-  --t-break-after: var(--break-after);
-  break-after: var(--t-break-after);
-}
-#wowjob-ui .tablet.break-before {
-  --t-break-before: var(--break-before);
-  break-before: var(--t-break-before);
-}
-#wowjob-ui .tablet.break-inside {
-  --t-break-inside: var(--break-inside);
-  break-inside: var(--t-break-inside);
-}
-#wowjob-ui .tablet.caption-side {
-  --t-caption-side: var(--caption-side);
-  caption-side: var(--t-caption-side);
-}
-#wowjob-ui .tablet.caret-color {
-  --t-caret-color: var(--caret-color);
-  caret-color: var(--t-caret-color);
-}
-#wowjob-ui .tablet.clear {
-  --t-clear: var(--clear);
-  clear: var(--t-clear);
-}
-#wowjob-ui .tablet.clip {
-  --t-clip: var(--clip);
-  clip: var(--t-clip);
-}
-#wowjob-ui .tablet.clip-path {
-  --t-clip-path: var(--clip-path);
-  clip-path: var(--t-clip-path);
-}
-#wowjob-ui .tablet.color {
-  --t-color: var(--color);
-  color: var(--t-color);
-}
-#wowjob-ui .tablet.color-interpolation {
-  --t-color-interpolation: var(--color-interpolation);
-  color-interpolation: var(--t-color-interpolation);
-}
-#wowjob-ui .tablet.color-interpolation-filters {
-  --t-color-interpolation-filters: var(--color-interpolation-filters);
-  color-interpolation-filters: var(--t-color-interpolation-filters);
-}
-#wowjob-ui .tablet.color-scheme {
-  --t-color-scheme: var(--color-scheme);
-  color-scheme: var(--t-color-scheme);
-}
-#wowjob-ui .tablet.column-count {
-  --t-column-count: var(--column-count);
-  column-count: var(--t-column-count);
-}
-#wowjob-ui .tablet.column-fill {
-  --t-column-fill: var(--column-fill);
-  column-fill: var(--t-column-fill);
-}
-#wowjob-ui .tablet.column-gap {
-  --t-column-gap: var(--column-gap);
-  column-gap: var(--t-column-gap);
-}
-#wowjob-ui .tablet.column-rule {
-  --t-column-rule: var(--column-rule);
-  column-rule: var(--t-column-rule);
-}
-#wowjob-ui .tablet.column-span {
-  --t-column-span: var(--column-span);
-  column-span: var(--t-column-span);
-}
-#wowjob-ui .tablet.column-width {
-  --t-column-width: var(--column-width);
-  column-width: var(--t-column-width);
-}
-#wowjob-ui .tablet.contain {
-  --t-contain: var(--contain);
-  contain: var(--t-contain);
-}
-#wowjob-ui .tablet.contain-intrinsic-block-size {
-  --t-contain-intrinsic-block-size: var(--contain-intrinsic-block-size);
-  contain-intrinsic-block-size: var(--t-contain-intrinsic-block-size);
-}
-#wowjob-ui .tablet.contain-intrinsic-height {
-  --t-contain-intrinsic-height: var(--contain-intrinsic-height);
-  contain-intrinsic-height: var(--t-contain-intrinsic-height);
-}
-#wowjob-ui .tablet.contain-intrinsic-inline-size {
-  --t-contain-intrinsic-inline-size: var(--contain-intrinsic-inline-size);
-  contain-intrinsic-inline-size: var(--t-contain-intrinsic-inline-size);
-}
-#wowjob-ui .tablet.contain-intrinsic-size {
-  --t-contain-intrinsic-size: var(--contain-intrinsic-size);
-  contain-intrinsic-size: var(--t-contain-intrinsic-size);
-}
-#wowjob-ui .tablet.contain-intrinsic-width {
-  --t-contain-intrinsic-width: var(--contain-intrinsic-width);
-  contain-intrinsic-width: var(--t-contain-intrinsic-width);
-}
-#wowjob-ui .tablet.container {
-  --t-container: var(--container);
-  container: var(--t-container);
-}
-#wowjob-ui .tablet.content {
-  --t-content: var(--content);
-  content: var(--t-content);
-}
-#wowjob-ui .tablet.content-visibility {
-  --t-content-visibility: var(--content-visibility);
-  content-visibility: var(--t-content-visibility);
-}
-#wowjob-ui .tablet.counter-increment {
-  --t-counter-increment: var(--counter-increment);
-  counter-increment: var(--t-counter-increment);
-}
-#wowjob-ui .tablet.counter-reset {
-  --t-counter-reset: var(--counter-reset);
-  counter-reset: var(--t-counter-reset);
-}
-#wowjob-ui .tablet.counter-set {
-  --t-counter-set: var(--counter-set);
-  counter-set: var(--t-counter-set);
-}
-#wowjob-ui .tablet.cursor {
-  --t-cursor: var(--cursor);
-  cursor: var(--t-cursor);
-}
-#wowjob-ui .tablet.cx {
-  --t-cx: var(--cx);
-  cx: var(--t-cx);
-}
-#wowjob-ui .tablet.cy {
-  --t-cy: var(--cy);
-  cy: var(--t-cy);
-}
-#wowjob-ui .tablet.d {
-  --t-d: var(--d);
-  d: var(--t-d);
-}
-#wowjob-ui .tablet.direction {
-  --t-direction: var(--direction);
-  direction: var(--t-direction);
-}
-#wowjob-ui .tablet.dominant-baseline {
-  --t-dominant-baseline: var(--dominant-baseline);
-  dominant-baseline: var(--t-dominant-baseline);
-}
-#wowjob-ui .tablet.empty-cells {
-  --t-empty-cells: var(--empty-cells);
-  empty-cells: var(--t-empty-cells);
-}
-#wowjob-ui .tablet.display {
-  --t-display: var(--display);
-  display: var(--t-display);
-}
-#wowjob-ui .tablet.flex {
-  --t-flex: var(--flex);
-  flex: var(--t-flex);
-}
-#wowjob-ui .tablet.flex-basis {
-  --t-flex-basis: var(--flex-basis);
-  flex-basis: var(--t-flex-basis);
-}
-#wowjob-ui .tablet.flex-direction {
-  --t-flex-direction: var(--flex-direction);
-  flex-direction: var(--t-flex-direction);
-}
-#wowjob-ui .tablet.flex-grow {
-  --t-flex-grow: var(--flex-grow);
-  flex-grow: var(--t-flex-grow);
-}
-#wowjob-ui .tablet.flex-shrink {
-  --t-flex-shrink: var(--flex-shrink);
-  flex-shrink: var(--t-flex-shrink);
-}
-#wowjob-ui .tablet.font-variant {
-  --t-font-variant: var(--font-variant);
-  font-variant: var(--t-font-variant);
-}
-#wowjob-ui .tablet.font-weight {
-  --t-font-weight: var(--font-weight);
-  font-weight: var(--t-font-weight);
-}
-#wowjob-ui .tablet.flex-wrap {
-  --t-flex-wrap: var(--flex-wrap);
-  flex-wrap: var(--t-flex-wrap);
-}
-#wowjob-ui .tablet.field-sizing {
-  --t-field-sizing: var(--field-sizing);
-  field-sizing: var(--t-field-sizing);
-}
-#wowjob-ui .tablet.fill {
-  --t-fill: var(--fill);
-  fill: var(--t-fill);
-}
-#wowjob-ui .tablet.fill-opacity {
-  --t-fill-opacity: var(--fill-opacity);
-  fill-opacity: var(--t-fill-opacity);
-}
-#wowjob-ui .tablet.fill-rule {
-  --t-fill-rule: var(--fill-rule);
-  fill-rule: var(--t-fill-rule);
-}
-#wowjob-ui .tablet.filter {
-  --t-filter: var(--filter);
-  filter: var(--t-filter);
-}
-#wowjob-ui .tablet.float {
-  --t-float: var(--float);
-  float: var(--t-float);
-}
-#wowjob-ui .tablet.flood-color {
-  --t-flood-color: var(--flood-color);
-  flood-color: var(--t-flood-color);
-}
-#wowjob-ui .tablet.flood-opacity {
-  --t-flood-opacity: var(--flood-opacity);
-  flood-opacity: var(--t-flood-opacity);
-}
-#wowjob-ui .tablet.font {
-  --t-font: var(--font);
-  font: var(--t-font);
-}
-#wowjob-ui .tablet.font-family {
-  --t-font-family: var(--font-family);
-  font-family: var(--t-font-family);
-}
-#wowjob-ui .tablet.font-size {
-  --t-font-size: var(--font-size);
-  font-size: var(--t-font-size);
-}
-#wowjob-ui .tablet.font-stretch {
-  --t-font-stretch: var(--font-stretch);
-  font-stretch: var(--t-font-stretch);
-}
-#wowjob-ui .tablet.font-style {
-  --t-font-style: var(--font-style);
-  font-style: var(--t-font-style);
-}
-#wowjob-ui .tablet.font-feature-settings {
-  --t-font-feature-settings: var(--font-feature-settings);
-  font-feature-settings: var(--t-font-feature-settings);
-}
-#wowjob-ui .tablet.font-kerning {
-  --t-font-kerning: var(--font-kerning);
-  font-kerning: var(--t-font-kerning);
-}
-#wowjob-ui .tablet.font-language-override {
-  --t-font-language-override: var(--font-language-override);
-  font-language-override: var(--t-font-language-override);
-}
-#wowjob-ui .tablet.font-optical-sizing {
-  --t-font-optical-sizing: var(--font-optical-sizing);
-  font-optical-sizing: var(--t-font-optical-sizing);
-}
-#wowjob-ui .tablet.font-palette {
-  --t-font-palette: var(--font-palette);
-  font-palette: var(--t-font-palette);
-}
-#wowjob-ui .tablet.font-size-adjust {
-  --t-font-size-adjust: var(--font-size-adjust);
-  font-size-adjust: var(--t-font-size-adjust);
-}
-#wowjob-ui .tablet.font-synthesis-small-caps {
-  --t-font-synthesis-small-caps: var(--font-synthesis-small-caps);
-  font-synthesis-small-caps: var(--t-font-synthesis-small-caps);
-}
-#wowjob-ui .tablet.font-synthesis-style {
-  --t-font-synthesis-style: var(--font-synthesis-style);
-  font-synthesis-style: var(--t-font-synthesis-style);
-}
-#wowjob-ui .tablet.font-synthesis-weight {
-  --t-font-synthesis-weight: var(--font-synthesis-weight);
-  font-synthesis-weight: var(--t-font-synthesis-weight);
-}
-#wowjob-ui .tablet.font-variant-alternates {
-  --t-font-variant-alternates: var(--font-variant-alternates);
-  font-variant-alternates: var(--t-font-variant-alternates);
-}
-#wowjob-ui .tablet.font-variant-caps {
-  --t-font-variant-caps: var(--font-variant-caps);
-  font-variant-caps: var(--t-font-variant-caps);
-}
-#wowjob-ui .tablet.font-variant-east-asian {
-  --t-font-variant-east-asian: var(--font-variant-east-asian);
-  font-variant-east-asian: var(--t-font-variant-east-asian);
-}
-#wowjob-ui .tablet.font-variant-ligatures {
-  --t-font-variant-ligatures: var(--font-variant-ligatures);
-  font-variant-ligatures: var(--t-font-variant-ligatures);
-}
-#wowjob-ui .tablet.font-variant-numeric {
-  --t-font-variant-numeric: var(--font-variant-numeric);
-  font-variant-numeric: var(--t-font-variant-numeric);
-}
-#wowjob-ui .tablet.font-variant-position {
-  --t-font-variant-position: var(--font-variant-position);
-  font-variant-position: var(--t-font-variant-position);
-}
-#wowjob-ui .tablet.font-variation-settings {
-  --t-font-variation-settings: var(--font-variation-settings);
-  font-variation-settings: var(--t-font-variation-settings);
-}
-#wowjob-ui .tablet.forced-color-adjust {
-  --t-forced-color-adjust: var(--forced-color-adjust);
-  forced-color-adjust: var(--t-forced-color-adjust);
-}
-#wowjob-ui .tablet.gap {
-  --t-gap: var(--gap);
-  gap: var(--t-gap);
-}
-#wowjob-ui .tablet.grid-auto-columns {
-  --t-grid-auto-columns: var(--grid-auto-columns);
-  grid-auto-columns: var(--t-grid-auto-columns);
-}
-#wowjob-ui .tablet.grid-auto-flow {
-  --t-grid-auto-flow: var(--grid-auto-flow);
-  grid-auto-flow: var(--t-grid-auto-flow);
-}
-#wowjob-ui .tablet.grid-auto-rows {
-  --t-grid-auto-rows: var(--grid-auto-rows);
-  grid-auto-rows: var(--t-grid-auto-rows);
-}
-#wowjob-ui .tablet.grid-column {
-  --t-grid-column: var(--grid-column);
-  grid-column: var(--t-grid-column);
-}
-#wowjob-ui .tablet.grid-row {
-  --t-grid-row: var(--grid-row);
-  grid-row: var(--t-grid-row);
-}
-#wowjob-ui .tablet.grid-template {
-  --t-grid-template: var(--grid-template);
-  grid-template: var(--t-grid-template);
-}
-#wowjob-ui .tablet.grid-template-columns {
-  --t-grid-template-columns: var(--grid-template-columns);
-  grid-template-columns: var(--t-grid-template-columns);
-}
-#wowjob-ui .tablet.grid-template-rows {
-  --t-grid-template-rows: var(--grid-template-rows);
-  grid-template-rows: var(--t-grid-template-rows);
-}
-#wowjob-ui .tablet.grid-template-areas {
-  --t-grid-template-areas: var(--grid-template-areas);
-  grid-template-areas: var(--t-grid-template-areas);
-}
-#wowjob-ui .tablet.height {
-  --t-height: var(--height);
-  height: var(--t-height);
-}
-#wowjob-ui .tablet.hyphenate-character {
-  --t-hyphenate-character: var(--hyphenate-character);
-  hyphenate-character: var(--t-hyphenate-character);
-}
-#wowjob-ui .tablet.hyphens {
-  --t-hyphens: var(--hyphens);
-  hyphens: var(--t-hyphens);
-}
-#wowjob-ui .tablet.image-orientation {
-  --t-image-orientation: var(--image-orientation);
-  image-orientation: var(--t-image-orientation);
-}
-#wowjob-ui .tablet.image-rendering {
-  --t-image-rendering: var(--image-rendering);
-  image-rendering: var(--t-image-rendering);
-}
-#wowjob-ui .tablet.inline-size {
-  --t-inline-size: var(--inline-size);
-  inline-size: var(--t-inline-size);
-}
-#wowjob-ui .tablet.inset {
-  --t-inset: var(--inset);
-  inset: var(--t-inset);
-}
-#wowjob-ui .tablet.inset-block {
-  --t-inset-block: var(--inset-block);
-  inset-block: var(--t-inset-block);
-}
-#wowjob-ui .tablet.inset-inline {
-  --t-inset-inline: var(--inset-inline);
-  inset-inline: var(--t-inset-inline);
-}
-#wowjob-ui .tablet.isolation {
-  --t-isolation: var(--isolation);
-  isolation: var(--t-isolation);
-}
-#wowjob-ui .tablet.justify-content {
-  --t-justify-content: var(--justify-content);
-  justify-content: var(--t-justify-content);
-}
-#wowjob-ui .tablet.justify-items {
-  --t-justify-items: var(--justify-items);
-  justify-items: var(--t-justify-items);
-}
-#wowjob-ui .tablet.justify-self {
-  --t-justify-self: var(--justify-self);
-  justify-self: var(--t-justify-self);
-}
-#wowjob-ui .tablet.left {
-  --t-left: var(--left);
-  left: var(--t-left);
-}
-#wowjob-ui .tablet.right {
-  --t-right: var(--right);
-  right: var(--t-right);
-}
-#wowjob-ui .tablet.top {
-  --t-top: var(--top);
-  top: var(--t-top);
-}
-#wowjob-ui .tablet.letter-spacing {
-  --t-letter-spacing: var(--letter-spacing);
-  letter-spacing: var(--t-letter-spacing);
-}
-#wowjob-ui .tablet.lighting-color {
-  --t-lighting-color: var(--lighting-color);
-  lighting-color: var(--t-lighting-color);
-}
-#wowjob-ui .tablet.line-break {
-  --t-line-break: var(--line-break);
-  line-break: var(--t-line-break);
-}
-#wowjob-ui .tablet.line-height {
-  --t-line-height: var(--line-height);
-  line-height: var(--t-line-height);
-}
-#wowjob-ui .tablet.list-style {
-  --t-list-style: var(--list-style);
-  list-style: var(--t-list-style);
-}
-#wowjob-ui .tablet.margin-block {
-  --t-margin-block: var(--margin-block);
-  margin-block: var(--t-margin-block);
-}
-#wowjob-ui .tablet.margin-inline {
-  --t-margin-inline: var(--margin-inline);
-  margin-inline: var(--t-margin-inline);
-}
-#wowjob-ui .tablet.mask {
-  --t-mask: var(--mask);
-  mask: var(--t-mask);
-}
-#wowjob-ui .tablet.mask-clip {
-  --t-mask-clip: var(--mask-clip);
-  mask-clip: var(--t-mask-clip);
-}
-#wowjob-ui .tablet.math-style {
-  --t-math-style: var(--math-style);
-  math-style: var(--t-math-style);
-}
-#wowjob-ui .tablet.max-block-size {
-  --t-max-block-size: var(--max-block-size);
-  max-block-size: var(--t-max-block-size);
-}
-#wowjob-ui .tablet.max-height {
-  --t-max-height: var(--max-height);
-  max-height: var(--t-max-height);
-}
-#wowjob-ui .tablet.max-inline-size {
-  --t-max-inline-size: var(--max-inline-size);
-  max-inline-size: var(--t-max-inline-size);
-}
-#wowjob-ui .tablet.max-width {
-  --t-max-width: var(--max-width);
-  max-width: var(--t-max-width);
-}
-#wowjob-ui .tablet.min-block-size {
-  --t-min-block-size: var(--min-block-size);
-  min-block-size: var(--t-min-block-size);
-}
-#wowjob-ui .tablet.min-height {
-  --t-min-height: var(--min-height);
-  min-height: var(--t-min-height);
-}
-#wowjob-ui .tablet.min-inline-size {
-  --t-min-inline-size: var(--min-inline-size);
-  min-inline-size: var(--t-min-inline-size);
-}
-#wowjob-ui .tablet.min-width {
-  --t-min-width: var(--min-width);
-  min-width: var(--t-min-width);
-}
-#wowjob-ui .tablet.mix-blend-mode {
-  --t-mix-blend-mode: var(--mix-blend-mode);
-  mix-blend-mode: var(--t-mix-blend-mode);
-}
-#wowjob-ui .tablet.object-fit {
-  --t-object-fit: var(--object-fit);
-  object-fit: var(--t-object-fit);
-}
-#wowjob-ui .tablet.object-position {
-  --t-object-position: var(--object-position);
-  object-position: var(--t-object-position);
-}
-#wowjob-ui .tablet.offset-anchor {
-  --t-offset-anchor: var(--offset-anchor);
-  offset-anchor: var(--t-offset-anchor);
-}
-#wowjob-ui .tablet.offset {
-  --t-offset: var(--offset);
-  offset: var(--t-offset);
-}
-#wowjob-ui .tablet.opacity {
-  --t-opacity: var(--opacity);
-  opacity: var(--t-opacity);
-}
-#wowjob-ui .tablet.order {
-  --t-order: var(--order);
-  order: var(--t-order);
-}
-#wowjob-ui .tablet.outline {
-  --t-outline: var(--outline);
-  outline: var(--t-outline);
-}
-#wowjob-ui .tablet.outline-offset {
-  --t-outline-offset: var(--outline-offset);
-  outline-offset: var(--t-outline-offset);
-}
-#wowjob-ui .tablet.overflow {
-  --t-overflow: var(--overflow);
-  overflow: var(--t-overflow);
-}
-#wowjob-ui .tablet.overscroll-behavior {
-  --t-overscroll-behavior: var(--overscroll-behavior);
-  overscroll-behavior: var(--t-overscroll-behavior);
-}
-#wowjob-ui .tablet.overscroll-behavior-block {
-  --t-overscroll-behavior-block: var(--overscroll-behavior-block);
-  overscroll-behavior-block: var(--t-overscroll-behavior-block);
-}
-#wowjob-ui .tablet.overscroll-behavior-inline {
-  --t-overscroll-behavior-inline: var(--overscroll-behavior-inline);
-  overscroll-behavior-inline: var(--t-overscroll-behavior-inline);
-}
-#wowjob-ui .tablet.perspective {
-  --t-perspective: var(--perspective);
-  perspective: var(--t-perspective);
-}
-#wowjob-ui .tablet.perspective-origin {
-  --t-perspective-origin: var(--perspective-origin);
-  perspective-origin: var(--t-perspective-origin);
-}
-#wowjob-ui .tablet.place-content {
-  --t-place-content: var(--place-content);
-  place-content: var(--t-place-content);
-}
-#wowjob-ui .tablet.place-items {
-  --t-place-items: var(--place-items);
-  place-items: var(--t-place-items);
-}
-#wowjob-ui .tablet.place-self {
-  --t-place-self: var(--place-self);
-  place-self: var(--t-place-self);
-}
-#wowjob-ui .tablet.pointer-events {
-  --t-pointer-events: var(--pointer-events);
-  pointer-events: var(--t-pointer-events);
-}
-#wowjob-ui .tablet.position {
-  --t-position: var(--position);
-  position: var(--t-position);
-}
-#wowjob-ui .tablet.quotes {
-  --t-quotes: var(--quotes);
-  quotes: var(--t-quotes);
-}
-#wowjob-ui .tablet.resize {
-  --t-resize: var(--resize);
-  resize: var(--t-resize);
-}
-#wowjob-ui .tablet.rotate {
-  --t-rotate: var(--rotate);
-  rotate: var(--t-rotate);
-}
-#wowjob-ui .tablet.ruby-align {
-  --t-ruby-align: var(--ruby-align);
-  ruby-align: var(--t-ruby-align);
-}
-#wowjob-ui .tablet.ruby-position {
-  --t-ruby-position: var(--ruby-position);
-  ruby-position: var(--t-ruby-position);
-}
-#wowjob-ui .tablet.scale {
-  --t-scale: var(--scale);
-  scale: var(--t-scale);
-}
-#wowjob-ui .tablet.scroll-behavior {
-  --t-scroll-behavior: var(--scroll-behavior);
-  scroll-behavior: var(--t-scroll-behavior);
-}
-#wowjob-ui .tablet.scroll-margin {
-  --t-scroll-margin: var(--scroll-margin);
-  scroll-margin: var(--t-scroll-margin);
-}
-#wowjob-ui .tablet.scroll-padding {
-  --t-scroll-padding: var(--scroll-padding);
-  scroll-padding: var(--t-scroll-padding);
-}
-#wowjob-ui .tablet.scroll-snap-align {
-  --t-scroll-snap-align: var(--scroll-snap-align);
-  scroll-snap-align: var(--t-scroll-snap-align);
-}
-#wowjob-ui .tablet.scroll-snap-stop {
-  --t-scroll-snap-stop: var(--scroll-snap-stop);
-  scroll-snap-stop: var(--t-scroll-snap-stop);
-}
-#wowjob-ui .tablet.scroll-snap-type {
-  --t-scroll-snap-type: var(--scroll-snap-type);
-  scroll-snap-type: var(--t-scroll-snap-type);
-}
-#wowjob-ui .tablet.scroll-timeline {
-  --t-scroll-timeline: var(--scroll-timeline);
-  scroll-timeline: var(--t-scroll-timeline);
-}
-#wowjob-ui .tablet.scroll-timeline-axis {
-  --t-scroll-timeline-axis: var(--scroll-timeline-axis);
-  scroll-timeline-axis: var(--t-scroll-timeline-axis);
-}
-#wowjob-ui .tablet.scroll-timeline-name {
-  --t-scroll-timeline-name: var(--scroll-timeline-name);
-  scroll-timeline-name: var(--t-scroll-timeline-name);
-}
-#wowjob-ui .tablet.scrollbar-color {
-  --t-scrollbar-color: var(--scrollbar-color);
-  scrollbar-color: var(--t-scrollbar-color);
-}
-#wowjob-ui .tablet.scrollbar-gutter {
-  --t-scrollbar-gutter: var(--scrollbar-gutter);
-  scrollbar-gutter: var(--t-scrollbar-gutter);
-}
-#wowjob-ui .tablet.scrollbar-width {
-  --t-scrollbar-width: var(--scrollbar-width);
-  scrollbar-width: var(--t-scrollbar-width);
-}
-#wowjob-ui .tablet.shape-image-threshold {
-  --t-shape-image-threshold: var(--shape-image-threshold);
-  shape-image-threshold: var(--t-shape-image-threshold);
-}
-#wowjob-ui .tablet.shape-margin {
-  --t-shape-margin: var(--shape-margin);
-  shape-margin: var(--t-shape-margin);
-}
-#wowjob-ui .tablet.shape-outside {
-  --t-shape-outside: var(--shape-outside);
-  shape-outside: var(--t-shape-outside);
-}
-#wowjob-ui .tablet.shape-rendering {
-  --t-shape-rendering: var(--shape-rendering);
-  shape-rendering: var(--t-shape-rendering);
-}
-#wowjob-ui .tablet.stop-color {
-  --t-stop-color: var(--stop-color);
-  stop-color: var(--t-stop-color);
-}
-#wowjob-ui .tablet.stop-opacity {
-  --t-stop-opacity: var(--stop-opacity);
-  stop-opacity: var(--t-stop-opacity);
-}
-#wowjob-ui .tablet.stroke {
-  --t-stroke: var(--stroke);
-  stroke: var(--t-stroke);
-}
-#wowjob-ui .tablet.stroke-dasharray {
-  --t-stroke-dasharray: var(--stroke-dasharray);
-  stroke-dasharray: var(--t-stroke-dasharray);
-}
-#wowjob-ui .tablet.stroke-dashoffset {
-  --t-stroke-dashoffset: var(--stroke-dashoffset);
-  stroke-dashoffset: var(--t-stroke-dashoffset);
-}
-#wowjob-ui .tablet.stroke-linecap {
-  --t-stroke-linecap: var(--stroke-linecap);
-  stroke-linecap: var(--t-stroke-linecap);
-}
-#wowjob-ui .tablet.stroke-linejoin {
-  --t-stroke-linejoin: var(--stroke-linejoin);
-  stroke-linejoin: var(--t-stroke-linejoin);
-}
-#wowjob-ui .tablet.stroke-miterlimit {
-  --t-stroke-miterlimit: var(--stroke-miterlimit);
-  stroke-miterlimit: var(--t-stroke-miterlimit);
-}
-#wowjob-ui .tablet.stroke-opacity {
-  --t-stroke-opacity: var(--stroke-opacity);
-  stroke-opacity: var(--t-stroke-opacity);
-}
-#wowjob-ui .tablet.stroke-width {
-  --t-stroke-width: var(--stroke-width);
-  stroke-width: var(--t-stroke-width);
-}
-#wowjob-ui .tablet.tab-size {
-  --t-tab-size: var(--tab-size);
-  tab-size: var(--t-tab-size);
-}
-#wowjob-ui .tablet.table-layout {
-  --t-table-layout: var(--table-layout);
-  table-layout: var(--t-table-layout);
-}
-#wowjob-ui .tablet.text-align {
-  --t-text-align: var(--text-align);
-  text-align: var(--t-text-align);
-}
-#wowjob-ui .tablet.text-align-last {
-  --t-text-align-last: var(--text-align-last);
-  text-align-last: var(--t-text-align-last);
-}
-#wowjob-ui .tablet.text-anchor {
-  --t-text-anchor: var(--text-anchor);
-  text-anchor: var(--t-text-anchor);
-}
-#wowjob-ui .tablet.text-combine-upright {
-  --t-text-combine-upright: var(--text-combine-upright);
-  text-combine-upright: var(--t-text-combine-upright);
-}
-#wowjob-ui .tablet.text-decoration {
-  --t-text-decoration: var(--text-decoration);
-  text-decoration: var(--t-text-decoration);
-}
-#wowjob-ui .tablet.text-emphasis {
-  --t-text-emphasis: var(--text-emphasis);
-  text-emphasis: var(--t-text-emphasis);
-}
-#wowjob-ui .tablet.text-indent {
-  --t-text-indent: var(--text-indent);
-  text-indent: var(--t-text-indent);
-}
-#wowjob-ui .tablet.text-justify {
-  --t-text-justify: var(--text-justify);
-  text-justify: var(--t-text-justify);
-}
-#wowjob-ui .tablet.text-orientation {
-  --t-text-orientation: var(--text-orientation);
-  text-orientation: var(--t-text-orientation);
-}
-#wowjob-ui .tablet.text-overflow {
-  --t-text-overflow: var(--text-overflow);
-  text-overflow: var(--t-text-overflow);
-}
-#wowjob-ui .tablet.text-rendering {
-  --t-text-rendering: var(--text-rendering);
-  text-rendering: var(--t-text-rendering);
-}
-#wowjob-ui .tablet.text-shadow {
-  --t-text-shadow: var(--text-shadow);
-  text-shadow: var(--t-text-shadow);
-}
-#wowjob-ui .tablet.text-transform {
-  --t-text-transform: var(--text-transform);
-  text-transform: var(--t-text-transform);
-}
-#wowjob-ui .tablet.text-underline-offset {
-  --t-text-underline-offset: var(--text-underline-offset);
-  text-underline-offset: var(--t-text-underline-offset);
-}
-#wowjob-ui .tablet.text-underline-position {
-  --t-text-underline-position: var(--text-underline-position);
-  text-underline-position: var(--t-text-underline-position);
-}
-#wowjob-ui .tablet.text-wrap {
-  --t-text-wrap: var(--text-wrap);
-  text-wrap: var(--t-text-wrap);
-}
-#wowjob-ui .tablet.text-wrap-style {
-  --t-text-wrap-style: var(--text-wrap-style);
-  text-wrap-style: var(--t-text-wrap-style);
-}
-#wowjob-ui .tablet.touch-action {
-  --t-touch-action: var(--touch-action);
-  touch-action: var(--t-touch-action);
-}
-#wowjob-ui .tablet.transform {
-  --t-transform: var(--transform);
-  transform: var(--t-transform);
-}
-#wowjob-ui .tablet.transform-box {
-  --t-transform-box: var(--transform-box);
-  transform-box: var(--t-transform-box);
-}
-#wowjob-ui .tablet.transform-origin {
-  --t-transform-origin: var(--transform-origin);
-  transform-origin: var(--t-transform-origin);
-}
-#wowjob-ui .tablet.transform-style {
-  --t-transform-style: var(--transform-style);
-  transform-style: var(--t-transform-style);
-}
-#wowjob-ui .tablet.transition {
-  --t-transition: var(--transition);
-  transition: var(--t-transition);
-}
-#wowjob-ui .tablet.transition-behavior {
-  --t-transition-behavior: var(--transition-behavior);
-  transition-behavior: var(--t-transition-behavior);
-}
-#wowjob-ui .tablet.translate {
-  --t-translate: var(--translate);
-  translate: var(--t-translate);
-}
-#wowjob-ui .tablet.user-select {
-  --t-user-select: var(--user-select);
-  user-select: var(--t-user-select);
-}
-#wowjob-ui .tablet.vector-effect {
-  --t-vector-effect: var(--vector-effect);
-  vector-effect: var(--t-vector-effect);
-}
-#wowjob-ui .tablet.vertical-align {
-  --t-vertical-align: var(--vertical-align);
-  vertical-align: var(--t-vertical-align);
-}
-#wowjob-ui .tablet.visibility {
-  --t-visibility: var(--visibility);
-  visibility: var(--t-visibility);
-}
-#wowjob-ui .tablet.white-space {
-  --t-white-space: var(--white-space);
-  white-space: var(--t-white-space);
-}
-#wowjob-ui .tablet.width {
-  --t-width: var(--width);
-  width: var(--t-width);
-}
-#wowjob-ui .tablet.will-change {
-  --t-will-change: var(--will-change);
-  will-change: var(--t-will-change);
-}
-#wowjob-ui .tablet.word-break {
-  --t-word-break: var(--word-break);
-  word-break: var(--t-word-break);
-}
-#wowjob-ui .tablet.word-spacing {
-  --t-word-spacing: var(--word-spacing);
-  word-spacing: var(--t-word-spacing);
-}
-#wowjob-ui .tablet.writing-mode {
-  --t-writing-mode: var(--writing-mode);
-  writing-mode: var(--t-writing-mode);
-}
-#wowjob-ui .tablet.z-index {
-  --t-z-index: var(--z-index);
-  z-index: var(--t-z-index);
-}
-#wowjob-ui .tablet.zoom {
-  --t-zoom: var(--zoom);
-  zoom: var(--t-zoom);
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  accent-color: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  align-content: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  align-items: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  align-self: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  animation: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  appearance: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  aspect-ratio: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  backdrop-filter: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  backface-visibility: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  background: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  background-blend-mode: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  background-clip: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  background-origin: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  block-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  margin: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  padding: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-block: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-block-start: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-bottom: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-bottom-left-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-bottom-right-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-block-end: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-collapse: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-end-end-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-end-start-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-image: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-inline: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-left: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-inline-start: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-inline-end: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-right: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-style: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-start-end-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-start-start-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-top: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-top-left-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  border-top-right-radius: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  bottom: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  box-shadow: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  box-sizing: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  break-after: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  break-before: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  break-inside: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  caption-side: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  caret-color: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  clear: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  clip: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  clip-path: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  color: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  color-interpolation: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  color-interpolation-filters: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  color-scheme: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  column-count: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  column-fill: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  column-gap: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  column-rule: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  column-span: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  column-width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  contain: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  contain-intrinsic-block-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  contain-intrinsic-height: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  contain-intrinsic-inline-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  contain-intrinsic-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  contain-intrinsic-width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  container: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  content: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  content-visibility: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  counter-increment: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  counter-reset: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  counter-set: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  cursor: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  cx: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  cy: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  d: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  direction: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  dominant-baseline: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  empty-cells: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  display: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flex: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flex-basis: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flex-direction: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flex-grow: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flex-shrink: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variant: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-weight: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flex-wrap: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  field-sizing: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  fill: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  fill-opacity: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  fill-rule: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  filter: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  float: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flood-color: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  flood-opacity: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-family: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-stretch: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-style: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-feature-settings: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-kerning: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-language-override: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-optical-sizing: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-palette: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-size-adjust: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-synthesis-small-caps: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-synthesis-style: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-synthesis-weight: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variant-alternates: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variant-caps: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variant-east-asian: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variant-ligatures: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variant-numeric: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variant-position: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  font-variation-settings: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  forced-color-adjust: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  gap: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-auto-columns: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-auto-flow: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-auto-rows: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-column: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-row: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-template: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-template-columns: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-template-rows: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  grid-template-areas: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  height: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  hyphenate-character: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  hyphens: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  image-orientation: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  image-rendering: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  inline-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  inset: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  inset-block: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  inset-inline: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  isolation: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  justify-content: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  justify-items: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  justify-self: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  left: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  right: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  top: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  letter-spacing: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  lighting-color: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  line-break: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  line-height: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  list-style: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  margin-block: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  margin-inline: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  mask: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  mask-clip: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  math-style: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  max-block-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  max-height: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  max-inline-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  max-width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  min-block-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  min-height: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  min-inline-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  min-width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  mix-blend-mode: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  object-fit: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  object-position: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  offset-anchor: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  offset: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  opacity: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  order: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  outline: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  outline-offset: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  overflow: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  overscroll-behavior: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  overscroll-behavior-block: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  overscroll-behavior-inline: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  perspective: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  perspective-origin: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  place-content: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  place-items: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  place-self: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  pointer-events: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  position: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  quotes: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  resize: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  rotate: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  ruby-align: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  ruby-position: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scale: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-behavior: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-margin: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-padding: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-snap-align: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-snap-stop: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-snap-type: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-timeline: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-timeline-axis: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scroll-timeline-name: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scrollbar-color: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scrollbar-gutter: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  scrollbar-width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  shape-image-threshold: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  shape-margin: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  shape-outside: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  shape-rendering: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stop-color: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stop-opacity: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke-dasharray: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke-dashoffset: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke-linecap: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke-linejoin: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke-miterlimit: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke-opacity: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  stroke-width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  tab-size: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  table-layout: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-align: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-align-last: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-anchor: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-combine-upright: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-decoration: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-emphasis: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-indent: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-justify: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-orientation: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-overflow: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-rendering: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-shadow: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-transform: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-underline-offset: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-underline-position: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-wrap: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  text-wrap-style: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  touch-action: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  transform: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  transform-box: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  transform-origin: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  transform-style: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  transition: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  transition-behavior: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  translate: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  user-select: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  vector-effect: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  vertical-align: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  visibility: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  white-space: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  width: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  will-change: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  word-break: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  word-spacing: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  writing-mode: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  z-index: var(--t-undefined);
+}
+#wowjob-ui .tablet.undefined {
+  --t-undefined: var(--undefined);
+  zoom: var(--t-undefined);
 }
 
 }
 
 @media screen and (min-width: 80rem) {
-#wowjob-ui .desktop.accent-color {
-  --d-accent-color: var(--t-accent-color);
-  accent-color: var(--d-accent-color);
-}
-#wowjob-ui .desktop.align-content {
-  --d-align-content: var(--t-align-content);
-  align-content: var(--d-align-content);
-}
-#wowjob-ui .desktop.align-items {
-  --d-align-items: var(--t-align-items);
-  align-items: var(--d-align-items);
-}
-#wowjob-ui .desktop.align-self {
-  --d-align-self: var(--t-align-self);
-  align-self: var(--d-align-self);
-}
-#wowjob-ui .desktop.animation {
-  --d-animation: var(--t-animation);
-  animation: var(--d-animation);
-}
-#wowjob-ui .desktop.appearance {
-  --d-appearance: var(--t-appearance);
-  appearance: var(--d-appearance);
-}
-#wowjob-ui .desktop.aspect-ratio {
-  --d-aspect-ratio: var(--t-aspect-ratio);
-  aspect-ratio: var(--d-aspect-ratio);
-}
-#wowjob-ui .desktop.backdrop-filter {
-  --d-backdrop-filter: var(--t-backdrop-filter);
-  backdrop-filter: var(--d-backdrop-filter);
-}
-#wowjob-ui .desktop.backface-visibility {
-  --d-backface-visibility: var(--t-backface-visibility);
-  backface-visibility: var(--d-backface-visibility);
-}
-#wowjob-ui .desktop.background {
-  --d-background: var(--t-background);
-  background: var(--d-background);
-}
-#wowjob-ui .desktop.background-blend-mode {
-  --d-background-blend-mode: var(--t-background-blend-mode);
-  background-blend-mode: var(--d-background-blend-mode);
-}
-#wowjob-ui .desktop.background-clip {
-  --d-background-clip: var(--t-background-clip);
-  background-clip: var(--d-background-clip);
-}
-#wowjob-ui .desktop.background-origin {
-  --d-background-origin: var(--t-background-origin);
-  background-origin: var(--d-background-origin);
-}
-#wowjob-ui .desktop.block-size {
-  --d-block-size: var(--t-block-size);
-  block-size: var(--d-block-size);
-}
-#wowjob-ui .desktop.margin {
-  --d-margin: var(--t-margin);
-  margin: var(--d-margin);
-}
-#wowjob-ui .desktop.padding {
-  --d-padding: var(--t-padding);
-  padding: var(--d-padding);
-}
-#wowjob-ui .desktop.border {
-  --d-border: var(--t-border);
-  border: var(--d-border);
-}
-#wowjob-ui .desktop.border-block {
-  --d-border-block: var(--t-border-block);
-  border-block: var(--d-border-block);
-}
-#wowjob-ui .desktop.border-block-start {
-  --d-border-block-start: var(--t-border-block-start);
-  border-block-start: var(--d-border-block-start);
-}
-#wowjob-ui .desktop.border-bottom {
-  --d-border-bottom: var(--t-border-bottom);
-  border-bottom: var(--d-border-bottom);
-}
-#wowjob-ui .desktop.border-bottom-left-radius {
-  --d-border-bottom-left-radius: var(--t-border-bottom-left-radius);
-  border-bottom-left-radius: var(--d-border-bottom-left-radius);
-}
-#wowjob-ui .desktop.border-bottom-right-radius {
-  --d-border-bottom-right-radius: var(--t-border-bottom-right-radius);
-  border-bottom-right-radius: var(--d-border-bottom-right-radius);
-}
-#wowjob-ui .desktop.border-block-end {
-  --d-border-block-end: var(--t-border-block-end);
-  border-block-end: var(--d-border-block-end);
-}
-#wowjob-ui .desktop.border-collapse {
-  --d-border-collapse: var(--t-border-collapse);
-  border-collapse: var(--d-border-collapse);
-}
-#wowjob-ui .desktop.border-end-end-radius {
-  --d-border-end-end-radius: var(--t-border-end-end-radius);
-  border-end-end-radius: var(--d-border-end-end-radius);
-}
-#wowjob-ui .desktop.border-end-start-radius {
-  --d-border-end-start-radius: var(--t-border-end-start-radius);
-  border-end-start-radius: var(--d-border-end-start-radius);
-}
-#wowjob-ui .desktop.border-image {
-  --d-border-image: var(--t-border-image);
-  border-image: var(--d-border-image);
-}
-#wowjob-ui .desktop.border-inline {
-  --d-border-inline: var(--t-border-inline);
-  border-inline: var(--d-border-inline);
-}
-#wowjob-ui .desktop.border-left {
-  --d-border-left: var(--t-border-left);
-  border-left: var(--d-border-left);
-}
-#wowjob-ui .desktop.border-inline-start {
-  --d-border-inline-start: var(--t-border-inline-start);
-  border-inline-start: var(--d-border-inline-start);
-}
-#wowjob-ui .desktop.border-inline-end {
-  --d-border-inline-end: var(--t-border-inline-end);
-  border-inline-end: var(--d-border-inline-end);
-}
-#wowjob-ui .desktop.border-radius {
-  --d-border-radius: var(--t-border-radius);
-  border-radius: var(--d-border-radius);
-}
-#wowjob-ui .desktop.border-right {
-  --d-border-right: var(--t-border-right);
-  border-right: var(--d-border-right);
-}
-#wowjob-ui .desktop.border-width {
-  --d-border-width: var(--t-border-width);
-  border-width: var(--d-border-width);
-}
-#wowjob-ui .desktop.border-style {
-  --d-border-style: var(--t-border-style);
-  border-style: var(--d-border-style);
-}
-#wowjob-ui .desktop.border-start-end-radius {
-  --d-border-start-end-radius: var(--t-border-start-end-radius);
-  border-start-end-radius: var(--d-border-start-end-radius);
-}
-#wowjob-ui .desktop.border-start-start-radius {
-  --d-border-start-start-radius: var(--t-border-start-start-radius);
-  border-start-start-radius: var(--d-border-start-start-radius);
-}
-#wowjob-ui .desktop.border-top {
-  --d-border-top: var(--t-border-top);
-  border-top: var(--d-border-top);
-}
-#wowjob-ui .desktop.border-top-left-radius {
-  --d-border-top-left-radius: var(--t-border-top-left-radius);
-  border-top-left-radius: var(--d-border-top-left-radius);
-}
-#wowjob-ui .desktop.border-top-right-radius {
-  --d-border-top-right-radius: var(--t-border-top-right-radius);
-  border-top-right-radius: var(--d-border-top-right-radius);
-}
-#wowjob-ui .desktop.bottom {
-  --d-bottom: var(--t-bottom);
-  bottom: var(--d-bottom);
-}
-#wowjob-ui .desktop.box-shadow {
-  --d-box-shadow: var(--t-box-shadow);
-  box-shadow: var(--d-box-shadow);
-}
-#wowjob-ui .desktop.box-sizing {
-  --d-box-sizing: var(--t-box-sizing);
-  box-sizing: var(--d-box-sizing);
-}
-#wowjob-ui .desktop.break-after {
-  --d-break-after: var(--t-break-after);
-  break-after: var(--d-break-after);
-}
-#wowjob-ui .desktop.break-before {
-  --d-break-before: var(--t-break-before);
-  break-before: var(--d-break-before);
-}
-#wowjob-ui .desktop.break-inside {
-  --d-break-inside: var(--t-break-inside);
-  break-inside: var(--d-break-inside);
-}
-#wowjob-ui .desktop.caption-side {
-  --d-caption-side: var(--t-caption-side);
-  caption-side: var(--d-caption-side);
-}
-#wowjob-ui .desktop.caret-color {
-  --d-caret-color: var(--t-caret-color);
-  caret-color: var(--d-caret-color);
-}
-#wowjob-ui .desktop.clear {
-  --d-clear: var(--t-clear);
-  clear: var(--d-clear);
-}
-#wowjob-ui .desktop.clip {
-  --d-clip: var(--t-clip);
-  clip: var(--d-clip);
-}
-#wowjob-ui .desktop.clip-path {
-  --d-clip-path: var(--t-clip-path);
-  clip-path: var(--d-clip-path);
-}
-#wowjob-ui .desktop.color {
-  --d-color: var(--t-color);
-  color: var(--d-color);
-}
-#wowjob-ui .desktop.color-interpolation {
-  --d-color-interpolation: var(--t-color-interpolation);
-  color-interpolation: var(--d-color-interpolation);
-}
-#wowjob-ui .desktop.color-interpolation-filters {
-  --d-color-interpolation-filters: var(--t-color-interpolation-filters);
-  color-interpolation-filters: var(--d-color-interpolation-filters);
-}
-#wowjob-ui .desktop.color-scheme {
-  --d-color-scheme: var(--t-color-scheme);
-  color-scheme: var(--d-color-scheme);
-}
-#wowjob-ui .desktop.column-count {
-  --d-column-count: var(--t-column-count);
-  column-count: var(--d-column-count);
-}
-#wowjob-ui .desktop.column-fill {
-  --d-column-fill: var(--t-column-fill);
-  column-fill: var(--d-column-fill);
-}
-#wowjob-ui .desktop.column-gap {
-  --d-column-gap: var(--t-column-gap);
-  column-gap: var(--d-column-gap);
-}
-#wowjob-ui .desktop.column-rule {
-  --d-column-rule: var(--t-column-rule);
-  column-rule: var(--d-column-rule);
-}
-#wowjob-ui .desktop.column-span {
-  --d-column-span: var(--t-column-span);
-  column-span: var(--d-column-span);
-}
-#wowjob-ui .desktop.column-width {
-  --d-column-width: var(--t-column-width);
-  column-width: var(--d-column-width);
-}
-#wowjob-ui .desktop.contain {
-  --d-contain: var(--t-contain);
-  contain: var(--d-contain);
-}
-#wowjob-ui .desktop.contain-intrinsic-block-size {
-  --d-contain-intrinsic-block-size: var(--t-contain-intrinsic-block-size);
-  contain-intrinsic-block-size: var(--d-contain-intrinsic-block-size);
-}
-#wowjob-ui .desktop.contain-intrinsic-height {
-  --d-contain-intrinsic-height: var(--t-contain-intrinsic-height);
-  contain-intrinsic-height: var(--d-contain-intrinsic-height);
-}
-#wowjob-ui .desktop.contain-intrinsic-inline-size {
-  --d-contain-intrinsic-inline-size: var(--t-contain-intrinsic-inline-size);
-  contain-intrinsic-inline-size: var(--d-contain-intrinsic-inline-size);
-}
-#wowjob-ui .desktop.contain-intrinsic-size {
-  --d-contain-intrinsic-size: var(--t-contain-intrinsic-size);
-  contain-intrinsic-size: var(--d-contain-intrinsic-size);
-}
-#wowjob-ui .desktop.contain-intrinsic-width {
-  --d-contain-intrinsic-width: var(--t-contain-intrinsic-width);
-  contain-intrinsic-width: var(--d-contain-intrinsic-width);
-}
-#wowjob-ui .desktop.container {
-  --d-container: var(--t-container);
-  container: var(--d-container);
-}
-#wowjob-ui .desktop.content {
-  --d-content: var(--t-content);
-  content: var(--d-content);
-}
-#wowjob-ui .desktop.content-visibility {
-  --d-content-visibility: var(--t-content-visibility);
-  content-visibility: var(--d-content-visibility);
-}
-#wowjob-ui .desktop.counter-increment {
-  --d-counter-increment: var(--t-counter-increment);
-  counter-increment: var(--d-counter-increment);
-}
-#wowjob-ui .desktop.counter-reset {
-  --d-counter-reset: var(--t-counter-reset);
-  counter-reset: var(--d-counter-reset);
-}
-#wowjob-ui .desktop.counter-set {
-  --d-counter-set: var(--t-counter-set);
-  counter-set: var(--d-counter-set);
-}
-#wowjob-ui .desktop.cursor {
-  --d-cursor: var(--t-cursor);
-  cursor: var(--d-cursor);
-}
-#wowjob-ui .desktop.cx {
-  --d-cx: var(--t-cx);
-  cx: var(--d-cx);
-}
-#wowjob-ui .desktop.cy {
-  --d-cy: var(--t-cy);
-  cy: var(--d-cy);
-}
-#wowjob-ui .desktop.d {
-  --d-d: var(--t-d);
-  d: var(--d-d);
-}
-#wowjob-ui .desktop.direction {
-  --d-direction: var(--t-direction);
-  direction: var(--d-direction);
-}
-#wowjob-ui .desktop.dominant-baseline {
-  --d-dominant-baseline: var(--t-dominant-baseline);
-  dominant-baseline: var(--d-dominant-baseline);
-}
-#wowjob-ui .desktop.empty-cells {
-  --d-empty-cells: var(--t-empty-cells);
-  empty-cells: var(--d-empty-cells);
-}
-#wowjob-ui .desktop.display {
-  --d-display: var(--t-display);
-  display: var(--d-display);
-}
-#wowjob-ui .desktop.flex {
-  --d-flex: var(--t-flex);
-  flex: var(--d-flex);
-}
-#wowjob-ui .desktop.flex-basis {
-  --d-flex-basis: var(--t-flex-basis);
-  flex-basis: var(--d-flex-basis);
-}
-#wowjob-ui .desktop.flex-direction {
-  --d-flex-direction: var(--t-flex-direction);
-  flex-direction: var(--d-flex-direction);
-}
-#wowjob-ui .desktop.flex-grow {
-  --d-flex-grow: var(--t-flex-grow);
-  flex-grow: var(--d-flex-grow);
-}
-#wowjob-ui .desktop.flex-shrink {
-  --d-flex-shrink: var(--t-flex-shrink);
-  flex-shrink: var(--d-flex-shrink);
-}
-#wowjob-ui .desktop.font-variant {
-  --d-font-variant: var(--t-font-variant);
-  font-variant: var(--d-font-variant);
-}
-#wowjob-ui .desktop.font-weight {
-  --d-font-weight: var(--t-font-weight);
-  font-weight: var(--d-font-weight);
-}
-#wowjob-ui .desktop.flex-wrap {
-  --d-flex-wrap: var(--t-flex-wrap);
-  flex-wrap: var(--d-flex-wrap);
-}
-#wowjob-ui .desktop.field-sizing {
-  --d-field-sizing: var(--t-field-sizing);
-  field-sizing: var(--d-field-sizing);
-}
-#wowjob-ui .desktop.fill {
-  --d-fill: var(--t-fill);
-  fill: var(--d-fill);
-}
-#wowjob-ui .desktop.fill-opacity {
-  --d-fill-opacity: var(--t-fill-opacity);
-  fill-opacity: var(--d-fill-opacity);
-}
-#wowjob-ui .desktop.fill-rule {
-  --d-fill-rule: var(--t-fill-rule);
-  fill-rule: var(--d-fill-rule);
-}
-#wowjob-ui .desktop.filter {
-  --d-filter: var(--t-filter);
-  filter: var(--d-filter);
-}
-#wowjob-ui .desktop.float {
-  --d-float: var(--t-float);
-  float: var(--d-float);
-}
-#wowjob-ui .desktop.flood-color {
-  --d-flood-color: var(--t-flood-color);
-  flood-color: var(--d-flood-color);
-}
-#wowjob-ui .desktop.flood-opacity {
-  --d-flood-opacity: var(--t-flood-opacity);
-  flood-opacity: var(--d-flood-opacity);
-}
-#wowjob-ui .desktop.font {
-  --d-font: var(--t-font);
-  font: var(--d-font);
-}
-#wowjob-ui .desktop.font-family {
-  --d-font-family: var(--t-font-family);
-  font-family: var(--d-font-family);
-}
-#wowjob-ui .desktop.font-size {
-  --d-font-size: var(--t-font-size);
-  font-size: var(--d-font-size);
-}
-#wowjob-ui .desktop.font-stretch {
-  --d-font-stretch: var(--t-font-stretch);
-  font-stretch: var(--d-font-stretch);
-}
-#wowjob-ui .desktop.font-style {
-  --d-font-style: var(--t-font-style);
-  font-style: var(--d-font-style);
-}
-#wowjob-ui .desktop.font-feature-settings {
-  --d-font-feature-settings: var(--t-font-feature-settings);
-  font-feature-settings: var(--d-font-feature-settings);
-}
-#wowjob-ui .desktop.font-kerning {
-  --d-font-kerning: var(--t-font-kerning);
-  font-kerning: var(--d-font-kerning);
-}
-#wowjob-ui .desktop.font-language-override {
-  --d-font-language-override: var(--t-font-language-override);
-  font-language-override: var(--d-font-language-override);
-}
-#wowjob-ui .desktop.font-optical-sizing {
-  --d-font-optical-sizing: var(--t-font-optical-sizing);
-  font-optical-sizing: var(--d-font-optical-sizing);
-}
-#wowjob-ui .desktop.font-palette {
-  --d-font-palette: var(--t-font-palette);
-  font-palette: var(--d-font-palette);
-}
-#wowjob-ui .desktop.font-size-adjust {
-  --d-font-size-adjust: var(--t-font-size-adjust);
-  font-size-adjust: var(--d-font-size-adjust);
-}
-#wowjob-ui .desktop.font-synthesis-small-caps {
-  --d-font-synthesis-small-caps: var(--t-font-synthesis-small-caps);
-  font-synthesis-small-caps: var(--d-font-synthesis-small-caps);
-}
-#wowjob-ui .desktop.font-synthesis-style {
-  --d-font-synthesis-style: var(--t-font-synthesis-style);
-  font-synthesis-style: var(--d-font-synthesis-style);
-}
-#wowjob-ui .desktop.font-synthesis-weight {
-  --d-font-synthesis-weight: var(--t-font-synthesis-weight);
-  font-synthesis-weight: var(--d-font-synthesis-weight);
-}
-#wowjob-ui .desktop.font-variant-alternates {
-  --d-font-variant-alternates: var(--t-font-variant-alternates);
-  font-variant-alternates: var(--d-font-variant-alternates);
-}
-#wowjob-ui .desktop.font-variant-caps {
-  --d-font-variant-caps: var(--t-font-variant-caps);
-  font-variant-caps: var(--d-font-variant-caps);
-}
-#wowjob-ui .desktop.font-variant-east-asian {
-  --d-font-variant-east-asian: var(--t-font-variant-east-asian);
-  font-variant-east-asian: var(--d-font-variant-east-asian);
-}
-#wowjob-ui .desktop.font-variant-ligatures {
-  --d-font-variant-ligatures: var(--t-font-variant-ligatures);
-  font-variant-ligatures: var(--d-font-variant-ligatures);
-}
-#wowjob-ui .desktop.font-variant-numeric {
-  --d-font-variant-numeric: var(--t-font-variant-numeric);
-  font-variant-numeric: var(--d-font-variant-numeric);
-}
-#wowjob-ui .desktop.font-variant-position {
-  --d-font-variant-position: var(--t-font-variant-position);
-  font-variant-position: var(--d-font-variant-position);
-}
-#wowjob-ui .desktop.font-variation-settings {
-  --d-font-variation-settings: var(--t-font-variation-settings);
-  font-variation-settings: var(--d-font-variation-settings);
-}
-#wowjob-ui .desktop.forced-color-adjust {
-  --d-forced-color-adjust: var(--t-forced-color-adjust);
-  forced-color-adjust: var(--d-forced-color-adjust);
-}
-#wowjob-ui .desktop.gap {
-  --d-gap: var(--t-gap);
-  gap: var(--d-gap);
-}
-#wowjob-ui .desktop.grid-auto-columns {
-  --d-grid-auto-columns: var(--t-grid-auto-columns);
-  grid-auto-columns: var(--d-grid-auto-columns);
-}
-#wowjob-ui .desktop.grid-auto-flow {
-  --d-grid-auto-flow: var(--t-grid-auto-flow);
-  grid-auto-flow: var(--d-grid-auto-flow);
-}
-#wowjob-ui .desktop.grid-auto-rows {
-  --d-grid-auto-rows: var(--t-grid-auto-rows);
-  grid-auto-rows: var(--d-grid-auto-rows);
-}
-#wowjob-ui .desktop.grid-column {
-  --d-grid-column: var(--t-grid-column);
-  grid-column: var(--d-grid-column);
-}
-#wowjob-ui .desktop.grid-row {
-  --d-grid-row: var(--t-grid-row);
-  grid-row: var(--d-grid-row);
-}
-#wowjob-ui .desktop.grid-template {
-  --d-grid-template: var(--t-grid-template);
-  grid-template: var(--d-grid-template);
-}
-#wowjob-ui .desktop.grid-template-columns {
-  --d-grid-template-columns: var(--t-grid-template-columns);
-  grid-template-columns: var(--d-grid-template-columns);
-}
-#wowjob-ui .desktop.grid-template-rows {
-  --d-grid-template-rows: var(--t-grid-template-rows);
-  grid-template-rows: var(--d-grid-template-rows);
-}
-#wowjob-ui .desktop.grid-template-areas {
-  --d-grid-template-areas: var(--t-grid-template-areas);
-  grid-template-areas: var(--d-grid-template-areas);
-}
-#wowjob-ui .desktop.height {
-  --d-height: var(--t-height);
-  height: var(--d-height);
-}
-#wowjob-ui .desktop.hyphenate-character {
-  --d-hyphenate-character: var(--t-hyphenate-character);
-  hyphenate-character: var(--d-hyphenate-character);
-}
-#wowjob-ui .desktop.hyphens {
-  --d-hyphens: var(--t-hyphens);
-  hyphens: var(--d-hyphens);
-}
-#wowjob-ui .desktop.image-orientation {
-  --d-image-orientation: var(--t-image-orientation);
-  image-orientation: var(--d-image-orientation);
-}
-#wowjob-ui .desktop.image-rendering {
-  --d-image-rendering: var(--t-image-rendering);
-  image-rendering: var(--d-image-rendering);
-}
-#wowjob-ui .desktop.inline-size {
-  --d-inline-size: var(--t-inline-size);
-  inline-size: var(--d-inline-size);
-}
-#wowjob-ui .desktop.inset {
-  --d-inset: var(--t-inset);
-  inset: var(--d-inset);
-}
-#wowjob-ui .desktop.inset-block {
-  --d-inset-block: var(--t-inset-block);
-  inset-block: var(--d-inset-block);
-}
-#wowjob-ui .desktop.inset-inline {
-  --d-inset-inline: var(--t-inset-inline);
-  inset-inline: var(--d-inset-inline);
-}
-#wowjob-ui .desktop.isolation {
-  --d-isolation: var(--t-isolation);
-  isolation: var(--d-isolation);
-}
-#wowjob-ui .desktop.justify-content {
-  --d-justify-content: var(--t-justify-content);
-  justify-content: var(--d-justify-content);
-}
-#wowjob-ui .desktop.justify-items {
-  --d-justify-items: var(--t-justify-items);
-  justify-items: var(--d-justify-items);
-}
-#wowjob-ui .desktop.justify-self {
-  --d-justify-self: var(--t-justify-self);
-  justify-self: var(--d-justify-self);
-}
-#wowjob-ui .desktop.left {
-  --d-left: var(--t-left);
-  left: var(--d-left);
-}
-#wowjob-ui .desktop.right {
-  --d-right: var(--t-right);
-  right: var(--d-right);
-}
-#wowjob-ui .desktop.top {
-  --d-top: var(--t-top);
-  top: var(--d-top);
-}
-#wowjob-ui .desktop.letter-spacing {
-  --d-letter-spacing: var(--t-letter-spacing);
-  letter-spacing: var(--d-letter-spacing);
-}
-#wowjob-ui .desktop.lighting-color {
-  --d-lighting-color: var(--t-lighting-color);
-  lighting-color: var(--d-lighting-color);
-}
-#wowjob-ui .desktop.line-break {
-  --d-line-break: var(--t-line-break);
-  line-break: var(--d-line-break);
-}
-#wowjob-ui .desktop.line-height {
-  --d-line-height: var(--t-line-height);
-  line-height: var(--d-line-height);
-}
-#wowjob-ui .desktop.list-style {
-  --d-list-style: var(--t-list-style);
-  list-style: var(--d-list-style);
-}
-#wowjob-ui .desktop.margin-block {
-  --d-margin-block: var(--t-margin-block);
-  margin-block: var(--d-margin-block);
-}
-#wowjob-ui .desktop.margin-inline {
-  --d-margin-inline: var(--t-margin-inline);
-  margin-inline: var(--d-margin-inline);
-}
-#wowjob-ui .desktop.mask {
-  --d-mask: var(--t-mask);
-  mask: var(--d-mask);
-}
-#wowjob-ui .desktop.mask-clip {
-  --d-mask-clip: var(--t-mask-clip);
-  mask-clip: var(--d-mask-clip);
-}
-#wowjob-ui .desktop.math-style {
-  --d-math-style: var(--t-math-style);
-  math-style: var(--d-math-style);
-}
-#wowjob-ui .desktop.max-block-size {
-  --d-max-block-size: var(--t-max-block-size);
-  max-block-size: var(--d-max-block-size);
-}
-#wowjob-ui .desktop.max-height {
-  --d-max-height: var(--t-max-height);
-  max-height: var(--d-max-height);
-}
-#wowjob-ui .desktop.max-inline-size {
-  --d-max-inline-size: var(--t-max-inline-size);
-  max-inline-size: var(--d-max-inline-size);
-}
-#wowjob-ui .desktop.max-width {
-  --d-max-width: var(--t-max-width);
-  max-width: var(--d-max-width);
-}
-#wowjob-ui .desktop.min-block-size {
-  --d-min-block-size: var(--t-min-block-size);
-  min-block-size: var(--d-min-block-size);
-}
-#wowjob-ui .desktop.min-height {
-  --d-min-height: var(--t-min-height);
-  min-height: var(--d-min-height);
-}
-#wowjob-ui .desktop.min-inline-size {
-  --d-min-inline-size: var(--t-min-inline-size);
-  min-inline-size: var(--d-min-inline-size);
-}
-#wowjob-ui .desktop.min-width {
-  --d-min-width: var(--t-min-width);
-  min-width: var(--d-min-width);
-}
-#wowjob-ui .desktop.mix-blend-mode {
-  --d-mix-blend-mode: var(--t-mix-blend-mode);
-  mix-blend-mode: var(--d-mix-blend-mode);
-}
-#wowjob-ui .desktop.object-fit {
-  --d-object-fit: var(--t-object-fit);
-  object-fit: var(--d-object-fit);
-}
-#wowjob-ui .desktop.object-position {
-  --d-object-position: var(--t-object-position);
-  object-position: var(--d-object-position);
-}
-#wowjob-ui .desktop.offset-anchor {
-  --d-offset-anchor: var(--t-offset-anchor);
-  offset-anchor: var(--d-offset-anchor);
-}
-#wowjob-ui .desktop.offset {
-  --d-offset: var(--t-offset);
-  offset: var(--d-offset);
-}
-#wowjob-ui .desktop.opacity {
-  --d-opacity: var(--t-opacity);
-  opacity: var(--d-opacity);
-}
-#wowjob-ui .desktop.order {
-  --d-order: var(--t-order);
-  order: var(--d-order);
-}
-#wowjob-ui .desktop.outline {
-  --d-outline: var(--t-outline);
-  outline: var(--d-outline);
-}
-#wowjob-ui .desktop.outline-offset {
-  --d-outline-offset: var(--t-outline-offset);
-  outline-offset: var(--d-outline-offset);
-}
-#wowjob-ui .desktop.overflow {
-  --d-overflow: var(--t-overflow);
-  overflow: var(--d-overflow);
-}
-#wowjob-ui .desktop.overscroll-behavior {
-  --d-overscroll-behavior: var(--t-overscroll-behavior);
-  overscroll-behavior: var(--d-overscroll-behavior);
-}
-#wowjob-ui .desktop.overscroll-behavior-block {
-  --d-overscroll-behavior-block: var(--t-overscroll-behavior-block);
-  overscroll-behavior-block: var(--d-overscroll-behavior-block);
-}
-#wowjob-ui .desktop.overscroll-behavior-inline {
-  --d-overscroll-behavior-inline: var(--t-overscroll-behavior-inline);
-  overscroll-behavior-inline: var(--d-overscroll-behavior-inline);
-}
-#wowjob-ui .desktop.perspective {
-  --d-perspective: var(--t-perspective);
-  perspective: var(--d-perspective);
-}
-#wowjob-ui .desktop.perspective-origin {
-  --d-perspective-origin: var(--t-perspective-origin);
-  perspective-origin: var(--d-perspective-origin);
-}
-#wowjob-ui .desktop.place-content {
-  --d-place-content: var(--t-place-content);
-  place-content: var(--d-place-content);
-}
-#wowjob-ui .desktop.place-items {
-  --d-place-items: var(--t-place-items);
-  place-items: var(--d-place-items);
-}
-#wowjob-ui .desktop.place-self {
-  --d-place-self: var(--t-place-self);
-  place-self: var(--d-place-self);
-}
-#wowjob-ui .desktop.pointer-events {
-  --d-pointer-events: var(--t-pointer-events);
-  pointer-events: var(--d-pointer-events);
-}
-#wowjob-ui .desktop.position {
-  --d-position: var(--t-position);
-  position: var(--d-position);
-}
-#wowjob-ui .desktop.quotes {
-  --d-quotes: var(--t-quotes);
-  quotes: var(--d-quotes);
-}
-#wowjob-ui .desktop.resize {
-  --d-resize: var(--t-resize);
-  resize: var(--d-resize);
-}
-#wowjob-ui .desktop.rotate {
-  --d-rotate: var(--t-rotate);
-  rotate: var(--d-rotate);
-}
-#wowjob-ui .desktop.ruby-align {
-  --d-ruby-align: var(--t-ruby-align);
-  ruby-align: var(--d-ruby-align);
-}
-#wowjob-ui .desktop.ruby-position {
-  --d-ruby-position: var(--t-ruby-position);
-  ruby-position: var(--d-ruby-position);
-}
-#wowjob-ui .desktop.scale {
-  --d-scale: var(--t-scale);
-  scale: var(--d-scale);
-}
-#wowjob-ui .desktop.scroll-behavior {
-  --d-scroll-behavior: var(--t-scroll-behavior);
-  scroll-behavior: var(--d-scroll-behavior);
-}
-#wowjob-ui .desktop.scroll-margin {
-  --d-scroll-margin: var(--t-scroll-margin);
-  scroll-margin: var(--d-scroll-margin);
-}
-#wowjob-ui .desktop.scroll-padding {
-  --d-scroll-padding: var(--t-scroll-padding);
-  scroll-padding: var(--d-scroll-padding);
-}
-#wowjob-ui .desktop.scroll-snap-align {
-  --d-scroll-snap-align: var(--t-scroll-snap-align);
-  scroll-snap-align: var(--d-scroll-snap-align);
-}
-#wowjob-ui .desktop.scroll-snap-stop {
-  --d-scroll-snap-stop: var(--t-scroll-snap-stop);
-  scroll-snap-stop: var(--d-scroll-snap-stop);
-}
-#wowjob-ui .desktop.scroll-snap-type {
-  --d-scroll-snap-type: var(--t-scroll-snap-type);
-  scroll-snap-type: var(--d-scroll-snap-type);
-}
-#wowjob-ui .desktop.scroll-timeline {
-  --d-scroll-timeline: var(--t-scroll-timeline);
-  scroll-timeline: var(--d-scroll-timeline);
-}
-#wowjob-ui .desktop.scroll-timeline-axis {
-  --d-scroll-timeline-axis: var(--t-scroll-timeline-axis);
-  scroll-timeline-axis: var(--d-scroll-timeline-axis);
-}
-#wowjob-ui .desktop.scroll-timeline-name {
-  --d-scroll-timeline-name: var(--t-scroll-timeline-name);
-  scroll-timeline-name: var(--d-scroll-timeline-name);
-}
-#wowjob-ui .desktop.scrollbar-color {
-  --d-scrollbar-color: var(--t-scrollbar-color);
-  scrollbar-color: var(--d-scrollbar-color);
-}
-#wowjob-ui .desktop.scrollbar-gutter {
-  --d-scrollbar-gutter: var(--t-scrollbar-gutter);
-  scrollbar-gutter: var(--d-scrollbar-gutter);
-}
-#wowjob-ui .desktop.scrollbar-width {
-  --d-scrollbar-width: var(--t-scrollbar-width);
-  scrollbar-width: var(--d-scrollbar-width);
-}
-#wowjob-ui .desktop.shape-image-threshold {
-  --d-shape-image-threshold: var(--t-shape-image-threshold);
-  shape-image-threshold: var(--d-shape-image-threshold);
-}
-#wowjob-ui .desktop.shape-margin {
-  --d-shape-margin: var(--t-shape-margin);
-  shape-margin: var(--d-shape-margin);
-}
-#wowjob-ui .desktop.shape-outside {
-  --d-shape-outside: var(--t-shape-outside);
-  shape-outside: var(--d-shape-outside);
-}
-#wowjob-ui .desktop.shape-rendering {
-  --d-shape-rendering: var(--t-shape-rendering);
-  shape-rendering: var(--d-shape-rendering);
-}
-#wowjob-ui .desktop.stop-color {
-  --d-stop-color: var(--t-stop-color);
-  stop-color: var(--d-stop-color);
-}
-#wowjob-ui .desktop.stop-opacity {
-  --d-stop-opacity: var(--t-stop-opacity);
-  stop-opacity: var(--d-stop-opacity);
-}
-#wowjob-ui .desktop.stroke {
-  --d-stroke: var(--t-stroke);
-  stroke: var(--d-stroke);
-}
-#wowjob-ui .desktop.stroke-dasharray {
-  --d-stroke-dasharray: var(--t-stroke-dasharray);
-  stroke-dasharray: var(--d-stroke-dasharray);
-}
-#wowjob-ui .desktop.stroke-dashoffset {
-  --d-stroke-dashoffset: var(--t-stroke-dashoffset);
-  stroke-dashoffset: var(--d-stroke-dashoffset);
-}
-#wowjob-ui .desktop.stroke-linecap {
-  --d-stroke-linecap: var(--t-stroke-linecap);
-  stroke-linecap: var(--d-stroke-linecap);
-}
-#wowjob-ui .desktop.stroke-linejoin {
-  --d-stroke-linejoin: var(--t-stroke-linejoin);
-  stroke-linejoin: var(--d-stroke-linejoin);
-}
-#wowjob-ui .desktop.stroke-miterlimit {
-  --d-stroke-miterlimit: var(--t-stroke-miterlimit);
-  stroke-miterlimit: var(--d-stroke-miterlimit);
-}
-#wowjob-ui .desktop.stroke-opacity {
-  --d-stroke-opacity: var(--t-stroke-opacity);
-  stroke-opacity: var(--d-stroke-opacity);
-}
-#wowjob-ui .desktop.stroke-width {
-  --d-stroke-width: var(--t-stroke-width);
-  stroke-width: var(--d-stroke-width);
-}
-#wowjob-ui .desktop.tab-size {
-  --d-tab-size: var(--t-tab-size);
-  tab-size: var(--d-tab-size);
-}
-#wowjob-ui .desktop.table-layout {
-  --d-table-layout: var(--t-table-layout);
-  table-layout: var(--d-table-layout);
-}
-#wowjob-ui .desktop.text-align {
-  --d-text-align: var(--t-text-align);
-  text-align: var(--d-text-align);
-}
-#wowjob-ui .desktop.text-align-last {
-  --d-text-align-last: var(--t-text-align-last);
-  text-align-last: var(--d-text-align-last);
-}
-#wowjob-ui .desktop.text-anchor {
-  --d-text-anchor: var(--t-text-anchor);
-  text-anchor: var(--d-text-anchor);
-}
-#wowjob-ui .desktop.text-combine-upright {
-  --d-text-combine-upright: var(--t-text-combine-upright);
-  text-combine-upright: var(--d-text-combine-upright);
-}
-#wowjob-ui .desktop.text-decoration {
-  --d-text-decoration: var(--t-text-decoration);
-  text-decoration: var(--d-text-decoration);
-}
-#wowjob-ui .desktop.text-emphasis {
-  --d-text-emphasis: var(--t-text-emphasis);
-  text-emphasis: var(--d-text-emphasis);
-}
-#wowjob-ui .desktop.text-indent {
-  --d-text-indent: var(--t-text-indent);
-  text-indent: var(--d-text-indent);
-}
-#wowjob-ui .desktop.text-justify {
-  --d-text-justify: var(--t-text-justify);
-  text-justify: var(--d-text-justify);
-}
-#wowjob-ui .desktop.text-orientation {
-  --d-text-orientation: var(--t-text-orientation);
-  text-orientation: var(--d-text-orientation);
-}
-#wowjob-ui .desktop.text-overflow {
-  --d-text-overflow: var(--t-text-overflow);
-  text-overflow: var(--d-text-overflow);
-}
-#wowjob-ui .desktop.text-rendering {
-  --d-text-rendering: var(--t-text-rendering);
-  text-rendering: var(--d-text-rendering);
-}
-#wowjob-ui .desktop.text-shadow {
-  --d-text-shadow: var(--t-text-shadow);
-  text-shadow: var(--d-text-shadow);
-}
-#wowjob-ui .desktop.text-transform {
-  --d-text-transform: var(--t-text-transform);
-  text-transform: var(--d-text-transform);
-}
-#wowjob-ui .desktop.text-underline-offset {
-  --d-text-underline-offset: var(--t-text-underline-offset);
-  text-underline-offset: var(--d-text-underline-offset);
-}
-#wowjob-ui .desktop.text-underline-position {
-  --d-text-underline-position: var(--t-text-underline-position);
-  text-underline-position: var(--d-text-underline-position);
-}
-#wowjob-ui .desktop.text-wrap {
-  --d-text-wrap: var(--t-text-wrap);
-  text-wrap: var(--d-text-wrap);
-}
-#wowjob-ui .desktop.text-wrap-style {
-  --d-text-wrap-style: var(--t-text-wrap-style);
-  text-wrap-style: var(--d-text-wrap-style);
-}
-#wowjob-ui .desktop.touch-action {
-  --d-touch-action: var(--t-touch-action);
-  touch-action: var(--d-touch-action);
-}
-#wowjob-ui .desktop.transform {
-  --d-transform: var(--t-transform);
-  transform: var(--d-transform);
-}
-#wowjob-ui .desktop.transform-box {
-  --d-transform-box: var(--t-transform-box);
-  transform-box: var(--d-transform-box);
-}
-#wowjob-ui .desktop.transform-origin {
-  --d-transform-origin: var(--t-transform-origin);
-  transform-origin: var(--d-transform-origin);
-}
-#wowjob-ui .desktop.transform-style {
-  --d-transform-style: var(--t-transform-style);
-  transform-style: var(--d-transform-style);
-}
-#wowjob-ui .desktop.transition {
-  --d-transition: var(--t-transition);
-  transition: var(--d-transition);
-}
-#wowjob-ui .desktop.transition-behavior {
-  --d-transition-behavior: var(--t-transition-behavior);
-  transition-behavior: var(--d-transition-behavior);
-}
-#wowjob-ui .desktop.translate {
-  --d-translate: var(--t-translate);
-  translate: var(--d-translate);
-}
-#wowjob-ui .desktop.user-select {
-  --d-user-select: var(--t-user-select);
-  user-select: var(--d-user-select);
-}
-#wowjob-ui .desktop.vector-effect {
-  --d-vector-effect: var(--t-vector-effect);
-  vector-effect: var(--d-vector-effect);
-}
-#wowjob-ui .desktop.vertical-align {
-  --d-vertical-align: var(--t-vertical-align);
-  vertical-align: var(--d-vertical-align);
-}
-#wowjob-ui .desktop.visibility {
-  --d-visibility: var(--t-visibility);
-  visibility: var(--d-visibility);
-}
-#wowjob-ui .desktop.white-space {
-  --d-white-space: var(--t-white-space);
-  white-space: var(--d-white-space);
-}
-#wowjob-ui .desktop.width {
-  --d-width: var(--t-width);
-  width: var(--d-width);
-}
-#wowjob-ui .desktop.will-change {
-  --d-will-change: var(--t-will-change);
-  will-change: var(--d-will-change);
-}
-#wowjob-ui .desktop.word-break {
-  --d-word-break: var(--t-word-break);
-  word-break: var(--d-word-break);
-}
-#wowjob-ui .desktop.word-spacing {
-  --d-word-spacing: var(--t-word-spacing);
-  word-spacing: var(--d-word-spacing);
-}
-#wowjob-ui .desktop.writing-mode {
-  --d-writing-mode: var(--t-writing-mode);
-  writing-mode: var(--d-writing-mode);
-}
-#wowjob-ui .desktop.z-index {
-  --d-z-index: var(--t-z-index);
-  z-index: var(--d-z-index);
-}
-#wowjob-ui .desktop.zoom {
-  --d-zoom: var(--t-zoom);
-  zoom: var(--d-zoom);
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  accent-color: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  align-content: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  align-items: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  align-self: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  animation: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  appearance: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  aspect-ratio: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  backdrop-filter: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  backface-visibility: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  background: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  background-blend-mode: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  background-clip: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  background-origin: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  block-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  margin: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  padding: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-block: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-block-start: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-bottom: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-bottom-left-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-bottom-right-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-block-end: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-collapse: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-end-end-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-end-start-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-image: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-inline: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-left: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-inline-start: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-inline-end: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-right: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-style: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-start-end-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-start-start-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-top: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-top-left-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  border-top-right-radius: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  bottom: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  box-shadow: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  box-sizing: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  break-after: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  break-before: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  break-inside: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  caption-side: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  caret-color: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  clear: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  clip: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  clip-path: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  color: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  color-interpolation: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  color-interpolation-filters: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  color-scheme: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  column-count: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  column-fill: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  column-gap: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  column-rule: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  column-span: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  column-width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  contain: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  contain-intrinsic-block-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  contain-intrinsic-height: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  contain-intrinsic-inline-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  contain-intrinsic-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  contain-intrinsic-width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  container: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  content: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  content-visibility: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  counter-increment: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  counter-reset: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  counter-set: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  cursor: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  cx: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  cy: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  d: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  direction: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  dominant-baseline: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  empty-cells: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  display: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flex: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flex-basis: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flex-direction: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flex-grow: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flex-shrink: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variant: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-weight: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flex-wrap: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  field-sizing: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  fill: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  fill-opacity: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  fill-rule: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  filter: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  float: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flood-color: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  flood-opacity: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-family: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-stretch: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-style: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-feature-settings: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-kerning: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-language-override: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-optical-sizing: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-palette: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-size-adjust: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-synthesis-small-caps: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-synthesis-style: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-synthesis-weight: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variant-alternates: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variant-caps: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variant-east-asian: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variant-ligatures: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variant-numeric: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variant-position: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  font-variation-settings: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  forced-color-adjust: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  gap: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-auto-columns: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-auto-flow: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-auto-rows: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-column: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-row: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-template: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-template-columns: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-template-rows: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  grid-template-areas: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  height: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  hyphenate-character: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  hyphens: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  image-orientation: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  image-rendering: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  inline-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  inset: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  inset-block: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  inset-inline: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  isolation: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  justify-content: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  justify-items: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  justify-self: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  left: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  right: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  top: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  letter-spacing: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  lighting-color: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  line-break: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  line-height: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  list-style: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  margin-block: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  margin-inline: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  mask: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  mask-clip: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  math-style: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  max-block-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  max-height: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  max-inline-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  max-width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  min-block-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  min-height: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  min-inline-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  min-width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  mix-blend-mode: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  object-fit: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  object-position: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  offset-anchor: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  offset: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  opacity: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  order: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  outline: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  outline-offset: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  overflow: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  overscroll-behavior: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  overscroll-behavior-block: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  overscroll-behavior-inline: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  perspective: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  perspective-origin: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  place-content: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  place-items: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  place-self: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  pointer-events: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  position: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  quotes: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  resize: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  rotate: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  ruby-align: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  ruby-position: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scale: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-behavior: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-margin: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-padding: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-snap-align: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-snap-stop: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-snap-type: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-timeline: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-timeline-axis: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scroll-timeline-name: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scrollbar-color: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scrollbar-gutter: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  scrollbar-width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  shape-image-threshold: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  shape-margin: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  shape-outside: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  shape-rendering: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stop-color: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stop-opacity: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke-dasharray: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke-dashoffset: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke-linecap: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke-linejoin: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke-miterlimit: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke-opacity: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  stroke-width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  tab-size: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  table-layout: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-align: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-align-last: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-anchor: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-combine-upright: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-decoration: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-emphasis: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-indent: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-justify: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-orientation: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-overflow: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-rendering: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-shadow: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-transform: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-underline-offset: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-underline-position: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-wrap: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  text-wrap-style: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  touch-action: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  transform: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  transform-box: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  transform-origin: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  transform-style: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  transition: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  transition-behavior: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  translate: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  user-select: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  vector-effect: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  vertical-align: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  visibility: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  white-space: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  width: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  will-change: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  word-break: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  word-spacing: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  writing-mode: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  z-index: var(--d-undefined);
+}
+#wowjob-ui .desktop.undefined {
+  --d-undefined: var(--t-undefined);
+  zoom: var(--d-undefined);
 }
 
 }

@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/wowjob/ui/compare/v1.2.0...v1.3.0) (2025-03-12)
+
+
+### Features
+
+* add textarea, flex and input reusable components ([856dcba](https://github.com/wowjob/ui/commit/856dcbafa491913ff67ace969f1e6c475b0f56f6))
+
 # [1.2.0](https://github.com/wowjob/ui/compare/v1.1.0...v1.2.0) (2025-03-12)
 
 

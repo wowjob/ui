@@ -24,8 +24,8 @@ const styleFileList = [
   'src/css/css/all.min.css',
 ]
 const allCSSNameMap = {
-  dev: 'src/css/css/all.css',
-  prod: 'src/css/css/all.min.css',
+  development: 'src/css/css/all.css',
+  production: 'src/css/css/all.min.css',
 }
 
 const propertyList = Object.keys(propertyMap)
@@ -36,24 +36,24 @@ const buildCss = () => {
   fs.mkdirSync(outputDir, { recursive: true })
 
   const finalCSSMap = {
-    dev: [],
-    prod: [],
+    development: [],
+    production: [],
   }
 
   const finalCSS = {
-    dev: {
+    development: {
       mobile: '',
       tablet: '',
       desktop: '',
     },
-    prod: {
+    production: {
       mobile: '',
       tablet: '',
       desktop: '',
     },
   }
 
-  for (const env of ['dev', 'prod']) {
+  for (const env of ['development', 'production']) {
     for (const property of propertyList) {
       finalCSSMap[env].push({
         cssPropertyName: property,
@@ -67,7 +67,7 @@ const buildCss = () => {
     }
   }
 
-  for (const env of ['dev', 'prod']) {
+  for (const env of ['development', 'production']) {
     for (const screenType of ['mobile', 'tablet', 'desktop']) {
       for (const property of finalCSSMap[env]) {
         const varName = `--${property.responsive[screenType]}`
@@ -79,7 +79,7 @@ const buildCss = () => {
             : `var(${screenType === 'tablet' ? varNameM : varNameT})`
 
         finalCSS[env][screenType] +=
-          env === 'dev'
+          env === 'development'
             ? `${
                 screenType === 'mobile'
                   ? '#wowjob-ui '
@@ -100,7 +100,7 @@ const buildCss = () => {
     const filePath = path.resolve(allCSSNameMap[env])
 
     const fileContent =
-      env === 'dev'
+      env === 'development'
         ? `${themeCSS}
 ${finalCSS[env].mobile}
 

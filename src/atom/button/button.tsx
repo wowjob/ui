@@ -1,4 +1,5 @@
 // button/server.tsx
+import { getEnv } from '@/util'
 import type { TButton } from './type'
 import { getStyle, type TEnv } from '@/css'
 
@@ -12,11 +13,14 @@ export const Button = ({
   label,
   ...rest
 }: TButton) => {
+  const env = getEnv()
+
   const { style, className } = getStyle({
     mobile,
     tablet,
     desktop,
     theme,
+    env,
     className: 'wowjob-ui-button',
   })
 

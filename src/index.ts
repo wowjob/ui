@@ -1,7 +1,7 @@
 export {
   Button,
   DataList,
-  // Flex,
+  Flex,
   // Form,
   // Image,
   Input,
@@ -9,7 +9,7 @@ export {
   // LinkBlock,
   // LinkButton,
   // Text,
-  // Textarea,
+  Textarea,
 } from './atom'
 export { convertToRem, getStyle, isPx } from './css'
 export type { TCSSPropValue, TEnv, TStyle } from './css'

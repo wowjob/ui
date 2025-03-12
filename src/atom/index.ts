@@ -1,3 +1,5 @@
 export { Button } from './button'
 export { DataList } from './data-list'
 export { Input } from './input'
+export { Textarea } from './textarea'
+export { Flex } from './flex'

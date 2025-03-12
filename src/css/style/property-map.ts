@@ -512,7 +512,7 @@ import type {
 } from '../type'
 import type { TThemeColor } from './theme'
 
-export type TEnv = 'dev' | 'prod'
+export type TEnv = 'development' | 'production' | 'test'
 export type TCSSPropValue = Partial<{
   accentColor: TAccentColor
   alignContent: TAlignContent
@@ -793,1023 +793,2036 @@ export const propertyMap: Record<
   }
 > = {
   accentColor: {
-    className: { dev: 'accent-color', prod: 'acc' },
+    className: {
+      development: 'accent-color',
+      test: 'acc',
+      production: 'acc',
+    },
     normalize: normalizeAccentColor,
   },
   alignContent: {
-    className: { dev: 'align-content', prod: 'ac' },
+    className: {
+      development: 'align-content',
+      test: 'ac',
+      production: 'ac',
+    },
     normalize: normalizeAlignContent,
   },
   alignItems: {
-    className: { dev: 'align-items', prod: 'ai' },
+    className: {
+      development: 'align-items',
+      test: 'ai',
+      production: 'ai',
+    },
     normalize: normalizeAlignItems,
   },
   alignSelf: {
-    className: { dev: 'align-self', prod: 'as' },
+    className: {
+      development: 'align-self',
+      test: 'as',
+      production: 'as',
+    },
     normalize: normalizeAlignSelf,
   },
   animation: {
-    className: { dev: 'animation', prod: 'a' },
+    className: {
+      development: 'animation',
+      test: 'a',
+      production: 'a',
+    },
     normalize: normalizeAnimation,
   },
   appearance: {
-    className: { dev: 'appearance', prod: 'ap' },
+    className: {
+      development: 'appearance',
+      test: 'ap',
+      production: 'ap',
+    },
     normalize: normalizeAppearance,
   },
   aspectRatio: {
-    className: { dev: 'aspect-ratio', prod: 'ar' },
+    className: {
+      development: 'aspect-ratio',
+      test: 'ar',
+      production: 'ar',
+    },
     normalize: normalizeAspectRatio,
   },
   backdropFilter: {
-    className: { dev: 'backdrop-filter', prod: 'bf' },
+    className: {
+      development: 'backdrop-filter',
+      test: 'bf',
+      production: 'bf',
+    },
     normalize: normalizeBackdropFilter,
   },
   backfaceVisibility: {
-    className: { dev: 'backface-visibility', prod: 'bv' },
+    className: {
+      development: 'backface-visibility',
+      test: 'bv',
+      production: 'bv',
+    },
     normalize: normalizeBackfaceVisibility,
   },
   background: {
-    className: { dev: 'background', prod: 'bg' },
+    className: {
+      development: 'background',
+      test: 'bg',
+      production: 'bg',
+    },
     normalize: normalizeBackground,
   },
   backgroundBlendMode: {
-    className: { dev: 'background-blend-mode', prod: 'bbm' },
+    className: {
+      development: 'background-blend-mode',
+      test: 'bbm',
+      production: 'bbm',
+    },
     normalize: normalizeBackgroundBlendMode,
   },
   backgroundClip: {
-    className: { dev: 'background-clip', prod: 'bc' },
+    className: {
+      development: 'background-clip',
+      test: 'bc',
+      production: 'bc',
+    },
     normalize: normalizeBackgroundClip,
   },
   backgroundOrigin: {
-    className: { dev: 'background-origin', prod: 'bo' },
+    className: {
+      development: 'background-origin',
+      test: 'bo',
+      production: 'bo',
+    },
     normalize: normalizeBackgroundOrigin,
   },
   blockSize: {
-    className: { dev: 'block-size', prod: 'bz' },
+    className: {
+      development: 'block-size',
+      test: 'bz',
+      production: 'bz',
+    },
     normalize: normalizeBlockSize,
   },
   margin: {
-    className: { dev: 'margin', prod: 'm' },
+    className: {
+      development: 'margin',
+      test: 'm',
+      production: 'm',
+    },
     normalize: normalizeMargin,
   },
   padding: {
-    className: { dev: 'padding', prod: 'p' },
+    className: {
+      development: 'padding',
+      test: 'p',
+      production: 'p',
+    },
     normalize: normalizePadding,
   },
   border: {
-    className: { dev: 'border', prod: 'b' },
+    className: {
+      development: 'border',
+      test: 'b',
+      production: 'b',
+    },
     normalize: normalizeBorder,
   },
   borderBlock: {
-    className: { dev: 'border-block', prod: 'bb' },
+    className: {
+      development: 'border-block',
+      test: 'bb',
+      production: 'bb',
+    },
     normalize: normalizeBorderBlock,
   },
   borderBlockStart: {
-    className: { dev: 'border-block-start', prod: 'bbs' },
+    className: {
+      development: 'border-block-start',
+      test: 'bbs',
+      production: 'bbs',
+    },
     normalize: normalizeBorderBlockStart,
   },
   borderBottom: {
-    className: { dev: 'border-bottom', prod: 'bbt' },
+    className: {
+      development: 'border-bottom',
+      test: 'bbt',
+      production: 'bbt',
+    },
     normalize: normalizeBorderBottom,
   },
   borderBottomLeftRadius: {
-    className: { dev: 'border-bottom-left-radius', prod: 'bblr' },
+    className: {
+      development: 'border-bottom-left-radius',
+      test: 'bblr',
+      production: 'bblr',
+    },
     normalize: normalizeBorderBottomLeftRadius,
   },
   borderBottomRightRadius: {
-    className: { dev: 'border-bottom-right-radius', prod: 'bbrr' },
+    className: {
+      development: 'border-bottom-right-radius',
+      test: 'bbrr',
+      production: 'bbrr',
+    },
     normalize: normalizeBorderBottomRightRadius,
   },
   borderBlockEnd: {
-    className: { dev: 'border-block-end', prod: 'bbe' },
+    className: {
+      development: 'border-block-end',
+      test: 'bbe',
+      production: 'bbe',
+    },
     normalize: normalizeBorderBlockEnd,
   },
   borderCollapse: {
-    className: { dev: 'border-collapse', prod: 'bdc' },
+    className: {
+      development: 'border-collapse',
+      test: 'bdc',
+      production: 'bdc',
+    },
     normalize: normalizeBorderCollapse,
   },
   borderEndEndRadius: {
-    className: { dev: 'border-end-end-radius', prod: 'beer' },
+    className: {
+      development: 'border-end-end-radius',
+      test: 'beer',
+      production: 'beer',
+    },
     normalize: normalizeBorderEndEndRadius,
   },
   borderEndStartRadius: {
-    className: { dev: 'border-end-start-radius', prod: 'besr' },
+    className: {
+      development: 'border-end-start-radius',
+      test: 'besr',
+      production: 'besr',
+    },
     normalize: normalizeBorderEndStartRadius,
   },
   borderImage: {
-    className: { dev: 'border-image', prod: 'bim' },
+    className: {
+      development: 'border-image',
+      test: 'bim',
+      production: 'bim',
+    },
     normalize: normalizeBorderImage,
   },
   borderInline: {
-    className: { dev: 'border-inline', prod: 'bi' },
+    className: {
+      development: 'border-inline',
+      test: 'bi',
+      production: 'bi',
+    },
     normalize: normalizeBorderInlineEnd,
   },
   borderLeft: {
-    className: { dev: 'border-left', prod: 'bl' },
+    className: {
+      development: 'border-left',
+      test: 'bl',
+      production: 'bl',
+    },
     normalize: normalizeBorderLeft,
   },
   borderInlineStart: {
-    className: { dev: 'border-inline-start', prod: 'bis' },
+    className: {
+      development: 'border-inline-start',
+      test: 'bis',
+      production: 'bis',
+    },
     normalize: normalizeBorderInlineStart,
   },
   borderInlineEnd: {
-    className: { dev: 'border-inline-end', prod: 'bie' },
+    className: {
+      development: 'border-inline-end',
+      test: 'bie',
+      production: 'bie',
+    },
     normalize: normalizeBorderInlineEnd,
   },
   borderRadius: {
-    className: { dev: 'border-radius', prod: 'bra' },
+    className: {
+      development: 'border-radius',
+      test: 'bra',
+      production: 'bra',
+    },
     normalize: normalizeBorderRadius,
   },
   borderRight: {
-    className: { dev: 'border-right', prod: 'br' },
+    className: {
+      development: 'border-right',
+      test: 'br',
+      production: 'br',
+    },
     normalize: normalizeBorderRight,
   },
   borderWidth: {
-    className: { dev: 'border-width', prod: 'bw' },
+    className: {
+      development: 'border-width',
+      test: 'bw',
+      production: 'bw',
+    },
     normalize: normalizeBorderWidth,
   },
   borderStyle: {
-    className: { dev: 'border-style', prod: 'bds' },
+    className: {
+      development: 'border-style',
+      test: 'bds',
+      production: 'bds',
+    },
     normalize: normalizeBorderStyle,
   },
   borderStartEndRadius: {
-    className: { dev: 'border-start-end-radius', prod: 'bser' },
+    className: {
+      development: 'border-start-end-radius',
+      test: 'bser',
+      production: 'bser',
+    },
     normalize: normalizeBorderStartEndRadius,
   },
   borderStartStartRadius: {
-    className: { dev: 'border-start-start-radius', prod: 'bssr' },
+    className: {
+      development: 'border-start-start-radius',
+      test: 'bssr',
+      production: 'bssr',
+    },
     normalize: normalizeBorderStartStartRadius,
   },
   borderTop: {
-    className: { dev: 'border-top', prod: 'bdt' },
+    className: {
+      development: 'border-top',
+      test: 'bdt',
+      production: 'bdt',
+    },
     normalize: normalizeBorderTop,
   },
   borderTopLeftRadius: {
-    className: { dev: 'border-top-left-radius', prod: 'btlr' },
+    className: {
+      development: 'border-top-left-radius',
+      test: 'btlr',
+      production: 'btlr',
+    },
     normalize: normalizeBorderTopLeftRadius,
   },
   borderTopRightRadius: {
-    className: { dev: 'border-top-right-radius', prod: 'btrr' },
+    className: {
+      development: 'border-top-right-radius',
+      test: 'btrr',
+      production: 'btrr',
+    },
     normalize: normalizeBorderTopRightRadius,
   },
   bottom: {
-    className: { dev: 'bottom', prod: 'bt' },
+    className: {
+      development: 'bottom',
+      test: 'bt',
+      production: 'bt',
+    },
     normalize: normalizeBottom,
   },
   boxShadow: {
-    className: { dev: 'box-shadow', prod: 'bs' },
+    className: {
+      development: 'box-shadow',
+      test: 'bs',
+      production: 'bs',
+    },
     normalize: normalizeBoxShadow,
   },
   boxSizing: {
-    className: { dev: 'box-sizing', prod: 'bsz' },
+    className: {
+      development: 'box-sizing',
+      test: 'bsz',
+      production: 'bsz',
+    },
     normalize: normalizeBoxSizing,
   },
   breakAfter: {
-    className: { dev: 'break-after', prod: 'ba' },
+    className: {
+      development: 'break-after',
+      test: 'ba',
+      production: 'ba',
+    },
     normalize: normalizeBreakAfter,
   },
   breakBefore: {
-    className: { dev: 'break-before', prod: 'bbf' },
+    className: {
+      development: 'break-before',
+      test: 'bbf',
+      production: 'bbf',
+    },
     normalize: normalizeBreakBefore,
   },
   breakInside: {
-    className: { dev: 'break-inside', prod: 'bbi' },
+    className: {
+      development: 'break-inside',
+      test: 'bbi',
+      production: 'bbi',
+    },
     normalize: normalizeBreakInside,
   },
 
   captionSide: {
-    className: { dev: 'caption-side', prod: 'cps' },
+    className: {
+      development: 'caption-side',
+      test: 'cps',
+      production: 'cps',
+    },
     normalize: normalizeCaptionSide,
   },
   caretColor: {
-    className: { dev: 'caret-color', prod: 'crc' },
+    className: {
+      development: 'caret-color',
+      test: 'crc',
+      production: 'crc',
+    },
     normalize: normalizeCaretColor,
   },
   clear: {
-    className: { dev: 'clear', prod: 'clr' },
+    className: {
+      development: 'clear',
+      test: 'clr',
+      production: 'clr',
+    },
     normalize: normalizeClear,
   },
   clip: {
-    className: { dev: 'clip', prod: 'cl' },
+    className: {
+      development: 'clip',
+      test: 'cl',
+      production: 'cl',
+    },
     normalize: normalizeClip,
   },
   clipPath: {
-    className: { dev: 'clip-path', prod: 'clp' },
+    className: {
+      development: 'clip-path',
+      test: 'clp',
+      production: 'clp',
+    },
     normalize: normalizeClipPath,
   },
   color: {
-    className: { dev: 'color', prod: 'c' },
+    className: {
+      development: 'color',
+      test: 'c',
+      production: 'c',
+    },
     normalize: normalizeColor,
   },
   colorInterpolation: {
-    className: { dev: 'color-interpolation', prod: 'ci' },
+    className: {
+      development: 'color-interpolation',
+      test: 'ci',
+      production: 'ci',
+    },
     normalize: normalizeColorInterpolation,
   },
   colorInterpolationFilters: {
-    className: { dev: 'color-interpolation-filters', prod: 'cif' },
+    className: {
+      development: 'color-interpolation-filters',
+      test: 'cif',
+      production: 'cif',
+    },
     normalize: normalizeColorInterpolationFilters,
   },
   colorScheme: {
-    className: { dev: 'color-scheme', prod: 'cs' },
+    className: {
+      development: 'color-scheme',
+      test: 'cs',
+      production: 'cs',
+    },
     normalize: normalizeColorScheme,
   },
   columnCount: {
-    className: { dev: 'column-count', prod: 'cc' },
+    className: {
+      development: 'column-count',
+      test: 'cc',
+      production: 'cc',
+    },
     normalize: normalizeColumnCount,
   },
   columnFill: {
-    className: { dev: 'column-fill', prod: 'cf' },
+    className: {
+      development: 'column-fill',
+      test: 'cf',
+      production: 'cf',
+    },
     normalize: normalizeColumnFill,
   },
   columnGap: {
-    className: { dev: 'column-gap', prod: 'cg' },
+    className: {
+      development: 'column-gap',
+      test: 'cg',
+      production: 'cg',
+    },
     normalize: normalizeColumnGap,
   },
   columnRule: {
-    className: { dev: 'column-rule', prod: 'cr' },
+    className: {
+      development: 'column-rule',
+      test: 'cr',
+      production: 'cr',
+    },
     normalize: normalizeColumnRule,
   },
   columnSpan: {
-    className: { dev: 'column-span', prod: 'csp' },
+    className: {
+      development: 'column-span',
+      test: 'csp',
+      production: 'csp',
+    },
     normalize: normalizeColumnSpan,
   },
   columnWidth: {
-    className: { dev: 'column-width', prod: 'cw' },
+    className: {
+      development: 'column-width',
+      test: 'cw',
+      production: 'cw',
+    },
     normalize: normalizeColumnWidth,
   },
   contain: {
-    className: { dev: 'contain', prod: 'ctn' },
+    className: {
+      development: 'contain',
+      test: 'ctn',
+      production: 'ctn',
+    },
     normalize: normalizeContain,
   },
   containIntrinsicBlockSize: {
-    className: { dev: 'contain-intrinsic-block-size', prod: 'cib' },
+    className: {
+      development: 'contain-intrinsic-block-size',
+      test: 'cib',
+      production: 'cib',
+    },
     normalize: normalizeContainIntrinsicBlockSize,
   },
   containIntrinsicHeight: {
-    className: { dev: 'contain-intrinsic-height', prod: 'cih' },
+    className: {
+      development: 'contain-intrinsic-height',
+      test: 'cih',
+      production: 'cih',
+    },
     normalize: normalizeContainIntrinsicHeight,
   },
   containIntrinsicInlineSize: {
-    className: { dev: 'contain-intrinsic-inline-size', prod: 'ciis' },
+    className: {
+      development: 'contain-intrinsic-inline-size',
+      test: 'ciis',
+      production: 'ciis',
+    },
     normalize: normalizeContainIntrinsicInlineSize,
   },
   containIntrinsicSize: {
-    className: { dev: 'contain-intrinsic-size', prod: 'cis' },
+    className: {
+      development: 'contain-intrinsic-size',
+      test: 'cis',
+      production: 'cis',
+    },
     normalize: normalizeContainIntrinsicSize,
   },
   containIntrinsicWidth: {
-    className: { dev: 'contain-intrinsic-width', prod: 'ciw' },
+    className: {
+      development: 'contain-intrinsic-width',
+      test: 'ciw',
+      production: 'ciw',
+    },
     normalize: normalizeContainIntrinsicWidth,
   },
   container: {
-    className: { dev: 'container', prod: 'cn' },
+    className: {
+      development: 'container',
+      test: 'cn',
+      production: 'cn',
+    },
     normalize: normalizeContainer,
   },
   content: {
-    className: { dev: 'content', prod: 'cnt' },
+    className: {
+      development: 'content',
+      test: 'cnt',
+      production: 'cnt',
+    },
     normalize: normalizeContent,
   },
   contentVisibility: {
-    className: { dev: 'content-visibility', prod: 'cv' },
+    className: {
+      development: 'content-visibility',
+      test: 'cv',
+      production: 'cv',
+    },
     normalize: normalizeContentVisibility,
   },
   counterIncrement: {
-    className: { dev: 'counter-increment', prod: 'cin' },
+    className: {
+      development: 'counter-increment',
+      test: 'cin',
+      production: 'cin',
+    },
     normalize: normalizeCounterIncrement,
   },
   counterReset: {
-    className: { dev: 'counter-reset', prod: 'cre' },
+    className: {
+      development: 'counter-reset',
+      test: 'cre',
+      production: 'cre',
+    },
     normalize: normalizeCounterReset,
   },
   counterSet: {
-    className: { dev: 'counter-set', prod: 'cse' },
+    className: {
+      development: 'counter-set',
+      test: 'cse',
+      production: 'cse',
+    },
     normalize: normalizeCounterSet,
   },
   cursor: {
-    className: { dev: 'cursor', prod: 'cur' },
+    className: {
+      development: 'cursor',
+      test: 'cur',
+      production: 'cur',
+    },
     normalize: normalizeCursor,
   },
   cx: {
-    className: { dev: 'cx', prod: 'cx' },
+    className: {
+      development: 'cx',
+      test: 'cx',
+      production: 'cx',
+    },
     normalize: normalizeCx,
   },
   cy: {
-    className: { dev: 'cy', prod: 'cy' },
+    className: {
+      development: 'cy',
+      test: 'cy',
+      production: 'cy',
+    },
     normalize: normalizeCy,
   },
   d: {
-    className: { dev: 'd', prod: 'd' },
+    className: {
+      development: 'd',
+      test: 'd',
+      production: 'd',
+    },
     normalize: normalizeD,
   },
   direction: {
-    className: { dev: 'direction', prod: 'dir' },
+    className: {
+      development: 'direction',
+      test: 'dir',
+      production: 'dir',
+    },
     normalize: normalizeDirection,
   },
   dominantBaseline: {
-    className: { dev: 'dominant-baseline', prod: 'db' },
+    className: {
+      development: 'dominant-baseline',
+      test: 'db',
+      production: 'db',
+    },
     normalize: normalizeDominantBaseline,
   },
   emptyCells: {
-    className: { dev: 'empty-cells', prod: 'ec' },
+    className: {
+      development: 'empty-cells',
+      test: 'ec',
+      production: 'ec',
+    },
     normalize: normalizeEmptyCells,
   },
   display: {
-    className: { dev: 'display', prod: 'ds' },
+    className: {
+      development: 'display',
+      test: 'ds',
+      production: 'ds',
+    },
     normalize: normalizeDisplay,
   },
   flex: {
-    className: { dev: 'flex', prod: 'fx' },
+    className: {
+      development: 'flex',
+      test: 'fx',
+      production: 'fx',
+    },
     normalize: normalizeFlex,
   },
   flexBasis: {
-    className: { dev: 'flex-basis', prod: 'fb' },
+    className: {
+      development: 'flex-basis',
+      test: 'fb',
+      production: 'fb',
+    },
     normalize: normalizeFlexBasis,
   },
   flexDirection: {
-    className: { dev: 'flex-direction', prod: 'fd' },
+    className: {
+      development: 'flex-direction',
+      test: 'fd',
+      production: 'fd',
+    },
     normalize: normalizeFlexDirection,
   },
   flexGrow: {
-    className: { dev: 'flex-grow', prod: 'fg' },
+    className: {
+      development: 'flex-grow',
+      test: 'fg',
+      production: 'fg',
+    },
     normalize: normalizeFlexGrow,
   },
   flexShrink: {
-    className: { dev: 'flex-shrink', prod: 'fsh' },
+    className: {
+      development: 'flex-shrink',
+      test: 'fsh',
+      production: 'fsh',
+    },
     normalize: normalizeFlexShrink,
   },
   fontVariant: {
-    className: { dev: 'font-variant', prod: 'fv' },
+    className: {
+      development: 'font-variant',
+      test: 'fv',
+      production: 'fv',
+    },
     normalize: normalizeFontVariant,
   },
   fontWeight: {
-    className: { dev: 'font-weight', prod: 'fw' },
+    className: {
+      development: 'font-weight',
+      test: 'fw',
+      production: 'fw',
+    },
     normalize: normalizeFontWeight,
   },
   flexWrap: {
-    className: { dev: 'flex-wrap', prod: 'fwr' },
+    className: {
+      development: 'flex-wrap',
+      test: 'fwr',
+      production: 'fwr',
+    },
     normalize: normalizeFlexWrap,
   },
   fieldSizing: {
-    className: { dev: 'field-sizing', prod: 'fiz' },
+    className: {
+      development: 'field-sizing',
+      test: 'fiz',
+      production: 'fiz',
+    },
     normalize: normalizeFieldSizing,
   },
   fill: {
-    className: { dev: 'fill', prod: 'fl' },
+    className: {
+      development: 'fill',
+      test: 'fl',
+      production: 'fl',
+    },
     normalize: normalizeFill,
   },
   fillOpacity: {
-    className: { dev: 'fill-opacity', prod: 'fop' },
+    className: {
+      development: 'fill-opacity',
+      test: 'fop',
+      production: 'fop',
+    },
     normalize: normalizeFillOpacity,
   },
   fillRule: {
-    className: { dev: 'fill-rule', prod: 'fr' },
+    className: {
+      development: 'fill-rule',
+      test: 'fr',
+      production: 'fr',
+    },
     normalize: normalizeFillRule,
   },
   filter: {
-    className: { dev: 'filter', prod: 'fil' },
+    className: {
+      development: 'filter',
+      test: 'fil',
+      production: 'fil',
+    },
     normalize: normalizeFilter,
   },
   float: {
-    className: { dev: 'float', prod: 'flo' },
+    className: {
+      development: 'float',
+      test: 'flo',
+      production: 'flo',
+    },
     normalize: normalizeFloat,
   },
   floodColor: {
-    className: { dev: 'flood-color', prod: 'fc' },
+    className: {
+      development: 'flood-color',
+      test: 'fc',
+      production: 'fc',
+    },
     normalize: normalizeFloodColor,
   },
   floodOpacity: {
-    className: { dev: 'flood-opacity', prod: 'fo' },
+    className: {
+      development: 'flood-opacity',
+      test: 'fo',
+      production: 'fo',
+    },
     normalize: normalizeFloodOpacity,
   },
   font: {
-    className: { dev: 'font', prod: 'fnt' },
+    className: {
+      development: 'font',
+      test: 'fnt',
+      production: 'fnt',
+    },
     normalize: normalizeFont,
   },
   fontFamily: {
-    className: { dev: 'font-family', prod: 'ff' },
+    className: {
+      development: 'font-family',
+      test: 'ff',
+      production: 'ff',
+    },
     normalize: normalizeFontFamily,
   },
   fontSize: {
-    className: { dev: 'font-size', prod: 'fz' },
+    className: {
+      development: 'font-size',
+      test: 'fz',
+      production: 'fz',
+    },
     normalize: normalizeFontSize,
   },
   fontStretch: {
-    className: { dev: 'font-stretch', prod: 'fst' },
+    className: {
+      development: 'font-stretch',
+      test: 'fst',
+      production: 'fst',
+    },
     normalize: normalizeFontStretch,
   },
   fontStyle: {
-    className: { dev: 'font-style', prod: 'fs' },
+    className: {
+      development: 'font-style',
+      test: 'fs',
+      production: 'fs',
+    },
     normalize: normalizeFontStyle,
   },
   fontFeatureSettings: {
-    className: { dev: 'font-feature-settings', prod: 'ffs' },
+    className: {
+      development: 'font-feature-settings',
+      test: 'ffs',
+      production: 'ffs',
+    },
     normalize: normalizeFontFeatureSettings,
   },
   fontKerning: {
-    className: { dev: 'font-kerning', prod: 'fk' },
+    className: {
+      development: 'font-kerning',
+      test: 'fk',
+      production: 'fk',
+    },
     normalize: normalizeFontKerning,
   },
   fontLanguageOverride: {
-    className: { dev: 'font-language-override', prod: 'flov' },
+    className: {
+      development: 'font-language-override',
+      test: 'flov',
+      production: 'flov',
+    },
     normalize: normalizeFontLanguageOverride,
   },
   fontOpticalSizing: {
-    className: { dev: 'font-optical-sizing', prod: 'fos' },
+    className: {
+      development: 'font-optical-sizing',
+      test: 'fos',
+      production: 'fos',
+    },
     normalize: normalizeFontOpticalSizing,
   },
   fontPalette: {
-    className: { dev: 'font-palette', prod: 'fp' },
+    className: {
+      development: 'font-palette',
+      test: 'fp',
+      production: 'fp',
+    },
     normalize: normalizeFontPalette,
   },
   fontSizeAdjust: {
-    className: { dev: 'font-size-adjust', prod: 'fsa' },
+    className: {
+      development: 'font-size-adjust',
+      test: 'fsa',
+      production: 'fsa',
+    },
     normalize: normalizeFontSizeAdjust,
   },
   fontSynthesisSmallCaps: {
-    className: { dev: 'font-synthesis-small-caps', prod: 'fssc' },
+    className: {
+      development: 'font-synthesis-small-caps',
+      test: 'fssc',
+      production: 'fssc',
+    },
     normalize: normalizeFontSynthesisSmallCaps,
   },
   fontSynthesisStyle: {
-    className: { dev: 'font-synthesis-style', prod: 'fss' },
+    className: {
+      development: 'font-synthesis-style',
+      test: 'fss',
+      production: 'fss',
+    },
     normalize: normalizeFontSynthesisStyle,
   },
   fontSynthesisWeight: {
-    className: { dev: 'font-synthesis-weight', prod: 'fsw' },
+    className: {
+      development: 'font-synthesis-weight',
+      test: 'fsw',
+      production: 'fsw',
+    },
     normalize: normalizeFontSynthesisWeight,
   },
   fontVariantAlternates: {
-    className: { dev: 'font-variant-alternates', prod: 'fva' },
+    className: {
+      development: 'font-variant-alternates',
+      test: 'fva',
+      production: 'fva',
+    },
     normalize: normalizeFontVariantAlternates,
   },
   fontVariantCaps: {
-    className: { dev: 'font-variant-caps', prod: 'fvc' },
+    className: {
+      development: 'font-variant-caps',
+      test: 'fvc',
+      production: 'fvc',
+    },
     normalize: normalizeFontVariantCaps,
   },
   fontVariantEastAsian: {
-    className: { dev: 'font-variant-east-asian', prod: 'fvea' },
+    className: {
+      development: 'font-variant-east-asian',
+      test: 'fvea',
+      production: 'fvea',
+    },
     normalize: normalizeFontVariantEastAsian,
   },
   fontVariantLigatures: {
-    className: { dev: 'font-variant-ligatures', prod: 'fvl' },
+    className: {
+      development: 'font-variant-ligatures',
+      test: 'fvl',
+      production: 'fvl',
+    },
     normalize: normalizeFontVariantLigatures,
   },
   fontVariantNumeric: {
-    className: { dev: 'font-variant-numeric', prod: 'fvn' },
+    className: {
+      development: 'font-variant-numeric',
+      test: 'fvn',
+      production: 'fvn',
+    },
     normalize: normalizeFontVariantNumeric,
   },
   fontVariantPosition: {
-    className: { dev: 'font-variant-position', prod: 'fvp' },
+    className: {
+      development: 'font-variant-position',
+      test: 'fvp',
+      production: 'fvp',
+    },
     normalize: normalizeFontVariantPosition,
   },
   fontVariationSettings: {
-    className: { dev: 'font-variation-settings', prod: 'fvs' },
+    className: {
+      development: 'font-variation-settings',
+      test: 'fvs',
+      production: 'fvs',
+    },
     normalize: normalizeFontVariationSettings,
   },
   forcedColorAdjust: {
-    className: { dev: 'forced-color-adjust', prod: 'fca' },
+    className: {
+      development: 'forced-color-adjust',
+      test: 'fca',
+      production: 'fca',
+    },
     normalize: normalizeForcedColorAdjust,
   },
   gap: {
-    className: { dev: 'gap', prod: 'gp' },
+    className: {
+      development: 'gap',
+      test: 'gp',
+      production: 'gp',
+    },
     normalize: normalizeGap,
   },
   gridAutoColumns: {
-    className: { dev: 'grid-auto-columns', prod: 'gac' },
+    className: {
+      development: 'grid-auto-columns',
+      test: 'gac',
+      production: 'gac',
+    },
     normalize: normalizeGridAutoColumns,
   },
   gridAutoFlow: {
-    className: { dev: 'grid-auto-flow', prod: 'gaf' },
+    className: {
+      development: 'grid-auto-flow',
+      test: 'gaf',
+      production: 'gaf',
+    },
     normalize: normalizeGridAutoFlow,
   },
   gridAutoRows: {
-    className: { dev: 'grid-auto-rows', prod: 'gar' },
+    className: {
+      development: 'grid-auto-rows',
+      test: 'gar',
+      production: 'gar',
+    },
     normalize: normalizeGridAutoRows,
   },
   gridColumn: {
-    className: { dev: 'grid-column', prod: 'gc' },
+    className: {
+      development: 'grid-column',
+      test: 'gc',
+      production: 'gc',
+    },
     normalize: normalizeGridColumn,
   },
   gridRow: {
-    className: { dev: 'grid-row', prod: 'gr' },
+    className: {
+      development: 'grid-row',
+      test: 'gr',
+      production: 'gr',
+    },
     normalize: normalizeGridRow,
   },
   gridTemplate: {
-    className: { dev: 'grid-template', prod: 'gt' },
+    className: {
+      development: 'grid-template',
+      test: 'gt',
+      production: 'gt',
+    },
     normalize: normalizeGridTemplate,
   },
   gridTemplateColumns: {
-    className: { dev: 'grid-template-columns', prod: 'gtc' },
+    className: {
+      development: 'grid-template-columns',
+      test: 'gtc',
+      production: 'gtc',
+    },
     normalize: normalizeGridTemplateColumns,
   },
   gridTemplateRows: {
-    className: { dev: 'grid-template-rows', prod: 'gtr' },
+    className: {
+      development: 'grid-template-rows',
+      test: 'gtr',
+      production: 'gtr',
+    },
     normalize: normalizeGridTemplateRows,
   },
   gridTemplateAreas: {
-    className: { dev: 'grid-template-areas', prod: 'gta' },
+    className: {
+      development: 'grid-template-areas',
+      test: 'gta',
+      production: 'gta',
+    },
     normalize: normalizeGridTemplateAreas,
   },
   height: {
-    className: { dev: 'height', prod: 'h' },
+    className: {
+      development: 'height',
+      test: 'h',
+      production: 'h',
+    },
     normalize: normalizeHeight,
   },
   hyphenateCharacter: {
-    className: { dev: 'hyphenate-character', prod: 'hc' },
+    className: {
+      development: 'hyphenate-character',
+      test: 'hc',
+      production: 'hc',
+    },
     normalize: normalizeHyphenateCharacter,
   },
   hyphens: {
-    className: { dev: 'hyphens', prod: 'hy' },
+    className: {
+      development: 'hyphens',
+      test: 'hy',
+      production: 'hy',
+    },
     normalize: normalizeHyphens,
   },
   imageOrientation: {
-    className: { dev: 'image-orientation', prod: 'io' },
+    className: {
+      development: 'image-orientation',
+      test: 'io',
+      production: 'io',
+    },
     normalize: normalizeImageOrientation,
   },
   imageRendering: {
-    className: { dev: 'image-rendering', prod: 'ir' },
+    className: {
+      development: 'image-rendering',
+      test: 'ir',
+      production: 'ir',
+    },
     normalize: normalizeImageRendering,
   },
   inlineSize: {
-    className: { dev: 'inline-size', prod: 'is' },
+    className: {
+      development: 'inline-size',
+      test: 'is',
+      production: 'is',
+    },
     normalize: normalizeInlineSize,
   },
   inset: {
-    className: { dev: 'inset', prod: 'i' },
+    className: {
+      development: 'inset',
+      test: 'i',
+      production: 'i',
+    },
     normalize: normalizeInset,
   },
   insetBlock: {
-    className: { dev: 'inset-block', prod: 'ib' },
+    className: {
+      development: 'inset-block',
+      test: 'ib',
+      production: 'ib',
+    },
     normalize: normalizeInsetBlock,
   },
   insetInline: {
-    className: { dev: 'inset-inline', prod: 'ii' },
+    className: {
+      development: 'inset-inline',
+      test: 'ii',
+      production: 'ii',
+    },
     normalize: normalizeInsetInline,
   },
   isolation: {
-    className: { dev: 'isolation', prod: 'iso' },
+    className: {
+      development: 'isolation',
+      test: 'iso',
+      production: 'iso',
+    },
     normalize: normalizeIsolation,
   },
   justifyContent: {
-    className: { dev: 'justify-content', prod: 'jc' },
+    className: {
+      development: 'justify-content',
+      test: 'jc',
+      production: 'jc',
+    },
     normalize: normalizeJustifyContent,
   },
   justifyItems: {
-    className: { dev: 'justify-items', prod: 'ji' },
+    className: {
+      development: 'justify-items',
+      test: 'ji',
+      production: 'ji',
+    },
     normalize: normalizeJustifyItems,
   },
   justifySelf: {
-    className: { dev: 'justify-self', prod: 'js' },
+    className: {
+      development: 'justify-self',
+      test: 'js',
+      production: 'js',
+    },
     normalize: normalizeJustifySelf,
   },
   left: {
-    className: { dev: 'left', prod: 'lf' },
+    className: {
+      development: 'left',
+      test: 'lf',
+      production: 'lf',
+    },
     normalize: normalizeLeft,
   },
   right: {
-    className: { dev: 'right', prod: 'r' },
+    className: {
+      development: 'right',
+      test: 'r',
+      production: 'r',
+    },
     normalize: normalizeRight,
   },
   top: {
-    className: { dev: 'top', prod: 'tp' },
+    className: {
+      development: 'top',
+      test: 'tp',
+      production: 'tp',
+    },
     normalize: normalizeTop,
   },
   letterSpacing: {
-    className: { dev: 'letter-spacing', prod: 'ls' },
+    className: {
+      development: 'letter-spacing',
+      test: 'ls',
+      production: 'ls',
+    },
     normalize: normalizeLetterSpacing,
   },
   lightingColor: {
-    className: { dev: 'lighting-color', prod: 'lc' },
+    className: {
+      development: 'lighting-color',
+      test: 'lc',
+      production: 'lc',
+    },
     normalize: normalizeLightingColor,
   },
   lineBreak: {
-    className: { dev: 'line-break', prod: 'lb' },
+    className: {
+      development: 'line-break',
+      test: 'lb',
+      production: 'lb',
+    },
     normalize: normalizeLineBreak,
   },
   lineHeight: {
-    className: { dev: 'line-height', prod: 'lh' },
+    className: {
+      development: 'line-height',
+      test: 'lh',
+      production: 'lh',
+    },
     normalize: normalizeLineHeight,
   },
   listStyle: {
-    className: { dev: 'list-style', prod: 'lst' },
+    className: {
+      development: 'list-style',
+      test: 'lst',
+      production: 'lst',
+    },
     normalize: normalizeListStyle,
   },
   marginBlock: {
-    className: { dev: 'margin-block', prod: 'mb' },
+    className: {
+      development: 'margin-block',
+      test: 'mb',
+      production: 'mb',
+    },
     normalize: normalizeMarginBlock,
   },
   marginInline: {
-    className: { dev: 'margin-inline', prod: 'mi' },
+    className: {
+      development: 'margin-inline',
+      test: 'mi',
+      production: 'mi',
+    },
     normalize: normalizeMarginInline,
   },
   mask: {
-    className: { dev: 'mask', prod: 'mk' },
+    className: {
+      development: 'mask',
+      test: 'mk',
+      production: 'mk',
+    },
     normalize: normalizeMask,
   },
   maskClip: {
-    className: { dev: 'mask-clip', prod: 'mc' },
+    className: {
+      development: 'mask-clip',
+      test: 'mc',
+      production: 'mc',
+    },
     normalize: normalizeMaskClip,
   },
   mathStyle: {
-    className: { dev: 'math-style', prod: 'ms' },
+    className: {
+      development: 'math-style',
+      test: 'ms',
+      production: 'ms',
+    },
     normalize: normalizeMathStyle,
   },
   maxBlockSize: {
-    className: { dev: 'max-block-size', prod: 'mxbs' },
+    className: {
+      development: 'max-block-size',
+      test: 'mxbs',
+      production: 'mxbs',
+    },
     normalize: normalizeMaxBlockSize,
   },
   maxHeight: {
-    className: { dev: 'max-height', prod: 'mxh' },
+    className: {
+      development: 'max-height',
+      test: 'mxh',
+      production: 'mxh',
+    },
     normalize: normalizeMaxHeight,
   },
   maxInlineSize: {
-    className: { dev: 'max-inline-size', prod: 'mxis' },
+    className: {
+      development: 'max-inline-size',
+      test: 'mxis',
+      production: 'mxis',
+    },
     normalize: normalizeMaxInlineSize,
   },
   maxWidth: {
-    className: { dev: 'max-width', prod: 'mxw' },
+    className: {
+      development: 'max-width',
+      test: 'mxw',
+      production: 'mxw',
+    },
     normalize: normalizeMaxWidth,
   },
   minBlockSize: {
-    className: { dev: 'min-block-size', prod: 'mibs' },
+    className: {
+      development: 'min-block-size',
+      test: 'mibs',
+      production: 'mibs',
+    },
     normalize: normalizeMinBlockSize,
   },
   minHeight: {
-    className: { dev: 'min-height', prod: 'mih' },
+    className: {
+      development: 'min-height',
+      test: 'mih',
+      production: 'mih',
+    },
     normalize: normalizeMinHeight,
   },
   minInlineSize: {
-    className: { dev: 'min-inline-size', prod: 'miis' },
+    className: {
+      development: 'min-inline-size',
+      test: 'miis',
+      production: 'miis',
+    },
     normalize: normalizeMinInlineSize,
   },
   minWidth: {
-    className: { dev: 'min-width', prod: 'miw' },
+    className: {
+      development: 'min-width',
+      test: 'miw',
+      production: 'miw',
+    },
     normalize: normalizeMinWidth,
   },
   mixBlendMode: {
-    className: { dev: 'mix-blend-mode', prod: 'mbm' },
+    className: {
+      development: 'mix-blend-mode',
+      test: 'mbm',
+      production: 'mbm',
+    },
     normalize: normalizeMixBlendMode,
   },
   objectFit: {
-    className: { dev: 'object-fit', prod: 'of' },
+    className: {
+      development: 'object-fit',
+      test: 'of',
+      production: 'of',
+    },
     normalize: normalizeObjectFit,
   },
   objectPosition: {
-    className: { dev: 'object-position', prod: 'op' },
+    className: {
+      development: 'object-position',
+      test: 'op',
+      production: 'op',
+    },
     normalize: normalizeObjectPosition,
   },
   offsetAnchor: {
-    className: { dev: 'offset-anchor', prod: 'oa' },
+    className: {
+      development: 'offset-anchor',
+      test: 'oa',
+      production: 'oa',
+    },
     normalize: normalizeOffsetAnchor,
   },
   offset: {
-    className: { dev: 'offset', prod: 'ofst' },
+    className: {
+      development: 'offset',
+      test: 'ofst',
+      production: 'ofst',
+    },
     normalize: normalizeOffset,
   },
   opacity: {
-    className: { dev: 'opacity', prod: 'o' },
+    className: {
+      development: 'opacity',
+      test: 'o',
+      production: 'o',
+    },
     normalize: normalizeOpacity,
   },
   order: {
-    className: { dev: 'order', prod: 'or' },
+    className: {
+      development: 'order',
+      test: 'or',
+      production: 'or',
+    },
     normalize: normalizeOrder,
   },
   outline: {
-    className: { dev: 'outline', prod: 'ol' },
+    className: {
+      development: 'outline',
+      test: 'ol',
+      production: 'ol',
+    },
     normalize: normalizeOutline,
   },
   outlineOffset: {
-    className: { dev: 'outline-offset', prod: 'oo' },
+    className: {
+      development: 'outline-offset',
+      test: 'oo',
+      production: 'oo',
+    },
     normalize: normalizeOutlineOffset,
   },
   overflow: {
-    className: { dev: 'overflow', prod: 'ov' },
+    className: {
+      development: 'overflow',
+      test: 'ov',
+      production: 'ov',
+    },
     normalize: normalizeOverflow,
   },
   overscrollBehavior: {
-    className: { dev: 'overscroll-behavior', prod: 'osb' },
+    className: {
+      development: 'overscroll-behavior',
+      test: 'osb',
+      production: 'osb',
+    },
     normalize: normalizeOverscrollBehavior,
   },
   overscrollBehaviorBlock: {
-    className: { dev: 'overscroll-behavior-block', prod: 'osbb' },
+    className: {
+      development: 'overscroll-behavior-block',
+      test: 'osbb',
+      production: 'osbb',
+    },
     normalize: normalizeOverscrollBehaviorBlock,
   },
   overscrollBehaviorInline: {
-    className: { dev: 'overscroll-behavior-inline', prod: 'osbi' },
+    className: {
+      development: 'overscroll-behavior-inline',
+      test: 'osbi',
+      production: 'osbi',
+    },
     normalize: normalizeOverscrollBehaviorInline,
   },
   perspective: {
-    className: { dev: 'perspective', prod: 'pp' },
+    className: {
+      development: 'perspective',
+      test: 'pp',
+      production: 'pp',
+    },
     normalize: normalizePerspective,
   },
   perspectiveOrigin: {
-    className: { dev: 'perspective-origin', prod: 'po' },
+    className: {
+      development: 'perspective-origin',
+      test: 'po',
+      production: 'po',
+    },
     normalize: normalizePerspectiveOrigin,
   },
   placeContent: {
-    className: { dev: 'place-content', prod: 'pc' },
+    className: {
+      development: 'place-content',
+      test: 'pc',
+      production: 'pc',
+    },
     normalize: normalizePlaceContent,
   },
   placeItems: {
-    className: { dev: 'place-items', prod: 'pi' },
+    className: {
+      development: 'place-items',
+      test: 'pi',
+      production: 'pi',
+    },
     normalize: normalizePlaceItems,
   },
   placeSelf: {
-    className: { dev: 'place-self', prod: 'ps' },
+    className: {
+      development: 'place-self',
+      test: 'ps',
+      production: 'ps',
+    },
     normalize: normalizePlaceSelf,
   },
   pointerEvents: {
-    className: { dev: 'pointer-events', prod: 'pe' },
+    className: {
+      development: 'pointer-events',
+      test: 'pe',
+      production: 'pe',
+    },
     normalize: normalizePointerEvents,
   },
   position: {
-    className: { dev: 'position', prod: 'pos' },
+    className: {
+      development: 'position',
+      test: 'pos',
+      production: 'pos',
+    },
     normalize: normalizePosition,
   },
   quotes: {
-    className: { dev: 'quotes', prod: 'q' },
+    className: {
+      development: 'quotes',
+      test: 'q',
+      production: 'q',
+    },
     normalize: normalizeQuotes,
   },
   resize: {
-    className: { dev: 'resize', prod: 'rs' },
+    className: {
+      development: 'resize',
+      test: 'rs',
+      production: 'rs',
+    },
     normalize: normalizeResize,
   },
   rotate: {
-    className: { dev: 'rotate', prod: 'rt' },
+    className: {
+      development: 'rotate',
+      test: 'rt',
+      production: 'rt',
+    },
     normalize: normalizeRotate,
   },
   rubyAlign: {
     className: {
-      dev: 'ruby-align',
-      prod: 'ra',
+      development: 'ruby-align',
+      test: 'ra',
+      production: 'ra',
     },
     normalize: normalizeRubyAlign,
   },
   rubyPosition: {
-    className: { dev: 'ruby-position', prod: 'rp' },
+    className: {
+      development: 'ruby-position',
+      test: 'rp',
+      production: 'rp',
+    },
     normalize: normalizeRubyPosition,
   },
   scale: {
-    className: { dev: 'scale', prod: 's' },
+    className: {
+      development: 'scale',
+      test: 's',
+      production: 's',
+    },
     normalize: normalizeScale,
   },
   scrollBehavior: {
-    className: { dev: 'scroll-behavior', prod: 'sb' },
+    className: {
+      development: 'scroll-behavior',
+      test: 'sb',
+      production: 'sb',
+    },
     normalize: normalizeScrollBehavior,
   },
   scrollMargin: {
-    className: { dev: 'scroll-margin', prod: 'sm' },
+    className: {
+      development: 'scroll-margin',
+      test: 'sm',
+      production: 'sm',
+    },
     normalize: normalizeScrollMargin,
   },
   scrollPadding: {
-    className: { dev: 'scroll-padding', prod: 'sp' },
+    className: {
+      development: 'scroll-padding',
+      test: 'sp',
+      production: 'sp',
+    },
     normalize: normalizeScrollPadding,
   },
   scrollSnapAlign: {
-    className: { dev: 'scroll-snap-align', prod: 'ssa' },
+    className: {
+      development: 'scroll-snap-align',
+      test: 'ssa',
+      production: 'ssa',
+    },
     normalize: normalizeScrollSnapAlign,
   },
   scrollSnapStop: {
-    className: { dev: 'scroll-snap-stop', prod: 'sss' },
+    className: {
+      development: 'scroll-snap-stop',
+      test: 'sss',
+      production: 'sss',
+    },
     normalize: normalizeScrollSnapStop,
   },
   scrollSnapType: {
-    className: { dev: 'scroll-snap-type', prod: 'sst' },
+    className: {
+      development: 'scroll-snap-type',
+      test: 'sst',
+      production: 'sst',
+    },
     normalize: normalizeScrollSnapType,
   },
   scrollTimeline: {
-    className: { dev: 'scroll-timeline', prod: 'st' },
+    className: {
+      development: 'scroll-timeline',
+      test: 'st',
+      production: 'st',
+    },
     normalize: normalizeScrollTimeline,
   },
   scrollTimelineAxis: {
-    className: { dev: 'scroll-timeline-axis', prod: 'sta' },
+    className: {
+      development: 'scroll-timeline-axis',
+      test: 'sta',
+      production: 'sta',
+    },
     normalize: normalizeScrollTimelineAxis,
   },
   scrollTimelineName: {
-    className: { dev: 'scroll-timeline-name', prod: 'stn' },
+    className: {
+      development: 'scroll-timeline-name',
+      test: 'stn',
+      production: 'stn',
+    },
     normalize: normalizeScrollTimelineName,
   },
   scrollbarColor: {
-    className: { dev: 'scrollbar-color', prod: 'sc' },
+    className: {
+      development: 'scrollbar-color',
+      test: 'sc',
+      production: 'sc',
+    },
     normalize: normalizeScrollbarColor,
   },
   scrollbarGutter: {
-    className: { dev: 'scrollbar-gutter', prod: 'sg' },
+    className: {
+      development: 'scrollbar-gutter',
+      test: 'sg',
+      production: 'sg',
+    },
     normalize: normalizeScrollbarGutter,
   },
   scrollbarWidth: {
-    className: { dev: 'scrollbar-width', prod: 'sw' },
+    className: {
+      development: 'scrollbar-width',
+      test: 'sw',
+      production: 'sw',
+    },
     normalize: normalizeScrollbarWidth,
   },
   shapeImageThreshold: {
-    className: { dev: 'shape-image-threshold', prod: 'sit' },
+    className: {
+      development: 'shape-image-threshold',
+      test: 'sit',
+      production: 'sit',
+    },
     normalize: normalizeShapeImageThreshold,
   },
   shapeMargin: {
-    className: { dev: 'shape-margin', prod: 'smg' },
+    className: {
+      development: 'shape-margin',
+      test: 'smg',
+      production: 'smg',
+    },
     normalize: normalizeShapeMargin,
   },
   shapeOutside: {
-    className: { dev: 'shape-outside', prod: 'so' },
+    className: {
+      development: 'shape-outside',
+      test: 'so',
+      production: 'so',
+    },
     normalize: normalizeShapeOutside,
   },
   shapeRendering: {
-    className: { dev: 'shape-rendering', prod: 'sr' },
+    className: {
+      development: 'shape-rendering',
+      test: 'sr',
+      production: 'sr',
+    },
     normalize: normalizeShapeRendering,
   },
   stopColor: {
-    className: { dev: 'stop-color', prod: 'stc' },
+    className: {
+      development: 'stop-color',
+      test: 'stc',
+      production: 'stc',
+    },
     normalize: normalizeStopColor,
   },
   stopOpacity: {
-    className: { dev: 'stop-opacity', prod: 'sto' },
+    className: {
+      development: 'stop-opacity',
+      test: 'sto',
+      production: 'sto',
+    },
     normalize: normalizeStopOpacity,
   },
   stroke: {
-    className: { dev: 'stroke', prod: 'str' },
+    className: {
+      development: 'stroke',
+      test: 'str',
+      production: 'str',
+    },
     normalize: normalizeStroke,
   },
   strokeDasharray: {
-    className: { dev: 'stroke-dasharray', prod: 'sda' },
+    className: {
+      development: 'stroke-dasharray',
+      test: 'sda',
+      production: 'sda',
+    },
     normalize: normalizeStrokeDasharray,
   },
   strokeDashoffset: {
-    className: { dev: 'stroke-dashoffset', prod: 'sdo' },
+    className: {
+      development: 'stroke-dashoffset',
+      test: 'sdo',
+      production: 'sdo',
+    },
     normalize: normalizeStrokeDashoffset,
   },
   strokeLinecap: {
-    className: { dev: 'stroke-linecap', prod: 'slc' },
+    className: {
+      development: 'stroke-linecap',
+      test: 'slc',
+      production: 'slc',
+    },
     normalize: normalizeStrokeLinecap,
   },
   strokeLinejoin: {
-    className: { dev: 'stroke-linejoin', prod: 'slj' },
+    className: {
+      development: 'stroke-linejoin',
+      test: 'slj',
+      production: 'slj',
+    },
     normalize: normalizeStrokeLinejoin,
   },
   strokeMiterlimit: {
-    className: { dev: 'stroke-miterlimit', prod: 'sml' },
+    className: {
+      development: 'stroke-miterlimit',
+      test: 'sml',
+      production: 'sml',
+    },
     normalize: normalizeStrokeMiterlimit,
   },
   strokeOpacity: {
-    className: { dev: 'stroke-opacity', prod: 'sop' },
+    className: {
+      development: 'stroke-opacity',
+      test: 'sop',
+      production: 'sop',
+    },
     normalize: normalizeStrokeOpacity,
   },
   strokeWidth: {
-    className: { dev: 'stroke-width', prod: 'swi' },
+    className: {
+      development: 'stroke-width',
+      test: 'swi',
+      production: 'swi',
+    },
     normalize: normalizeStrokeWidth,
   },
   tabSize: {
-    className: { dev: 'tab-size', prod: 'txs' },
+    className: {
+      development: 'tab-size',
+      test: 'txs',
+      production: 'txs',
+    },
     normalize: normalizeTabSize,
   },
   tableLayout: {
-    className: { dev: 'table-layout', prod: 'tl' },
+    className: {
+      development: 'table-layout',
+      test: 'tl',
+      production: 'tl',
+    },
     normalize: normalizeTableLayout,
   },
   textAlign: {
-    className: { dev: 'text-align', prod: 'ta' },
+    className: {
+      development: 'text-align',
+      test: 'ta',
+      production: 'ta',
+    },
     normalize: normalizeTextAlign,
   },
   textAlignLast: {
-    className: { dev: 'text-align-last', prod: 'tal' },
+    className: {
+      development: 'text-align-last',
+      test: 'tal',
+      production: 'tal',
+    },
     normalize: normalizeTextAlignLast,
   },
   textAnchor: {
-    className: { dev: 'text-anchor', prod: 'tan' },
+    className: {
+      development: 'text-anchor',
+      test: 'tan',
+      production: 'tan',
+    },
     normalize: normalizeTextAnchor,
   },
   textCombineUpright: {
-    className: { dev: 'text-combine-upright', prod: 'tcu' },
+    className: {
+      development: 'text-combine-upright',
+      test: 'tcu',
+      production: 'tcu',
+    },
     normalize: normalizeTextCombineUpright,
   },
   textDecoration: {
-    className: { dev: 'text-decoration', prod: 'td' },
+    className: {
+      development: 'text-decoration',
+      test: 'td',
+      production: 'td',
+    },
     normalize: normalizeTextDecoration,
   },
   textEmphasis: {
-    className: { dev: 'text-emphasis', prod: 'te' },
+    className: {
+      development: 'text-emphasis',
+      test: 'te',
+      production: 'te',
+    },
     normalize: normalizeTextEmphasis,
   },
   textIndent: {
-    className: { dev: 'text-indent', prod: 'ti' },
+    className: {
+      development: 'text-indent',
+      test: 'ti',
+      production: 'ti',
+    },
     normalize: normalizeTextIndent,
   },
   textJustify: {
-    className: { dev: 'text-justify', prod: 'tj' },
+    className: {
+      development: 'text-justify',
+      test: 'tj',
+      production: 'tj',
+    },
     normalize: normalizeTextJustify,
   },
   textOrientation: {
-    className: { dev: 'text-orientation', prod: 'to' },
+    className: {
+      development: 'text-orientation',
+      test: 'to',
+      production: 'to',
+    },
     normalize: normalizeTextOrientation,
   },
   textOverflow: {
-    className: { dev: 'text-overflow', prod: 'tof' },
+    className: {
+      development: 'text-overflow',
+      test: 'tof',
+      production: 'tof',
+    },
     normalize: normalizeTextOverflow,
   },
   textRendering: {
-    className: { dev: 'text-rendering', prod: 'tr' },
+    className: {
+      development: 'text-rendering',
+      test: 'tr',
+      production: 'tr',
+    },
     normalize: normalizeTextRendering,
   },
   textShadow: {
-    className: { dev: 'text-shadow', prod: 'tsh' },
+    className: {
+      development: 'text-shadow',
+      test: 'tsh',
+      production: 'tsh',
+    },
     normalize: normalizeTextShadow,
   },
   textTransform: {
-    className: { dev: 'text-transform', prod: 'tt' },
+    className: {
+      development: 'text-transform',
+      test: 'tt',
+      production: 'tt',
+    },
     normalize: normalizeTextTransform,
   },
   textUnderlineOffset: {
-    className: { dev: 'text-underline-offset', prod: 'tuo' },
+    className: {
+      development: 'text-underline-offset',
+      test: 'tuo',
+      production: 'tuo',
+    },
     normalize: normalizeTextUnderlineOffset,
   },
   textUnderlinePosition: {
-    className: { dev: 'text-underline-position', prod: 'tup' },
+    className: {
+      development: 'text-underline-position',
+      test: 'tup',
+      production: 'tup',
+    },
     normalize: normalizeTextUnderlinePosition,
   },
   textWrap: {
-    className: { dev: 'text-wrap', prod: 'tw' },
+    className: {
+      development: 'text-wrap',
+      test: 'tw',
+      production: 'tw',
+    },
     normalize: normalizeTextWrap,
   },
   textWrapStyle: {
-    className: { dev: 'text-wrap-style', prod: 'tws' },
+    className: {
+      development: 'text-wrap-style',
+      test: 'tws',
+      production: 'tws',
+    },
     normalize: normalizeTextWrapStyle,
   },
   touchAction: {
-    className: { dev: 'touch-action', prod: 'toa' },
+    className: {
+      development: 'touch-action',
+      test: 'toa',
+      production: 'toa',
+    },
     normalize: normalizeTouchAction,
   },
   transform: {
-    className: { dev: 'transform', prod: 'tf' },
+    className: {
+      development: 'transform',
+      test: 'tf',
+      production: 'tf',
+    },
     normalize: normalizeTransform,
   },
   transformBox: {
-    className: { dev: 'transform-box', prod: 'tb' },
+    className: {
+      development: 'transform-box',
+      test: 'tb',
+      production: 'tb',
+    },
     normalize: normalizeTransformBox,
   },
   transformOrigin: {
-    className: { dev: 'transform-origin', prod: 'tro' },
+    className: {
+      development: 'transform-origin',
+      test: 'tro',
+      production: 'tro',
+    },
     normalize: normalizeTransformOrigin,
   },
   transformStyle: {
-    className: { dev: 'transform-style', prod: 'ts' },
+    className: {
+      development: 'transform-style',
+      test: 'ts',
+      production: 'ts',
+    },
     normalize: normalizeTransformStyle,
   },
   transition: {
-    className: { dev: 'transition', prod: 'tra' },
+    className: {
+      development: 'transition',
+      test: 'tra',
+      production: 'tra',
+    },
     normalize: normalizeTransition,
   },
   transitionBehavior: {
-    className: { dev: 'transition-behavior', prod: 'tbe' },
+    className: {
+      development: 'transition-behavior',
+      test: 'tbe',
+      production: 'tbe',
+    },
     normalize: normalizeTransitionBehavior,
   },
   translate: {
-    className: { dev: 'translate', prod: 't' },
+    className: {
+      development: 'translate',
+      test: 't',
+      production: 't',
+    },
     normalize: normalizeTranslate,
   },
   userSelect: {
-    className: { dev: 'user-select', prod: 'us' },
+    className: {
+      development: 'user-select',
+      test: 'us',
+      production: 'us',
+    },
     normalize: normalizeUserSelect,
   },
   vectorEffect: {
-    className: { dev: 'vector-effect', prod: 've' },
+    className: {
+      development: 'vector-effect',
+      test: 've',
+      production: 've',
+    },
     normalize: normalizeVectorEffect,
   },
   verticalAlign: {
-    className: { dev: 'vertical-align', prod: 'va' },
+    className: {
+      development: 'vertical-align',
+      test: 'va',
+      production: 'va',
+    },
     normalize: normalizeVerticalAlign,
   },
   visibility: {
-    className: { dev: 'visibility', prod: 'vs' },
+    className: {
+      development: 'visibility',
+      test: 'vs',
+      production: 'vs',
+    },
     normalize: normalizeVisibility,
   },
   whiteSpace: {
-    className: { dev: 'white-space', prod: 'ws' },
+    className: {
+      development: 'white-space',
+      test: 'ws',
+      production: 'ws',
+    },
     normalize: normalizeWhiteSpace,
   },
   width: {
-    className: { dev: 'width', prod: 'w' },
+    className: {
+      development: 'width',
+      test: 'w',
+      production: 'w',
+    },
     normalize: normalizeWidth,
   },
   willChange: {
-    className: { dev: 'will-change', prod: 'wc' },
+    className: {
+      development: 'will-change',
+      test: 'wc',
+      production: 'wc',
+    },
     normalize: normalizeWillChange,
   },
   wordBreak: {
-    className: { dev: 'word-break', prod: 'wb' },
+    className: {
+      development: 'word-break',
+      test: 'wb',
+      production: 'wb',
+    },
     normalize: normalizeWordBreak,
   },
   wordSpacing: {
-    className: { dev: 'word-spacing', prod: 'wsp' },
+    className: {
+      development: 'word-spacing',
+      test: 'wsp',
+      production: 'wsp',
+    },
     normalize: normalizeWordSpacing,
   },
   writingMode: {
-    className: { dev: 'writing-mode', prod: 'wm' },
+    className: {
+      development: 'writing-mode',
+      test: 'wm',
+      production: 'wm',
+    },
     normalize: normalizeWritingMode,
   },
   zIndex: {
-    className: { dev: 'z-index', prod: 'zi' },
+    className: {
+      development: 'z-index',
+      test: 'zi',
+      production: 'zi',
+    },
     normalize: normalizeZIndex,
   },
   zoom: {
-    className: { dev: 'zoom', prod: 'zm' },
+    className: {
+      development: 'zoom',
+      test: 'zm',
+      production: 'zm',
+    },
     normalize: normalizeZoom,
   },
 } as const

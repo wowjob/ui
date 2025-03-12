@@ -6,7 +6,7 @@ export const getStyle = ({
   mobile,
   tablet,
   className = '',
-  env = 'dev',
+  env = 'development',
   theme,
   styleAsString = false,
 }: TStyle) => {

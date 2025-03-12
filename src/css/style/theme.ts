@@ -160,7 +160,7 @@ export type TThemeColor = keyof typeof ThemeColorMap
 const keyValueMap = Object.entries(ThemeColorMap)
 export const themeHueSaturation = keyValueMap
   .map(
-    ([key, { hue, saturation, lightness }]) => `#wow-ui .theme-${key} {
+    ([key, { hue, saturation, lightness }]) => `#wowjob-ui .theme-${key} {
   --tch: ${hue};
   --tcs: ${saturation}%;
   --tcl: ${lightness.text}%;

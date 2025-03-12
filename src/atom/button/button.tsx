@@ -17,8 +17,7 @@ export const Button = ({
     tablet,
     desktop,
     theme,
-    className: 'wow-ui-button',
-    env: process.env.NEXT_PUBLIC_ENV as TEnv,
+    className: 'wowjob-ui-button',
   })
 
   const showLabel = label || typeof children === 'string'
@@ -27,7 +26,7 @@ export const Button = ({
   return (
     <button type={type} style={style} className={className} {...rest}>
       {showLabel && (
-        <span className="wow-ui-button__label">{label || children}</span>
+        <span className="wowjob-ui-button__label">{label || children}</span>
       )}
 
       {showChildren && children}

@@ -1,5 +1,5 @@
-/* wow-ui-button */
-.wow-ui-button {
+/* wowjob-ui-button */
+.wowjob-ui-button {
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
@@ -17,23 +17,23 @@
   pointer-events: all;
 }
 
-#wow-ui .wow-ui-button:focus-visible,
-#wow-ui .wow-ui-button:hover {
+#wowjob-ui .wowjob-ui-button:focus-visible,
+#wowjob-ui .wowjob-ui-button:hover {
   color: hsla(var(--tch), var(--tcs), calc(100% - var(--tcl)), var(--tca));
   background-color: hsla(var(--tch), var(--tcs), calc(100% - var(--bgcl)), var(--tca));
 }
 
-.wow-ui-button:disabled,
-.wow-ui-button[aria-disabled="true"] {
+.wowjob-ui-button:disabled,
+.wowjob-ui-button[aria-disabled="true"] {
   filter: grayscale(0.8);
   cursor: no-drop;
 }
 
-.wow-ui-button[data-in-progress="true"] {
+.wowjob-ui-button[data-in-progress="true"] {
   cursor: progress;
 }
 
-.wow-ui-button__label {
+.wowjob-ui-button__label {
   display: block;
   white-space: nowrap;
   text-overflow: ellipsis;

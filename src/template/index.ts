@@ -1,0 +1,1 @@
+export { TemplateTest } from "./test";

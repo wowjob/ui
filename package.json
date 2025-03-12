@@ -1,0 +1,47 @@
+{
+  "name": "@wowjob/ui",
+  "version": "0.0.1",
+  "description": "UI components for Wowjob",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "sr": "bunx semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowjob/ui.git"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components"
+  ],
+  "author": "Marian Zburlea",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^16.2.0",
+    "ts-jest": "^29.2.6"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^24.2.3"
+  }
+}

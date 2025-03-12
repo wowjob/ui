@@ -21,7 +21,11 @@ export type { TCSSPropValue, TEnv, TStyle } from './css'
 //   LinkMenuList,
 //   TInputField,
 // } from './molecule'
-// export { Footer, JSONForm, RootLayout, SideMenu, TopMenu } from './organism'
+export {
+  JSONForm,
+  // Footer, RootLayout, SideMenu, TopMenu
+} from './organism'
+export type { TJSONForm } from './organism'
 // export { TemplateTest } from './template'
 // export { storyTypeList } from './util'
 // export type {

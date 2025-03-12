@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/wowjob/ui/compare/v1.3.0...v1.4.0) (2025-03-12)
+
+
+### Features
+
+* add JSON form in the basic initial way ([ef8690a](https://github.com/wowjob/ui/commit/ef8690a03dc33131a7fa8e30c662215fa27e646e))
+
 # [1.3.0](https://github.com/wowjob/ui/compare/v1.2.0...v1.3.0) (2025-03-12)
 
 

@@ -4,7 +4,7 @@ export {
   // Flex,
   // Form,
   // Image,
-  // Input,
+  Input,
   // Link,
   // LinkBlock,
   // LinkButton,

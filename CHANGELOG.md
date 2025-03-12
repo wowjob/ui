@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/wowjob/ui/compare/v1.1.0...v1.2.0) (2025-03-12)
+
+
+### Bug Fixes
+
+* development and production in css generator ([19fa99d](https://github.com/wowjob/ui/commit/19fa99d7599c38931e7cebff50d77b125693ae74))
+
+
+### Features
+
+* add input reusable component ([23a68e6](https://github.com/wowjob/ui/commit/23a68e655e262b2228b1448daf1e2c754441c626))
+
 # [1.1.0](https://github.com/wowjob/ui/compare/v1.0.0...v1.1.0) (2025-03-12)
 
 

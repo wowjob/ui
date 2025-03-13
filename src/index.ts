@@ -8,7 +8,7 @@ export {
   // Link,
   // LinkBlock,
   // LinkButton,
-  // Text,
+  Text,
   Textarea,
 } from './atom'
 export { convertToRem, getStyle, isPx } from './css'

@@ -75,13 +75,13 @@ No matter how large or small your project is, WOWJOB UI CSS is a safe, scalable 
 Pick your favorite package manager:
 
     # npm
-    npm install @wowjob/ui-css
+    npm install @wowjob/ui
 
     # bun
-    bun install @wowjob/ui-css
+    bun install @wowjob/ui
 
     # pnpm
-    pnpm install @wowjob/ui-css
+    pnpm install @wowjob/ui
 
 That’s it. You’re good to go—no additional setup required.
 
@@ -106,7 +106,7 @@ Let's have a look at a reusable component, such as a box container that we can u
 ```typescript:
 import { createElement } from 'react'
 import type { TFlex } from './type'
-import { getStyle, type TEnv } from '@wowjob/ui-css'
+import { getStyle, type TEnv } from '@wowjob/ui'
 
 export const Flex = ({
   mobile,
@@ -143,7 +143,7 @@ export const Flex = ({
 #### type.ts
 
 ```typescript:
-import type { TStyle } from '@wowjob/ui-css'
+import type { TStyle } from '@wowjob/ui'
 import type { AllHTMLAttributes } from 'react'
 
 export const boxAs = [
@@ -218,14 +218,14 @@ All you need is to import the base resets and (optionally) the global styles. Yo
     <!-- index.html -->
     <html>
       <head>
-        <link rel="stylesheet" href="node_modules/@wowjob/ui-css/reset.css" />
-        <link rel="stylesheet" href="node_modules/@wowjob/ui-css/all.css" />
+        <link rel="stylesheet" href="node_modules/@wowjob/ui/reset.css" />
+        <link rel="stylesheet" href="node_modules/@wowjob/ui/all.css" />
       </head>
 
       <body id="wowjob-ui">
         <div id="app">Hello World!</div>
         <script type="module">
-          import { getStyle } from './node_modules/@wowjob/ui-css/index.js';
+          import { getStyle } from './node_modules/@wowjob/ui/index.js';
           // use getStyle here...
         </script>
       </body>
@@ -237,7 +237,7 @@ No bundler or special config needed—**zero build time**.
 
 Define your **mobile** and **desktop** style properties separately. WOWJOB UI CSS merges them internally for a seamless responsive layout:
 
-    import { getStyle } from '@wowjob/ui-css';
+    import { getStyle } from '@wowjob/ui';
 
     const { className, style } = getStyle({
       mobile: {
@@ -257,11 +257,11 @@ Define your **mobile** and **desktop** style properties separately. WOWJOB UI CS
 Below is a typical Next.js `layout.tsx` example that demonstrates how to import WOWJOB UI CSS CSS and apply styles:
 
     // layout.tsx
-    import '@wowjob/ui-css/reset.css'
+    import '@wowjob/ui/reset.css'
     // development version
-    import '@wowjob/ui-css/all.css'
+    import '@wowjob/ui/all.css'
     // production version
-    // import '@wowjob/ui-css/all.min.css'
+    // import '@wowjob/ui/all.min.css'
     import type { ReactNode } from 'react'
 
     const RootLayout = ({
@@ -281,7 +281,7 @@ Below is a typical Next.js `layout.tsx` example that demonstrates how to import 
 Then in your page component:
 
     // page.tsx or Home.tsx
-    import { getStyle } from '@wowjob/ui-css';
+    import { getStyle } from '@wowjob/ui';
 
     export default function Home() {
       const { className, style } = getStyle({

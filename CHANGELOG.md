@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/wowjob/ui/compare/v1.4.0...v1.5.0) (2025-03-13)
+
+
+### Bug Fixes
+
+* update content in readme to reflect the latest changes ([c56caee](https://github.com/wowjob/ui/commit/c56caee48281c7858dd2e941e3853e30dc9d09b2))
+
+
+### Features
+
+* add text component to atom ([ae2e555](https://github.com/wowjob/ui/commit/ae2e5553b118d3418eada115e2679da6d5960dd4))
+
 # [1.4.0](https://github.com/wowjob/ui/compare/v1.3.0...v1.4.0) (2025-03-12)
 
 

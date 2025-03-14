@@ -71,6 +71,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@supabase/supabase-js": "^2.49.1",
+    "@tanstack/react-router": "^1.114.17",
     "semantic-release": "^24.2.3"
   }
 }

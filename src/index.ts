@@ -5,7 +5,7 @@ export {
   // Form,
   // Image,
   Input,
-  // Link,
+  Link,
   // LinkBlock,
   // LinkButton,
   Text,

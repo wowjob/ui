@@ -1,15 +1,7 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
-  entry: [
-    'src/index.ts',
-    // "src/atom/index.ts",
-    // "src/molecule/index.ts",
-    // "src/organism/index.ts",
-    // "src/template/index.ts",
-    // "src/util/index.ts",
-    // "src/css/index.ts",
-  ],
+  entry: ['src/index.ts'],
   // format: ['esm'], // Output both ESM and CommonJS
   format: ['esm', 'cjs'], // Output both ESM and CommonJS
   outDir: 'dist',

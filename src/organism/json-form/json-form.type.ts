@@ -3,6 +3,7 @@ import type { TInput } from '@/atom/input/input.type'
 import type { TTextArea } from '@/atom/textarea/textarea.type'
 import type { TStyle } from '@/css'
 import type { ReactNode } from 'react'
+import type { UseFormRegister, FieldErrors } from 'react-hook-form'
 
 export type TJSONFormStructure = {
   data: Record<string, TInput | TTextArea>
@@ -33,6 +34,11 @@ type TClientForm = {
 export type TJSONFormAction = TNextForm | TClientForm
 
 export type TJSONForm = {
+  // biome-ignore lint: lint/suspicious/noExplicitAny
+  register?: UseFormRegister<any> // Use `any` or replace with your form data type
+  // biome-ignore lint: lint/suspicious/noExplicitAny
+  errors?: FieldErrors<any>
+
   children?: ReactNode
   formStructure: TJSONFormStructure
   action: TJSONFormAction

@@ -1,11 +1,15 @@
 // link.type.ts
+import type { AnchorHTMLAttributes } from 'react'
+import type { LinkProps as NextLinkProps } from 'next/link'
+import type { LinkProps as TanstackLinkProps } from '@tanstack/react-router'
 import type { TStyle } from '@/css'
-import type { AnchorHTMLAttributes, ComponentType } from 'react'
 
 export type TLink = {
   title?: string
-  to?: string
   href: string
-  component?: 'a' | ComponentType<any>
 } & TStyle &
   AnchorHTMLAttributes<HTMLAnchorElement>
+
+export type TNextLink = TLink & Partial<NextLinkProps>
+
+export type TTanstackLink = TLink & Partial<TanstackLinkProps>

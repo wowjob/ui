@@ -1,18 +1,18 @@
 // link.tsx
 import { getStyle } from '@/css'
 import { getEnv } from '@/util'
-import type { TLink } from './link.type'
+import type { TTanstackLink } from './link.type'
+import { Link } from '@tanstack/react-router'
 
-export const Link = ({
+export const ReactLink = ({
   mobile,
   tablet,
   desktop,
   theme,
   children,
   ...rest
-}: TLink) => {
+}: TTanstackLink) => {
   const env = getEnv()
-
   const { className, style } = getStyle({
     mobile,
     tablet,
@@ -21,9 +21,11 @@ export const Link = ({
     theme,
   })
 
+  rest.to = rest.href
+
   return (
-    <a className={className} style={style} {...rest}>
+    <Link className={className} style={style} {...rest}>
       {children}
-    </a>
+    </Link>
   )
 }

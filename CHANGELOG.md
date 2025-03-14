@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/wowjob/ui/compare/v1.5.0...v1.6.0) (2025-03-14)
+
+
+### Bug Fixes
+
+* update semantic rules ([57535d4](https://github.com/wowjob/ui/commit/57535d4e42fca5a051e5275f94045bf8d846e216))
+
+
+### Features
+
+* implement link reusable ui component ([01f2883](https://github.com/wowjob/ui/commit/01f2883e76d580498046ab3e56e64176cbd0c1a5))
+
 # [1.5.0](https://github.com/wowjob/ui/compare/v1.4.0...v1.5.0) (2025-03-13)
 
 

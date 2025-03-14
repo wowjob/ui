@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/wowjob/ui/compare/v1.6.0...v1.6.1) (2025-03-14)
+
+
+### Bug Fixes
+
+* link, next link and tanstack link ([dff3ef2](https://github.com/wowjob/ui/commit/dff3ef273e6738578d9f115eda4ea1cf5df99f9c))
+
 # [1.6.0](https://github.com/wowjob/ui/compare/v1.5.0...v1.6.0) (2025-03-14)
 
 

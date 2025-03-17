@@ -9,6 +9,10 @@ export type TTextareaField = {
     target: '_blank' | (string & {})
     label: string
   }
-  error?: string | string[]
+  errorList?: {
+    code?: string
+    message: string
+    path: string[]
+  }[]
   name: string
 } & TTextarea

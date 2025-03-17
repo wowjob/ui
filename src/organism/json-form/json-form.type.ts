@@ -1,3 +1,4 @@
+// json-form.type.ts
 import type { TButton } from '@/atom/button/type'
 import type { TInput } from '@/atom/input/input.type'
 import type { TTextarea } from '@/atom/textarea/textarea.type'
@@ -5,13 +6,9 @@ import type { TStyle } from '@/css'
 import type { generateZodSchema } from '@/util'
 import type { TValidation } from '@/util/form/form.type'
 import type { ReactNode } from 'react'
-import type { UseFormRegister, FieldErrors, FieldValues } from 'react-hook-form'
 import type { z } from 'zod'
 
-export type TField = (
-  | ({ type: TInput['type'] } & TInput)
-  | ({ type: 'textarea' } & TTextarea)
-) & {
+export type TField = (TInput | TTextarea) & {
   validation?: TValidation
 }
 
@@ -44,11 +41,9 @@ export type TJSONFormStructure = {
 type TFormData = z.infer<ReturnType<typeof generateZodSchema>>
 
 export type TJSONForm = {
-  register?: UseFormRegister<FieldValues>
-  errors?: FieldErrors<FieldValues>
-
   children?: ReactNode
   formStructure: TJSONFormStructure
+  valueMap?: Record<string, string | number | boolean>
   info?: {
     statusCode: TStyle['theme']
     status?: number

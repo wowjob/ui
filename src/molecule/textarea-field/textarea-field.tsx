@@ -11,11 +11,11 @@ export const TextareaField = ({
   label,
   info,
   name,
-  error,
   link,
+  errorList = [],
   ...rest
 }: TTextareaField) => {
-  const errorList = Array.isArray(error) ? error : [error]
+  const showErrorList = errorList.length > 0
 
   return (
     <Flex mobile={{ gap: 4, width: '100%' }}>
@@ -70,14 +70,14 @@ export const TextareaField = ({
         </Flex>
       ) : null}
 
-      {error
-        ? errorList.map((err, key) => (
+      {showErrorList
+        ? errorList.map(({ message }, key) => (
             <Flex
               key={String(key)}
               theme="error"
               mobile={{ padding: [4, 8], borderRadius: 8 }}
             >
-              {err}
+              {message}
             </Flex>
           ))
         : null}

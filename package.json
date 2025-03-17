@@ -70,7 +70,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@supabase/supabase-js": "^2.49.1",
-    "react-hook-form": "^7.54.2",
+    "@tanstack/react-form": "^1.1.0",
     "semantic-release": "^24.2.3",
     "zod": "^3.24.2"
   }

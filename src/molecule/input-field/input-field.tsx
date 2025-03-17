@@ -10,11 +10,11 @@ export const InputField = ({
   label,
   info,
   name,
-  error,
+  errorList = [],
   link,
   ...rest
 }: TInputField) => {
-  const errorList = Array.isArray(error) ? error : [error]
+  const showErrorList = errorList.length > 0
 
   return (
     <Flex mobile={{ gap: 4, width: '100%' }}>
@@ -80,14 +80,14 @@ export const InputField = ({
         </Flex>
       ) : null}
 
-      {error
-        ? errorList.map((err, key) => (
+      {showErrorList
+        ? errorList.map(({ message }, key) => (
             <Flex
               key={String(key)}
               theme="error"
               mobile={{ padding: [4, 8], borderRadius: 8 }}
             >
-              {err}
+              {message}
             </Flex>
           ))
         : null}

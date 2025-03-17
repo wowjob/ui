@@ -1,9 +1,9 @@
 import type { TStyle } from '@/css'
 import type { Ref, TextareaHTMLAttributes } from 'react'
 
-export type TTextArea = {
+export type TTextarea = {
   name: string
   ref?: Ref<HTMLTextAreaElement | null>
-  type?: 'textarea'
+  type: 'textarea'
 } & TStyle &
   TextareaHTMLAttributes<HTMLTextAreaElement>

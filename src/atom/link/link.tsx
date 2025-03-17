@@ -9,9 +9,17 @@ export const Link = ({
   desktop,
   theme,
   children,
+  type = '',
   ...rest
 }: TLink) => {
   const env = getEnv()
+
+  const linkClass =
+    type === 'block'
+      ? 'wowjob-ui-link-block'
+      : type === 'button'
+      ? 'wow-ui-button'
+      : ''
 
   const { className, style } = getStyle({
     mobile,
@@ -19,6 +27,7 @@ export const Link = ({
     desktop,
     env,
     theme,
+    className: linkClass,
   })
 
   return (

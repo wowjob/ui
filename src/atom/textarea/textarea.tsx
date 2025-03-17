@@ -1,5 +1,5 @@
 import { getEnv } from '@/util'
-import type { TTextArea } from './textarea.type'
+import type { TTextarea } from './textarea.type'
 import { getStyle } from '@/css'
 
 export const Textarea = ({
@@ -10,7 +10,7 @@ export const Textarea = ({
   autoComplete = 'off',
   title,
   ...rest
-}: TTextArea) => {
+}: TTextarea) => {
   const env = getEnv()
 
   const { className, style } = getStyle({

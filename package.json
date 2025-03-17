@@ -25,26 +25,6 @@
         "default": "./dist/index.js"
       }
     },
-    "./vite": {
-      "import": {
-        "types": "./dist/vite/index.d.mts",
-        "default": "./dist/vite/index.mjs"
-      },
-      "require": {
-        "types": "./dist/vite/index.d.ts",
-        "default": "./dist/vite/index.js"
-      }
-    },
-    "./next": {
-      "import": {
-        "types": "./dist/next/index.d.mts",
-        "default": "./dist/next/index.mjs"
-      },
-      "require": {
-        "types": "./dist/next/index.d.ts",
-        "default": "./dist/next/index.js"
-      }
-    },
     "./all.css": "./dist/css/all.css",
     "./ui.css": "./dist/css/ui.css",
     "./ui-atom.css": "./dist/css/ui-atom.css",
@@ -66,8 +46,7 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^19.0.10",
-    "react-dom": "^19.0.0",
-    "next": "15.2.2"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@swc/core": "^1.11.8",
@@ -91,8 +70,8 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@supabase/supabase-js": "^2.49.1",
-    "@tanstack/react-router": "^1.114.17",
     "react-hook-form": "^7.54.2",
-    "semantic-release": "^24.2.3"
+    "semantic-release": "^24.2.3",
+    "zod": "^3.24.2"
   }
 }

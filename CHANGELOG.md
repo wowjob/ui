@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/wowjob/ui/compare/v1.6.1...v1.7.0) (2025-03-17)
+
+
+### Features
+
+* implement tanstack form ([2a21ffb](https://github.com/wowjob/ui/commit/2a21ffbb41f1a0e7416bcbcae6af14dea4a97a0e))
+* update json form to submit and make it work with nextjs and vite ([1e65ddc](https://github.com/wowjob/ui/commit/1e65ddcae47e8d752e98665ce91f9a35a653e694))
+
 ## [1.6.1](https://github.com/wowjob/ui/compare/v1.6.0...v1.6.1) (2025-03-14)
 
 

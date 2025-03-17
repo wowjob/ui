@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/wowjob/ui/compare/v1.7.0...v1.8.0) (2025-03-17)
+
+
+### Features
+
+* introduce button group and refactor passowrd field ([add4ab2](https://github.com/wowjob/ui/commit/add4ab22239c55b7ee4df2573236099ad1277491))
+
 # [1.7.0](https://github.com/wowjob/ui/compare/v1.6.1...v1.7.0) (2025-03-17)
 
 

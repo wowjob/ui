@@ -4,7 +4,7 @@ import { Button, Flex } from '../../atom'
 import type { TJSONForm } from './json-form.type'
 import { generateZodSchema } from '../../util'
 import { createFormHook, createFormHookContexts } from '@tanstack/react-form'
-import { InputField, TextareaField, PasswordInput } from '../../molecule'
+import { InputField, TextareaField, PasswordField } from '../../molecule'
 import type { TTextarea } from '../../atom/textarea/textarea.type'
 import type { TInput } from '../../atom/input/input.type'
 
@@ -32,7 +32,7 @@ const { useAppForm } = createFormHook({
   fieldComponents: {
     InputField,
     TextareaField,
-    PasswordInput,
+    PasswordField,
   },
   formComponents: {
     Button,
@@ -120,7 +120,7 @@ export const JSONForm = ({
 
                   if (fieldData.type === 'password') {
                     return (
-                      <field.PasswordInput
+                      <field.PasswordField
                         {...(fieldData as TInput)}
                         onChange={(e) => field.handleChange(e.target.value)}
                         errorList={isDirty ? errorList : []}

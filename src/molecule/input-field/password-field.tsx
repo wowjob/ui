@@ -4,7 +4,7 @@ import { Button, Flex, Input } from '../../atom'
 import type { TInputField } from './type'
 import { useState } from 'react'
 
-export const PasswordInput = ({
+export const PasswordField = ({
   mobile,
   tablet,
   desktop,

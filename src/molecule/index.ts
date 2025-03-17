@@ -1,3 +1,3 @@
-// export { InputField, PasswordInput } from './input-field'
-export { InputField, PasswordInput } from './input-field'
+export { ButtonGroup } from './button-group'
+export { InputField, PasswordField } from './input-field'
 export { TextareaField } from './textarea-field'

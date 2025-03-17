@@ -6,7 +6,7 @@ export type TActionFormReturn = {
   statusCode: number
   data?: Record<string, string | number | readonly string[] | undefined>
   error?: {
-    field?: Record<string, string[]>
+    field?: Record<string | number, string[] | undefined>
     form?: string[]
   }
 }

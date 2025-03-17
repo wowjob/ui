@@ -10,6 +10,7 @@ export const Input = ({
   required = true,
   autoComplete = 'off',
   title,
+  help,
   ...rest
 }: TInput) => {
   const env = getEnv()

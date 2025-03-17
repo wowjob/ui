@@ -1,2 +1,2 @@
 export { InputField } from './input-field'
-export { PasswordInput } from './password-input'
+export { PasswordField } from './password-field'

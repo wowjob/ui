@@ -10,9 +10,6 @@
     "moduleResolution": "node",
     "jsx": "react-jsx",
     "baseUrl": "./src",
-    "paths": {
-      "@/*": ["*"]
-    },
     "lib": ["dom", "esnext"]
   },
   "include": ["src"],

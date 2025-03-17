@@ -8,7 +8,7 @@ export default defineConfig({
   sourcemap: true,
   external: ['react', 'react-dom'],
   tsconfig: 'tsconfig.json',
-  clean: false,
+  clean: true,
   cjsInterop: false,
   bundle: false, // Compile files individually
   minify: false, // Preserve 'use client'

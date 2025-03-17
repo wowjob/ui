@@ -28,18 +28,6 @@ export type TJSONFormStructure = {
   }
 }
 
-// type TNextForm = {
-//   fromType: 'next'
-//   action: (_: null, formData: FormData) => void
-// }
-
-// type TClientForm = {
-//   fromType: 'vite'
-//   action: (formData: FormData) => void
-// }
-
-type TFormData = z.infer<ReturnType<typeof generateZodSchema>>
-
 export type TJSONForm = {
   children?: ReactNode
   formStructure: TJSONFormStructure

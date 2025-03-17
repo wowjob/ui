@@ -1,4 +1,4 @@
-import type { TEnv } from '@/css'
+import type { TEnv } from '../css'
 
 export const getEnv = (): TEnv => {
   if (typeof process !== 'undefined') {

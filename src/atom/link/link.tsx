@@ -1,6 +1,6 @@
 // link.tsx
-import { getStyle } from '@/css'
-import { getEnv } from '@/util'
+import { getStyle } from '../../css'
+import { getEnv } from '../../util'
 import type { TLink } from './link.type'
 
 export const Link = ({

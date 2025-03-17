@@ -1,4 +1,4 @@
-import type { TStyle } from '@/css'
+import type { TStyle } from '../css'
 
 export type TActionFormReturn = {
   status: TStyle['theme']

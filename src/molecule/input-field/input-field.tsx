@@ -1,6 +1,5 @@
 import type { TInputField } from './type'
-// import { PasswordInput } from './password-input'
-import { Flex, Input, Link, Text } from '@/atom'
+import { Flex, Input, Link, Text } from '../../atom'
 
 export const InputField = ({
   mobile,
@@ -23,15 +22,6 @@ export const InputField = ({
           {label}
         </Text>
       ) : null}
-
-      {/* {rest.type === 'password' && (
-        <PasswordInput
-          id={name}
-          name={name}
-          {...rest}
-          mobile={{ width: 'auto' }}
-        />
-      )} */}
 
       {['checkbox', 'radio'].includes(rest.type || 'text') && (
         <Flex mobile={{ flexDirection: 'row', alignItems: 'center' }}>

@@ -1,6 +1,6 @@
 // link.tsx
-import { getStyle } from '@/css'
-import { getEnv } from '@/util'
+import { getStyle } from '../../css'
+import { getEnv } from '../../util'
 import type { TNextLink } from './link.type'
 import Link from 'next/link'
 

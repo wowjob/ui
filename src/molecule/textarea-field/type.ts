@@ -1,4 +1,4 @@
-import type { TTextarea } from '@/atom/textarea/textarea.type'
+import type { TTextarea } from '../../atom/textarea/textarea.type'
 
 export type TTextareaField = {
   label?: string

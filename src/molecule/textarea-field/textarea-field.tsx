@@ -1,7 +1,7 @@
 import type { TTextareaField } from './type'
 // import { ToastEditorClient } from '../toast-editor/toast-editor'
-import { Flex, Link, Text, Textarea } from '@/atom'
-import type { TTextarea } from '@/atom/textarea/textarea.type'
+import { Flex, Link, Text, Textarea } from '../../atom'
+import type { TTextarea } from '../../atom/textarea/textarea.type'
 
 export const TextareaField = ({
   mobile,

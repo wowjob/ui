@@ -1,10 +1,10 @@
 // json-form.type.ts
-import type { TButton } from '@/atom/button/type'
-import type { TInput } from '@/atom/input/input.type'
-import type { TTextarea } from '@/atom/textarea/textarea.type'
-import type { TStyle } from '@/css'
-import type { generateZodSchema } from '@/util'
-import type { TValidation } from '@/util/form/form.type'
+import type { TButton } from '../../atom/button/type'
+import type { TInput } from '../../atom/input/input.type'
+import type { TTextarea } from '../../atom/textarea/textarea.type'
+import type { TStyle } from '../../css'
+import type { generateZodSchema } from '../../util'
+import type { TValidation } from '../../util/form/form.type'
 import type { ReactNode } from 'react'
 import type { z } from 'zod'
 
@@ -55,4 +55,5 @@ export type TJSONForm = {
     href: string
   }
   height?: string
+  submit?: (data: Record<string, string | number | boolean>) => void
 }

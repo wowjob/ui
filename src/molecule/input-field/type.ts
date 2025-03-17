@@ -1,4 +1,4 @@
-import type { TInput } from '@/atom/input/input.type'
+import type { TInput } from '../../atom/input/input.type'
 
 export type TInputField = {
   label?: string

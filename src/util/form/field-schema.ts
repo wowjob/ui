@@ -45,7 +45,6 @@ export const generateFieldSchema = (validation: TValidation): z.ZodTypeAny => {
 
     // Apply custom refinement
     if (v.refine) {
-      console.log(v)
       return schema.refine(v.refine.value, { message: v.refine.message })
     }
 

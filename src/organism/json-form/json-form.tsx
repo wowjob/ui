@@ -1,16 +1,12 @@
 'use client'
 
-import { Button, Flex } from '@/atom'
+import { Button, Flex } from '../../atom'
 import type { TJSONForm } from './json-form.type'
-import { generateZodSchema } from '@/util'
-import {
-  createFormHook,
-  createFormHookContexts,
-  useForm,
-} from '@tanstack/react-form'
-import { InputField, TextareaField } from '@/molecule'
-import type { TTextarea } from '@/atom/textarea/textarea.type'
-import type { TInput } from '@/atom/input/input.type'
+import { generateZodSchema } from '../../util'
+import { createFormHook, createFormHookContexts } from '@tanstack/react-form'
+import { InputField, TextareaField, PasswordInput } from '../../molecule'
+import type { TTextarea } from '../../atom/textarea/textarea.type'
+import type { TInput } from '../../atom/input/input.type'
 
 const getValueMap = ({
   list,
@@ -36,6 +32,7 @@ const { useAppForm } = createFormHook({
   fieldComponents: {
     InputField,
     TextareaField,
+    PasswordInput,
   },
   formComponents: {
     Button,
@@ -48,18 +45,22 @@ export const JSONForm = ({
   valueMap,
   back,
   height,
+  submit,
   info,
 }: TJSONForm) => {
   const { list } = formStructure
   const schema = generateZodSchema(formStructure)
+  const defaultValues = getValueMap({ list, valueMap })
+
   const form = useAppForm({
-    defaultValues: getValueMap({ list, valueMap }),
+    defaultValues,
     validators: {
       onChange: schema,
     },
-    onSubmit: async (all) => {
-      console.log(all)
-      console.log('all')
+    onSubmit: async ({ value }) => {
+      if (typeof submit === 'function') {
+        submit(value)
+      }
     },
   })
 
@@ -98,7 +99,9 @@ export const JSONForm = ({
                 // biome-ignore lint: lint/correctness/noChildrenProp
                 children={(field) => {
                   const fieldData = formStructure.data[inputName]
-                  const errorList = field.state.meta.errors.map((error) => {
+                  const { isDirty, isPristine, isTouched, errors } =
+                    field.state.meta
+                  const errorList = errors.map((error) => {
                     const message = error?.message || 'Unknown error'
                     const path = (error?.path || []) as string[]
 
@@ -110,7 +113,17 @@ export const JSONForm = ({
                       <field.TextareaField
                         {...(fieldData as TTextarea)}
                         onChange={(e) => field.handleChange(e.target.value)}
-                        errorList={errorList}
+                        errorList={isDirty ? errorList : []}
+                      />
+                    )
+                  }
+
+                  if (fieldData.type === 'password') {
+                    return (
+                      <field.PasswordInput
+                        {...(fieldData as TInput)}
+                        onChange={(e) => field.handleChange(e.target.value)}
+                        errorList={isDirty ? errorList : []}
                       />
                     )
                   }
@@ -119,7 +132,7 @@ export const JSONForm = ({
                     <field.InputField
                       {...(fieldData as TInput)}
                       onChange={(e) => field.handleChange(e.target.value)}
-                      errorList={errorList}
+                      errorList={isDirty ? errorList : []}
                     />
                   )
                 }}
@@ -128,16 +141,24 @@ export const JSONForm = ({
           </Flex>
 
           <Flex mobile={{ flexDirection: 'row' }}>
-            {footer.list.map((inputName) => (
-              <Flex key={inputName}>
-                <form.Button
-                  theme={footer.data[inputName]?.theme}
-                  type={footer.data[inputName]?.type}
-                >
-                  {footer.data[inputName]?.label}
-                </form.Button>
-              </Flex>
-            ))}
+            <form.Subscribe
+              selector={(state) => [state.canSubmit, state.isSubmitting]}
+              // biome-ignore lint: lint/correctness/noChildrenProp
+              children={([canSubmit, isSubmitting]) =>
+                footer.list.map((inputName) => (
+                  <Flex key={inputName}>
+                    <form.Button
+                      theme={footer.data[inputName]?.theme}
+                      type={footer.data[inputName]?.type}
+                      aria-disabled={!canSubmit}
+                    >
+                      {footer.data[inputName]?.label}
+                      {isSubmitting ? ' ...' : ''}
+                    </form.Button>
+                  </Flex>
+                ))
+              }
+            />
           </Flex>
 
           <Flex>{children}</Flex>

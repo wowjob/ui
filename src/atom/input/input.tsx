@@ -1,6 +1,6 @@
-import { getStyle } from '@/css'
+import { getStyle } from '../../css'
 import type { TInput } from './input.type'
-import { getEnv } from '@/util'
+import { getEnv } from '../../util'
 
 export const Input = ({
   mobile,

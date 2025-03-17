@@ -1,5 +1,5 @@
 // textarea.type.ts
-import type { TStyle } from '@/css'
+import type { TStyle } from '../../css'
 import type { Ref, TextareaHTMLAttributes } from 'react'
 
 export type TTextarea = {

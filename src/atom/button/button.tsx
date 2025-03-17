@@ -1,7 +1,7 @@
 // button/server.tsx
-import { getEnv } from '@/util'
+import { getEnv } from '../../util'
 import type { TButton } from './type'
-import { getStyle, type TEnv } from '@/css'
+import { getStyle, type TEnv } from '../../css'
 
 export const Button = ({
   children,

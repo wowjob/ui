@@ -1,5 +1,5 @@
-import type { TInput } from '@/atom/input/input.type'
-import type { TTextarea } from '@/atom/textarea/textarea.type'
+import type { TInput } from '../../atom/input/input.type'
+import type { TTextarea } from '../../atom/textarea/textarea.type'
 
 export type TStringValidation = {
   min?: { value: number; message: string }

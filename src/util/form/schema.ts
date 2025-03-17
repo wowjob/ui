@@ -1,4 +1,4 @@
-import type { TJSONForm } from '@/organism'
+import type { TJSONForm } from '../../organism'
 import { generateFieldSchema } from './field-schema'
 import z from 'zod'
 

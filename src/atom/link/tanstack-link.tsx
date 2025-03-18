@@ -4,7 +4,7 @@ import { getEnv } from '../../util'
 import type { TTanstackLink } from './link.type'
 import { Link } from '@tanstack/react-router'
 
-export const ReactLink = ({
+export const TanstackLink = ({
   mobile,
   tablet,
   desktop,

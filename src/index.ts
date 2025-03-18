@@ -2,7 +2,16 @@
 export { convertToRem, getStyle, isPx } from './css'
 export type { TCSSPropValue, TEnv, TStyle } from './css'
 
-export { Button, DataList, Flex, Input, Link, Text, Textarea } from './atom'
+export {
+  Button,
+  DataList,
+  Flex,
+  Input,
+  Link,
+  TanstackLink,
+  Text,
+  Textarea,
+} from './atom'
 export {
   ButtonGroup,
   InputField,

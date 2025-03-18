@@ -4,7 +4,7 @@ import { propertyMap } from './property-map'
 describe('propertyMap', () => {
   test('should have unique prod values in className', () => {
     const prodValues = Object.values(propertyMap).map(
-      (entry) => entry.className.prod
+      (entry) => entry.className.production
     )
 
     const uniqueProdValues = new Set(prodValues)

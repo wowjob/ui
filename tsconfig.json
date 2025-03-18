@@ -10,7 +10,8 @@
     "moduleResolution": "node",
     "jsx": "react-jsx",
     "baseUrl": "./src",
-    "lib": ["dom", "esnext"]
+    "types": ["bun"],
+    "lib": ["ESNext", "DOM"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

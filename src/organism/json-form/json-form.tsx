@@ -8,6 +8,7 @@ import { InputField, TextareaField, PasswordField } from '../../molecule'
 import type { TTextarea } from '../../atom/textarea/textarea.type'
 import type { TInput } from '../../atom/input/input.type'
 import type { TActionFormReturn } from '../../type'
+import type { ChangeEvent } from 'react'
 
 const getValueMap = ({
   list,
@@ -107,7 +108,11 @@ export const JSONForm = ({
                     return (
                       <field.TextareaField
                         {...(fieldData as TTextarea)}
-                        onChange={(e) => field.handleChange(e.target.value)}
+                        onChange={(e: ChangeEvent<HTMLTextAreaElement>) =>
+                          field.handleChange(
+                            (e.target as HTMLTextAreaElement).value
+                          )
+                        }
                         errorList={isDirty ? errorList : []}
                       />
                     )
@@ -117,7 +122,11 @@ export const JSONForm = ({
                     return (
                       <field.PasswordField
                         {...(fieldData as TInput)}
-                        onChange={(e) => field.handleChange(e.target.value)}
+                        onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                          field.handleChange(
+                            (e.target as HTMLInputElement).value
+                          )
+                        }
                         errorList={isDirty ? errorList : []}
                       />
                     )
@@ -126,7 +135,9 @@ export const JSONForm = ({
                   return (
                     <field.InputField
                       {...(fieldData as TInput)}
-                      onChange={(e) => field.handleChange(e.target.value)}
+                      onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                        field.handleChange((e.target as HTMLInputElement).value)
+                      }
                       errorList={isDirty ? errorList : []}
                     />
                   )

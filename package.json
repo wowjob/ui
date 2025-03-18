@@ -3,7 +3,7 @@
   "version": "1.8.0",
   "description": "UI components for Wowjob",
   "main": "dist/index.mjs",
-  "types": "dist/index.d.mts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "prepublishOnly": "npm run build",
@@ -11,13 +11,15 @@
     "pub": "bunx semantic-release --no-ci",
     "build-css": "bun build-css.js",
     "build-ui": "bun src/css/css/ui.ts",
-    "build": "tsup --config tsup.config.ts && bun run build-css && bun run build-ui",
+    "build-dts": "tsup --config tsup.dts.ts",
+    "build-bun-dts": " bunx tsc --project tsconfig.dts.json",
+    "build": "tsup --config tsup.config.ts && bun run build-css && bun run build-ui && bun run build-bun-dts",
     "dev": "concurrently \"tsup src/index.ts --format cjs,esm --watch --no-clean\" \"bun run build-css\" \"bun run build-ui\""
   },
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/index.d.mts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/index.mjs"
       },
       "require": {

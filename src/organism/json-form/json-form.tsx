@@ -7,6 +7,7 @@ import { createFormHook, createFormHookContexts } from '@tanstack/react-form'
 import { InputField, TextareaField, PasswordField } from '../../molecule'
 import type { TTextarea } from '../../atom/textarea/textarea.type'
 import type { TInput } from '../../atom/input/input.type'
+import type { TActionFormReturn } from '../../type'
 
 const getValueMap = ({
   list,
@@ -59,16 +60,11 @@ export const JSONForm = ({
     },
     onSubmit: async ({ value }) => {
       if (typeof submit === 'function') {
-        submit(value)
+        submit(value as TActionFormReturn['data'])
       }
     },
   })
 
-  const infoMessageList = Array.isArray(info?.message)
-    ? info.message
-    : [info?.message]
-
-  const showInfoMessage = info?.message && infoMessageList.length > 0
   const { footer } = formStructure.form
 
   return (
@@ -81,13 +77,12 @@ export const JSONForm = ({
         }}
       >
         <Flex mobile={{ gap: 16 }}>
-          {showInfoMessage && (
-            <Flex>
-              {infoMessageList.map((infoMessage, index) => (
-                <Flex as="span" key={String(index)}>
-                  {infoMessage}
-                </Flex>
-              ))}
+          {info?.message && (
+            <Flex
+              mobile={{ padding: [8, 16], borderRadius: 8 }}
+              theme={info.theme}
+            >
+              {info.message}
             </Flex>
           )}
 

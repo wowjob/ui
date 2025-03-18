@@ -1,12 +1,9 @@
 import type { TStyle } from '../css'
 
 export type TActionFormReturn = {
-  status: TStyle['theme']
+  theme: TStyle['theme']
+  status: number
   message: string
-  statusCode: number
-  data?: Record<string, string | number | readonly string[] | undefined>
-  error?: {
-    field?: Record<string | number, string[] | undefined>
-    form?: string[]
-  }
+  code: string
+  data: Record<string, string | number | readonly string[] | undefined>
 }

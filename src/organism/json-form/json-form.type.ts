@@ -1,4 +1,5 @@
 // json-form.type.ts
+import type { TActionFormReturn } from '../../type'
 import type { TButton } from '../../atom/button/type'
 import type { TInput } from '../../atom/input/input.type'
 import type { TTextarea } from '../../atom/textarea/textarea.type'
@@ -32,16 +33,13 @@ export type TJSONForm = {
   children?: ReactNode
   formStructure: TJSONFormStructure
   valueMap?: Record<string, string | number | boolean>
-  info?: {
-    statusCode: TStyle['theme']
-    status?: number
-    message: string | string[]
-  }
+  data?: Record<string, string | number | boolean>
+  info?: TActionFormReturn
   back?: {
     label: string
     title: string
     href: string
   }
   height?: string
-  submit?: (data: Record<string, string | number | boolean>) => void
+  submit?: (data: TActionFormReturn['data']) => void
 }

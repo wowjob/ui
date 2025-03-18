@@ -1,3 +1,4 @@
+'use client'
 // link.tsx
 import { getStyle } from '../../css'
 import { getEnv } from '../../util'

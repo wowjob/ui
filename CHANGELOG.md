@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/wowjob/ui/compare/v1.8.0...v1.8.1) (2025-03-18)
+
+
+### Bug Fixes
+
+* typescript build running out of memory ([9e40848](https://github.com/wowjob/ui/commit/9e40848d9783fdc25670f93df37e7af3738d8e38))
+
 # [1.8.0](https://github.com/wowjob/ui/compare/v1.7.0...v1.8.0) (2025-03-17)
 
 

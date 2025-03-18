@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/wowjob/ui/compare/v1.8.1...v1.8.2) (2025-03-18)
+
+
+### Bug Fixes
+
+* mark tanstack link as client component so NextJS can be happy ([a890f33](https://github.com/wowjob/ui/commit/a890f3391a2d11ddf33a760574e2229365fa7a82))
+
 ## [1.8.1](https://github.com/wowjob/ui/compare/v1.8.0...v1.8.1) (2025-03-18)
 
 

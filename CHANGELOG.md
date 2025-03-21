@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/wowjob/ui/compare/v1.8.2...v1.9.0) (2025-03-21)
+
+
+### Features
+
+* update input and passwort to support help attribute ([d006ff4](https://github.com/wowjob/ui/commit/d006ff47a870cd15e05dc7c63a3a5ec1d0f80765))
+
 ## [1.8.2](https://github.com/wowjob/ui/compare/v1.8.1...v1.8.2) (2025-03-18)
 
 

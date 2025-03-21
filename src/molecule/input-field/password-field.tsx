@@ -11,6 +11,7 @@ export const PasswordField = ({
   theme,
   label,
   info,
+  help,
   name,
   errorList = [],
   ...rest
@@ -62,6 +63,21 @@ export const PasswordField = ({
           </Button>
         )}
       </Flex>
+
+      {help ? (
+        <Flex
+          mobile={{
+            font: {
+              family: 'sans-serif',
+              style: 'italic',
+              size: 16,
+            },
+            flexDirection: 'row',
+          }}
+        >
+          {help}
+        </Flex>
+      ) : null}
 
       {showErrorList
         ? errorList.map(({ message }, key) => (

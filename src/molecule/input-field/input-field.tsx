@@ -7,7 +7,7 @@ export const InputField = ({
   desktop,
   theme,
   label,
-  info,
+  help,
   name,
   errorList = [],
   link,
@@ -44,7 +44,7 @@ export const InputField = ({
         <Input id={name} name={name} {...rest} mobile={{ width: 'auto' }} />
       )}
 
-      {info ? (
+      {help ? (
         <Flex
           mobile={{
             font: {
@@ -55,19 +55,19 @@ export const InputField = ({
             flexDirection: 'row',
           }}
         >
-          {info}
-
-          {link ? (
-            <Link
-              title={link.title}
-              target={link.target || '_blank'}
-              href={link.href}
-              type="block"
-            >
-              {link.label}
-            </Link>
-          ) : null}
+          {help}
         </Flex>
+      ) : null}
+
+      {link ? (
+        <Link
+          title={link.title}
+          target={link.target || '_blank'}
+          href={link.href}
+          type="block"
+        >
+          {link.label}
+        </Link>
       ) : null}
 
       {showErrorList

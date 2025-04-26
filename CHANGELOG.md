@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/wowjob/ui/compare/v1.9.0...v1.10.0) (2025-04-26)
+
+
+### Features
+
+* NextLink ([bb23513](https://github.com/wowjob/ui/commit/bb23513dfbe8d1605b2ce05f52774fb677c12c12))
+
 # [1.9.0](https://github.com/wowjob/ui/compare/v1.8.2...v1.9.0) (2025-03-21)
 
 

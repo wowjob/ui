@@ -8,6 +8,7 @@ export {
   Flex,
   Input,
   Link,
+  NextLink,
   TanstackLink,
   Text,
   Textarea,

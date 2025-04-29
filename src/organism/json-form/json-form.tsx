@@ -9,6 +9,7 @@ import type { TTextarea } from '../../atom/textarea/textarea.type'
 import type { TInput } from '../../atom/input/input.type'
 import type { TActionFormReturn } from '../../type'
 import type { ChangeEvent } from 'react'
+import './json-form.css'
 
 const getValueMap = ({
   list,

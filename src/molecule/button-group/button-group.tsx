@@ -3,6 +3,7 @@ import { getStyle } from '../../css'
 import { Flex } from '../../atom'
 import type { TButtonGroup } from './type'
 import { getEnv } from '../../util'
+import './button-group.css'
 
 export const ButtonGroup = ({
   children,

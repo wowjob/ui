@@ -16,7 +16,7 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.js"
     },
     "./all.css": "./dist/css/all.css",
     "./ui.css": "./dist/css/ui.css",

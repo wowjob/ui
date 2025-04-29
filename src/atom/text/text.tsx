@@ -2,6 +2,7 @@ import { createElement } from 'react'
 import type { TFlex } from './type'
 import { getStyle, type TEnv } from '../../css'
 import { getEnv } from '../../util'
+import './text.css'
 
 export const Text = ({
   mobile,

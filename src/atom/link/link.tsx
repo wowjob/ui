@@ -2,6 +2,7 @@
 import { getStyle } from '../../css'
 import { getEnv } from '../../util'
 import type { TLink } from './link.type'
+import './link-block.css'
 
 export const Link = ({
   mobile,

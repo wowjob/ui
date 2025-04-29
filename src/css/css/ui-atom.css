@@ -1,7 +1,7 @@
-@import 'atom/button.css';
-@import 'atom/flex.css';
-@import 'atom/input.css';
-@import 'atom/image.css';
-@import 'atom/link-block.css';
-@import 'atom/text.css';
-@import 'atom/textarea.css';
+@import '../../atom/button/button.css';
+@import '../../atom/flex/flex.css';
+@import '../../atom/input/input.css';
+@import '../../atom/image/image.css';
+@import '../../atom/link/link-block.css';
+@import '../../atom/text/text.css';
+@import '../../atom/textarea/textarea.css';

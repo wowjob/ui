@@ -1,6 +1,7 @@
 import { getEnv } from '../../util'
 import type { TTextarea } from './textarea.type'
 import { getStyle } from '../../css'
+import './textarea.css'
 
 export const Textarea = ({
   mobile,

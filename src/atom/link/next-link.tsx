@@ -3,6 +3,7 @@ import { getStyle } from '../../css'
 import { getEnv } from '../../util'
 import type { TNextLink } from './link.type'
 import Link from 'next/link'
+import './link-block.css'
 
 export const NextLink = ({
   mobile,

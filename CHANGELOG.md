@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/wowjob/ui/compare/v1.10.1...v1.10.2) (2025-04-29)
+
+
+### Bug Fixes
+
+* mjs to js ([dfd73e3](https://github.com/wowjob/ui/commit/dfd73e35bfba31f70dc630ee7d13feffb510cf83))
+
 ## [1.10.1](https://github.com/wowjob/ui/compare/v1.10.0...v1.10.1) (2025-04-29)
 
 

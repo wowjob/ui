@@ -2,8 +2,8 @@
   "name": "@wowjob/ui",
   "version": "1.10.0",
   "description": "UI components for Wowjob",
-  "main": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "module": "src/index.ts",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "prepublishOnly": "npm run build",
@@ -11,21 +11,12 @@
     "pub": "bunx semantic-release --no-ci",
     "build-css": "bun build-css.js",
     "build-ui": "bun src/css/css/ui.ts",
-    "build-dts": "tsup --config tsup.dts.ts",
-    "build-bun-dts": " bunx tsc --project tsconfig.dts.json",
-    "build": "tsup --config tsup.config.ts && bun run build-css && bun run build-ui && bun run build-bun-dts",
-    "dev": "concurrently \"tsup src/index.ts --format cjs,esm --watch --no-clean\" \"bun run build-css\" \"bun run build-ui\""
+    "build": "tsup --config tsup.config.ts && bun run build-css && bun run build-ui",
+    "dev": "concurrently \"tsup src/index.ts --format esm --watch --no-clean\" \"bun run build-css\" \"bun run build-ui\""
   },
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      }
+      "import": "./dist/index.mjs"
     },
     "./all.css": "./dist/css/all.css",
     "./ui.css": "./dist/css/ui.css",

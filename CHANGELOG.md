@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/wowjob/ui/compare/v1.10.2...v1.10.3) (2025-04-29)
+
+
+### Bug Fixes
+
+* move atom css into specific component while keeping the css generation backwards compatible ([0d36605](https://github.com/wowjob/ui/commit/0d36605beb9e424cca20ca5ed681e1ce7f4e85e4))
+
 ## [1.10.2](https://github.com/wowjob/ui/compare/v1.10.1...v1.10.2) (2025-04-29)
 
 

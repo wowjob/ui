@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/wowjob/ui/compare/v1.10.0...v1.10.1) (2025-04-29)
+
+
+### Bug Fixes
+
+* try only esm ([3afc7ad](https://github.com/wowjob/ui/commit/3afc7ad97c7812a68ea23d3d1855978b0aa09534))
+
 # [1.10.0](https://github.com/wowjob/ui/compare/v1.9.0...v1.10.0) (2025-04-26)
 
 

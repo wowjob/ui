@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/wowjob/ui/compare/v1.10.5...v1.10.6) (2025-05-07)
+
+
+### Bug Fixes
+
+* default checked when value is true for checkbox ([ee2744b](https://github.com/wowjob/ui/commit/ee2744b66774223c96f5c838b5aba50ec1449763))
+
 ## [1.10.5](https://github.com/wowjob/ui/compare/v1.10.4...v1.10.5) (2025-05-07)
 
 

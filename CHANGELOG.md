@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/wowjob/ui/compare/v1.10.4...v1.10.5) (2025-05-07)
+
+
+### Bug Fixes
+
+* do not render label, errors or helper when input is of type hidden ([f0157fe](https://github.com/wowjob/ui/commit/f0157fe497660bfc366add43a1c1321d5f79ed3f))
+
 ## [1.10.4](https://github.com/wowjob/ui/compare/v1.10.3...v1.10.4) (2025-05-07)
 
 

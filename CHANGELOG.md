@@ -1,3 +1,11 @@
+## [1.10.4](https://github.com/wowjob/ui/compare/v1.10.3...v1.10.4) (2025-05-07)
+
+
+### Bug Fixes
+
+* submit works when form is dirty with only one value changed ([07a9674](https://github.com/wowjob/ui/commit/07a9674e750f0ee41f431beeeec081f526182092))
+* update molecule and organism with new css in component folder strategy ([b8b49cc](https://github.com/wowjob/ui/commit/b8b49cc1cf3f2bd1cf03341b77f20b88b0dead2c))
+
 ## [1.10.3](https://github.com/wowjob/ui/compare/v1.10.2...v1.10.3) (2025-04-29)
 
 

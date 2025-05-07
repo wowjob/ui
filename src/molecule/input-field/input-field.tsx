@@ -15,6 +15,10 @@ export const InputField = ({
 }: TInputField) => {
   const showErrorList = errorList.length > 0
 
+  if (rest.type === 'hidden') {
+    return <Input id={name} name={name} {...rest} />
+  }
+
   return (
     <Flex mobile={{ gap: 4, width: '100%' }}>
       {label && !['checkbox', 'radio'].includes(rest.type || 'text') ? (

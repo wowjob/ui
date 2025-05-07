@@ -149,22 +149,26 @@ export const JSONForm = ({
 
           <Flex mobile={{ flexDirection: 'row' }}>
             <form.Subscribe
-              selector={(state) => [state.canSubmit, state.isSubmitting]}
+              selector={(state) => [
+                state.isValid,
+                state.isDirty,
+                state.isSubmitting,
+              ]}
               // biome-ignore lint: lint/correctness/noChildrenProp
-              children={([canSubmit, isSubmitting]) =>
-                footer.list.map((inputName) => (
+              children={([isValid, isDirty, isSubmitting]) => {
+                return footer.list.map((inputName) => (
                   <Flex key={inputName}>
                     <form.Button
                       theme={footer.data[inputName]?.theme}
                       type={footer.data[inputName]?.type}
-                      aria-disabled={!canSubmit}
+                      aria-disabled={!(isValid && isDirty)}
                     >
                       {footer.data[inputName]?.label}
                       {isSubmitting ? ' ...' : ''}
                     </form.Button>
                   </Flex>
                 ))
-              }
+              }}
             />
           </Flex>
 

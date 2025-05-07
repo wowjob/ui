@@ -29,7 +29,13 @@ export const InputField = ({
 
       {['checkbox', 'radio'].includes(rest.type || 'text') && (
         <Flex mobile={{ flexDirection: 'row', alignItems: 'center' }}>
-          <Input id={name} name={name} {...rest} mobile={{ width: 40 }} />
+          <Input
+            id={name}
+            name={name}
+            {...rest}
+            mobile={{ width: 40 }}
+            defaultChecked={rest.defaultValue as unknown as boolean}
+          />
 
           <Text
             as="label"

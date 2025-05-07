@@ -137,7 +137,11 @@ export const JSONForm = ({
                     <field.InputField
                       {...(fieldData as TInput)}
                       onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                        field.handleChange((e.target as HTMLInputElement).value)
+                        field.handleChange(
+                          fieldData.type === 'checkbox'
+                            ? (e.target as HTMLInputElement).checked
+                            : (e.target as HTMLInputElement).value
+                        )
                       }
                       errorList={isDirty ? errorList : []}
                     />

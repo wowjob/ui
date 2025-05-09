@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/wowjob/ui/compare/v1.10.6...v1.11.0) (2025-05-09)
+
+
+### Features
+
+* add simple card and view transitions ([e831ed3](https://github.com/wowjob/ui/commit/e831ed32bcd73d56fa9bf4c5c7f14dd324646027))
+
 ## [1.10.6](https://github.com/wowjob/ui/compare/v1.10.5...v1.10.6) (2025-05-07)
 
 

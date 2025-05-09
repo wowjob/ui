@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, Flex } from '../../atom'
+import { Button, Flex, Text } from '../../atom'
 import type { TJSONForm } from './json-form.type'
 import { generateZodSchema } from '../../util'
 import { createFormHook, createFormHookContexts } from '@tanstack/react-form'
@@ -8,7 +8,7 @@ import { InputField, TextareaField, PasswordField } from '../../molecule'
 import type { TTextarea } from '../../atom/textarea/textarea.type'
 import type { TInput } from '../../atom/input/input.type'
 import type { TActionFormReturn } from '../../type'
-import type { ChangeEvent } from 'react'
+import { useState, type ChangeEvent } from 'react'
 import './json-form.css'
 
 const getValueMap = ({
@@ -54,6 +54,7 @@ export const JSONForm = ({
   const { list } = formStructure
   const schema = generateZodSchema(formStructure)
   const defaultValues = getValueMap({ list, valueMap })
+  const [header, setHeader] = useState<TActionFormReturn>()
 
   const form = useAppForm({
     defaultValues,
@@ -62,7 +63,11 @@ export const JSONForm = ({
     },
     onSubmit: async ({ value }) => {
       if (typeof submit === 'function') {
-        submit(value as TActionFormReturn['data'])
+        const result = await submit(value as TActionFormReturn['data'])
+
+        if (result?.message) {
+          setHeader(result)
+        }
       }
     },
   })
@@ -79,12 +84,38 @@ export const JSONForm = ({
         }}
       >
         <Flex mobile={{ gap: 16 }}>
-          {info?.message && (
+          {formStructure.form.header && (
+            <Flex mobile={{ gap: 0 }}>
+              <Text as="h3">{formStructure.form.header.title}</Text>
+
+              {formStructure.form.header.description && (
+                <Text>{formStructure.form.header.description}</Text>
+              )}
+            </Flex>
+          )}
+
+          {header?.message && (
             <Flex
-              mobile={{ padding: [8, 16], borderRadius: 8 }}
-              theme={info.theme}
+              mobile={{
+                borderRadius: 8,
+                overflow: 'hidden',
+                alignSelf: 'center',
+                gap: 0,
+              }}
+              theme={header.theme}
             >
-              {info.message}
+              <Text as="h3" mobile={{ padding: [8, 16] }} theme={header.theme}>
+                {header.title}
+              </Text>
+
+              <Flex
+                mobile={{ padding: [8, 16], borderRadius: 8 }}
+                theme={header.theme}
+              >
+                {header.message.map((message, index) => (
+                  <Text key={index}>{message}</Text>
+                ))}
+              </Flex>
             </Flex>
           )}
 

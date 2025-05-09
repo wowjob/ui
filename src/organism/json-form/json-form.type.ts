@@ -41,5 +41,7 @@ export type TJSONForm = {
     href: string
   }
   height?: string
-  submit?: (data: TActionFormReturn['data']) => void
+  submit?: (
+    data: TActionFormReturn['data']
+  ) => Promise<TActionFormReturn | undefined>
 }

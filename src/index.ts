@@ -22,7 +22,7 @@ export {
   TextareaField,
 } from './molecule'
 
-export { JSONForm } from './organism'
+export { JSONForm, SimpleCard } from './organism'
 export type { TJSONForm } from './organism'
 
 export type { TActionFormReturn } from './type'

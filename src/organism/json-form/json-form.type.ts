@@ -32,8 +32,8 @@ export type TJSONFormStructure = {
 export type TJSONForm = {
   children?: ReactNode
   formStructure: TJSONFormStructure
-  valueMap?: Record<string, string | number | boolean>
-  data?: Record<string, string | number | boolean>
+  valueMap?: Record<string, string | number | boolean | null>
+  data?: Record<string, string | number | boolean | null>
   info?: TActionFormReturn
   back?: {
     label: string

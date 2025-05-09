@@ -1,6 +1,5 @@
 import { Flex, NextLink, Text } from '../..'
 import type { TSimpleCard } from './simple-card.type'
-// @ts-expect-error
 import { unstable_ViewTransition as ViewTransition } from 'react'
 
 export const SimpleCard = ({

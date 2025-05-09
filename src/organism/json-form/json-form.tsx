@@ -10,6 +10,7 @@ import type { TInput } from '../../atom/input/input.type'
 import type { TActionFormReturn } from '../../type'
 import { useState, type ChangeEvent } from 'react'
 import './json-form.css'
+import { useRouter } from 'next/navigation'
 
 const getValueMap = ({
   list,
@@ -55,6 +56,7 @@ export const JSONForm = ({
   const schema = generateZodSchema(formStructure)
   const defaultValues = getValueMap({ list, valueMap })
   const [header, setHeader] = useState<TActionFormReturn>()
+  const router = useRouter()
 
   const form = useAppForm({
     defaultValues,
@@ -67,6 +69,12 @@ export const JSONForm = ({
 
         if (result?.message) {
           setHeader(result)
+        }
+
+        if (result?.redirect) {
+          setTimeout(() => {
+            router.push(result?.redirect || '/')
+          }, 2000)
         }
       }
     },

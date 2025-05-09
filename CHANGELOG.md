@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/wowjob/ui/compare/v1.11.0...v1.12.0) (2025-05-09)
+
+
+### Features
+
+* implement redirect in JSON form if form action return on submit has a redirect value ([bc98402](https://github.com/wowjob/ui/commit/bc98402a2ddb5d3bccc52154df6c59d2295d6265))
+
 # [1.11.0](https://github.com/wowjob/ui/compare/v1.10.6...v1.11.0) (2025-05-09)
 
 

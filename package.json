@@ -1,6 +1,6 @@
 {
   "name": "@wowjob/ui",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "UI components for Wowjob",
   "module": "src/index.ts",
   "type": "module",

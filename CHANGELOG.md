@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/wowjob/ui/compare/v1.12.0...v1.13.0) (2025-05-10)
+
+
+### Features
+
+* implement simple grid list organism ([3aeb776](https://github.com/wowjob/ui/commit/3aeb776591ea00b53d285ec4d807a9479ebdc23f))
+
 # [1.12.0](https://github.com/wowjob/ui/compare/v1.11.0...v1.12.0) (2025-05-09)
 
 

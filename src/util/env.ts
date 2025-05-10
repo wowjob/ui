@@ -5,9 +5,9 @@ export const getEnv = (): TEnv => {
     return process.env.NODE_ENV as TEnv
   }
 
-  if (typeof import.meta !== 'undefined') {
-    return import.meta?.env?.MODE as TEnv
-  }
+  // if (typeof import.meta !== 'undefined') {
+  //   return import.meta?.env?.MODE as TEnv
+  // }
 
   return 'development'
 }

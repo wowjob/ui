@@ -19,11 +19,11 @@ export const SimpleCard = ({
       }}
       theme="light"
     >
-      <Flex theme="success" mobile={{ padding: 16 }}>
+      <Flex theme="success" mobile={{ padding: [12, 16] }}>
         <Text as="h3">{title}</Text>
       </Flex>
 
-      <Flex mobile={{ padding: 16, flexGrow: 1 }}>
+      <Flex mobile={{ padding: [8, 16], flexGrow: 1 }}>
         <ViewTransition name={viewTransitionName}>
           {content.map((line, index) => (
             <Text key={index}>{line}</Text>
@@ -31,7 +31,7 @@ export const SimpleCard = ({
         </ViewTransition>
       </Flex>
 
-      <Flex mobile={{ padding: 16 }}>
+      <Flex mobile={{ padding: [8, 16] }}>
         {footer?.message && <Text>{footer?.message}</Text>}
 
         <Flex mobile={{ justifyContent: 'end', flexDirection: 'row' }}>

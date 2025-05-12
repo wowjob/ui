@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/wowjob/ui/compare/v1.13.0...v1.13.1) (2025-05-12)
+
+
+### Bug Fixes
+
+* allow form message to receive a string or array of strings ([e6a79e5](https://github.com/wowjob/ui/commit/e6a79e52e9f257feda2a9c530d2b346cb1de322c))
+
 # [1.13.0](https://github.com/wowjob/ui/compare/v1.12.0...v1.13.0) (2025-05-10)
 
 

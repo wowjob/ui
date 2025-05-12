@@ -82,6 +82,10 @@ export const JSONForm = ({
 
   const { footer } = formStructure.form
 
+  const messageList = Array.isArray(header?.message)
+    ? header.message
+    : [header?.message]
+
   return (
     <form.AppForm>
       <form
@@ -120,7 +124,7 @@ export const JSONForm = ({
                 mobile={{ padding: [8, 16], borderRadius: 8 }}
                 theme={header.theme}
               >
-                {header.message.map((message, index) => (
+                {messageList.map((message, index) => (
                   <Text key={index}>{message}</Text>
                 ))}
               </Flex>

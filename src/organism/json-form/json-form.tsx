@@ -1,7 +1,7 @@
 'use client'
 
 import { Button, Flex, Text } from '../../atom'
-import type { TJSONForm } from './json-form.type'
+import type { TJSONForm, TJSONFormStructure } from './json-form.type'
 import { generateZodSchema } from '../../util'
 import { createFormHook, createFormHookContexts } from '@tanstack/react-form'
 import { InputField, TextareaField, PasswordField } from '../../molecule'
@@ -12,20 +12,21 @@ import { useState, type ChangeEvent } from 'react'
 import './json-form.css'
 import { useRouter } from 'next/navigation'
 
-const getValueMap = ({
-  list,
-  valueMap = {},
-}: {
-  list: string[]
-  valueMap?: TJSONForm['valueMap']
-}) => {
+const getValueMap = ({ list, data }: TJSONFormStructure) => {
   const map: NonNullable<TJSONForm['valueMap']> = {}
 
   for (const key of list) {
-    map[key] = '' // Ensure this matches TValue (string | number | boolean)
+    if (
+      data[key].type === 'checkbox' &&
+      !(data[key].defaultValue || data[key].value)
+    ) {
+      map[key] = false
+    } else {
+      map[key] = data[key].defaultValue || data[key].value || ''
+    }
   }
 
-  return { ...map, ...valueMap }
+  return map
 }
 
 const { fieldContext, formContext, useFieldContext } = createFormHookContexts()
@@ -50,11 +51,10 @@ export const JSONForm = ({
   back,
   height,
   submit,
-  info,
 }: TJSONForm) => {
   const { list } = formStructure
   const schema = generateZodSchema(formStructure)
-  const defaultValues = getValueMap({ list, valueMap })
+  const defaultValues = getValueMap(formStructure)
   const [header, setHeader] = useState<TActionFormReturn>()
   const router = useRouter()
 
@@ -65,9 +65,9 @@ export const JSONForm = ({
     },
     onSubmit: async ({ value }) => {
       if (typeof submit === 'function') {
-        const result = await submit(value as TActionFormReturn['data'])
+        const result = await submit(value)
 
-        if (result?.message) {
+        if ('message' in result && result?.message) {
           setHeader(result)
         }
 
@@ -132,7 +132,7 @@ export const JSONForm = ({
           )}
 
           <Flex>
-            {formStructure.list.map((inputName) => (
+            {list.map((inputName) => (
               <form.AppField
                 key={inputName}
                 name={inputName}

@@ -10,6 +10,7 @@ export const SimpleGridList = async ({
   viewTransition,
 }: TSimpleGridList) => {
   const showList = Array.isArray(body.list)
+
   return (
     <>
       <Flex mobile={{ flexDirection: 'row', justifyContent: 'space-between' }}>
@@ -39,18 +40,18 @@ export const SimpleGridList = async ({
         }}
       >
         {showList &&
-          body.list.map(({ id, name, description = '' }) => (
+          body.list.map(({ id, title = '', description = '' }) => (
             <SimpleCard
               key={id}
-              title={name}
+              title={title}
               content={[description]}
               viewTransitionName={`${body.viewTransition}-title-${id}`}
               footer={{
                 action: [
                   {
-                    href: `${action.href}/update/${id}`,
-                    label: 'Update',
-                    title: `Update ${title}`,
+                    href: `${body.action.href}/${id}`,
+                    label: body.action.label,
+                    title: body.action.title,
                     theme: body.theme,
                   },
                 ],

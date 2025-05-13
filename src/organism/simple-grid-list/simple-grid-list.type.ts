@@ -2,7 +2,7 @@ import { TStyle } from '../..'
 
 type TSimpleGridItem = {
   id: number
-  name: string
+  title: string
   description?: string
 }
 
@@ -21,6 +21,12 @@ export type TSimpleGridList = {
     desktop: number
   }
   body: {
+    action: {
+      href: string
+      title: string
+      theme: TStyle['theme']
+      label: string
+    }
     theme: TStyle['theme']
     viewTransition: string
     list: TSimpleGridItem[]

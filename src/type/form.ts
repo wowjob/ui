@@ -7,5 +7,5 @@ export type TActionFormReturn = {
   message: string[] | string
   code?: string
   redirect?: string
-  data?: Record<string, string | number | readonly string[] | undefined>
+  data?: any
 }

@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/wowjob/ui/compare/v1.13.1...v1.13.2) (2025-05-13)
+
+
+### Bug Fixes
+
+* better default form values without the need for valuemap ([9ff1a1c](https://github.com/wowjob/ui/commit/9ff1a1ce7eb54a2659c382148921c4b969b32ba1))
+
 ## [1.13.1](https://github.com/wowjob/ui/compare/v1.13.0...v1.13.1) (2025-05-12)
 
 

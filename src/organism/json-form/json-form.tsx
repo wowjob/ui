@@ -17,12 +17,12 @@ const getValueMap = ({ list, data }: TJSONFormStructure) => {
 
   for (const key of list) {
     if (
-      data[key].type === 'checkbox' &&
-      !(data[key].defaultValue || data[key].value)
+      data[key]?.type === 'checkbox' &&
+      !(data[key]?.defaultValue || data[key]?.value)
     ) {
       map[key] = false
     } else {
-      map[key] = data[key].defaultValue || data[key].value || ''
+      map[key] = data[key]?.defaultValue || data[key]?.value || ''
     }
   }
 
@@ -194,6 +194,8 @@ export const JSONForm = ({
             ))}
           </Flex>
 
+          <Flex>{children}</Flex>
+
           <Flex mobile={{ flexDirection: 'row' }}>
             <form.Subscribe
               selector={(state) => [
@@ -218,8 +220,6 @@ export const JSONForm = ({
               }}
             />
           </Flex>
-
-          <Flex>{children}</Flex>
         </Flex>
       </form>
     </form.AppForm>

@@ -11,12 +11,67 @@ export const InputField = ({
   name,
   errorList = [],
   link,
+  valueList,
   ...rest
 }: TInputField) => {
   const showErrorList = errorList.length > 0
 
   if (rest.type === 'hidden') {
     return <Input id={name} name={name} {...rest} />
+  }
+
+  if (
+    Array.isArray(valueList) &&
+    ['checkbox', 'radio'].includes(rest.type || 'text')
+  ) {
+    return (
+      <Flex mobile={{ flexDirection: 'row', alignItems: 'center' }}>
+        {valueList.map((valueData, index) => (
+          <Flex mobile={{ gap: 4, width: '100%' }} key={index}>
+            <Text
+              as="label"
+              htmlFor={
+                rest.type === 'radio'
+                  ? `${name}-${rest.defaultValue || rest.value}`
+                  : name
+              }
+              mobile={{ cursor: 'pointer' }}
+            >
+              {valueData.label}
+            </Text>
+
+            <Input
+              id={name}
+              name={name}
+              {...rest}
+              {...valueData}
+              mobile={{ width: 40 }}
+              defaultChecked={
+                ((valueData?.defaultValue as unknown) === true ||
+                (valueData?.defaultValue as unknown) === false
+                  ? valueData?.defaultValue
+                  : valueData?.defaultChecked) as boolean
+              }
+            />
+
+            {valueData?.help ? (
+              <Flex
+                mobile={{
+                  font: {
+                    family: 'sans-serif',
+                    style: 'italic',
+                    size: 16,
+                  },
+                  flexDirection: 'row',
+                }}
+              >
+                {valueData.help}
+              </Flex>
+            ) : null}
+          </Flex>
+        ))}
+      </Flex>
+    )
   }
 
   return (

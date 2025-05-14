@@ -8,6 +8,13 @@ import type { ReactNode } from 'react'
 
 export type TField = (TInput | TTextarea) & {
   validation?: TValidation
+  valueList?: {
+    label?: string
+    help?: string
+    value?: string | number | readonly string[] | undefined
+    defaultValue?: string | number | readonly string[] | undefined
+    defaultChecked?: boolean | undefined
+  }[]
 }
 
 export type TJSONFormStructure = {

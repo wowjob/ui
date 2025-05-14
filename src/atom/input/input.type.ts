@@ -7,5 +7,12 @@ export type TInput = {
   type?: InputHTMLAttributes<HTMLInputElement>['type']
   label?: string
   help?: string
+  valueList?: {
+    label?: string
+    help?: string
+    value?: string | number | readonly string[] | undefined
+    defaultValue?: string | number | readonly string[] | undefined
+    defaultChecked?: boolean | undefined
+  }[]
 } & TStyle &
   InputHTMLAttributes<HTMLInputElement>

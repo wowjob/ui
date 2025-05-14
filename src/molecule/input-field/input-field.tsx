@@ -22,7 +22,11 @@ export const InputField = ({
   return (
     <Flex mobile={{ gap: 4, width: '100%' }}>
       {label && !['checkbox', 'radio'].includes(rest.type || 'text') ? (
-        <Text as="label" htmlFor={name} mobile={{ fontStyle: 'italic' }}>
+        <Text
+          as="label"
+          htmlFor={name}
+          mobile={{ fontStyle: 'italic', cursor: 'pointer' }}
+        >
           {label}
         </Text>
       ) : null}
@@ -49,6 +53,7 @@ export const InputField = ({
                 ? `${name}-${rest.defaultValue || rest.value}`
                 : name
             }
+            mobile={{ cursor: 'pointer' }}
           >
             {label}
           </Text>

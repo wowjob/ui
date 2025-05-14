@@ -10,11 +10,11 @@ export const generateZodSchema = ({
 
   // Filter and map fields with validation
   const validationList = list.filter(
-    (fieldName) => data[fieldName].validation !== undefined
+    (fieldName) => data[fieldName]?.validation !== undefined
   )
 
-  for (const fieldName of validationList) {
-    if (data[fieldName].validation) {
+  for (const fieldName of Array.isArray(validationList) ? validationList : []) {
+    if (data[fieldName]?.validation) {
       schema[fieldName] = generateFieldSchema(data[fieldName].validation)
     }
   }

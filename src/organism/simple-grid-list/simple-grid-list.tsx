@@ -7,19 +7,19 @@ export const SimpleGridList = async ({
   body,
   grid,
   title,
-  viewTransition,
+  table,
 }: TSimpleGridList) => {
   const showList = Array.isArray(body.list)
 
   return (
     <>
       <Flex mobile={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-        <ViewTransition name={`${viewTransition}-title`}>
+        <ViewTransition name={`${table}-title`}>
           <Text as="h2">{title}</Text>
         </ViewTransition>
 
         <NextLink
-          href={action.href}
+          href={`/${[table, action.href].join('/')}`}
           title={action.title}
           theme={action.theme}
           mobile={{ padding: 16, borderRadius: 32 }}
@@ -45,11 +45,11 @@ export const SimpleGridList = async ({
               key={id}
               title={title}
               content={[description]}
-              viewTransitionName={`${body.viewTransition}-title-${id}`}
+              viewTransitionName={`${table}-title-${id}`}
               footer={{
                 action: [
                   {
-                    href: `${body.action.href}/${id}`,
+                    href: `/${[table, id, body.action.href].join('/')}`,
                     label: body.action.label,
                     title: body.action.title,
                     theme: body.theme,

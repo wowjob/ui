@@ -34,7 +34,12 @@ export const InputField = ({
             name={name}
             {...rest}
             mobile={{ width: 40 }}
-            defaultChecked={rest.defaultValue as unknown as boolean}
+            defaultChecked={
+              ((rest.defaultValue as unknown) === true ||
+              (rest.defaultValue as unknown) === false
+                ? rest.defaultValue
+                : rest.defaultChecked) as boolean
+            }
           />
 
           <Text

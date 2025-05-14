@@ -8,9 +8,9 @@ type TSimpleGridItem = {
 
 export type TSimpleGridList = {
   title: string
-  viewTransition: string
+  table: string
   action: {
-    href: string
+    href?: string
     title: string
     theme: TStyle['theme']
     label: string
@@ -22,13 +22,13 @@ export type TSimpleGridList = {
   }
   body: {
     action: {
-      href: string
+      href?: string
+      sufix?: string
       title: string
       theme: TStyle['theme']
       label: string
     }
     theme: TStyle['theme']
-    viewTransition: string
     list: TSimpleGridItem[]
   }
 }

@@ -1,3 +1,14 @@
+## [1.13.3](https://github.com/wowjob/ui/compare/v1.13.2...v1.13.3) (2025-05-14)
+
+
+### Bug Fixes
+
+* allow a list of radio input elements to be rendered ([34dc7b0](https://github.com/wowjob/ui/commit/34dc7b08d853a2b91adf1bb20e17261221ac6b37))
+* defaultChecked in FieldInput type radio ([d25e46e](https://github.com/wowjob/ui/commit/d25e46e828c123cbeea44bc0d77afa11b44a61be))
+* improve schema logic in JSONForm ([fb4ecb8](https://github.com/wowjob/ui/commit/fb4ecb88ec843642462a83f464c1dba31ef28bd1))
+* input label now shows pointer when mouse over ([60ea17b](https://github.com/wowjob/ui/commit/60ea17bd012cbbbd25099f4a8f22195d9304a701))
+* responsive radio lists in JSON form ([3e6d037](https://github.com/wowjob/ui/commit/3e6d037e71eabf49664b1bc6f57ed2465673042e))
+
 ## [1.13.2](https://github.com/wowjob/ui/compare/v1.13.1...v1.13.2) (2025-05-13)
 
 

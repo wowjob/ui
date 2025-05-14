@@ -25,23 +25,23 @@ export const InputField = ({
     ['checkbox', 'radio'].includes(rest.type || 'text')
   ) {
     return (
-      <Flex mobile={{ flexDirection: 'row', alignItems: 'center' }}>
+      <Flex
+        mobile={{ display: 'grid' }}
+        tablet={{ gridTemplateColumns: 'repeat(3, 1fr)' }}
+        desktop={{ gridTemplateColumns: 'repeat(6, 1fr)' }}
+      >
         {valueList.map((valueData, index) => (
-          <Flex mobile={{ gap: 4, width: '100%' }} key={index}>
-            <Text
-              as="label"
-              htmlFor={
-                rest.type === 'radio'
-                  ? `${name}-${rest.defaultValue || rest.value}`
-                  : name
-              }
-              mobile={{ cursor: 'pointer' }}
-            >
-              {valueData.label}
-            </Text>
-
+          <Flex
+            mobile={{
+              display: 'grid',
+              gridTemplateColumns: 'auto 1fr',
+              gridTemplateRows: 'min-content auto',
+              gap: [4, 12],
+            }}
+            key={index}
+          >
             <Input
-              id={name}
+              id={`${name}-${index}`}
               name={name}
               {...rest}
               {...valueData}
@@ -54,6 +54,14 @@ export const InputField = ({
               }
             />
 
+            <Text
+              as="label"
+              htmlFor={rest.type === 'radio' ? `${name}-${index}` : name}
+              mobile={{ cursor: 'pointer', alignSelf: 'center' }}
+            >
+              {valueData.label}
+            </Text>
+
             {valueData?.help ? (
               <Flex
                 mobile={{
@@ -63,6 +71,7 @@ export const InputField = ({
                     size: 16,
                   },
                   flexDirection: 'row',
+                  gridColumn: '1/-1',
                 }}
               >
                 {valueData.help}

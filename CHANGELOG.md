@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/wowjob/ui/compare/v1.15.0...v1.16.0) (2025-05-15)
+
+
+### Features
+
+* improve footer with legal links ([8074ab2](https://github.com/wowjob/ui/commit/8074ab2bf9b389e22c5594f3670dcaa87edb78a9))
+
 # [1.15.0](https://github.com/wowjob/ui/compare/v1.14.0...v1.15.0) (2025-05-15)
 
 

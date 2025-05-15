@@ -1,3 +1,15 @@
+# [1.14.0](https://github.com/wowjob/ui/compare/v1.13.3...v1.14.0) (2025-05-15)
+
+
+### Bug Fixes
+
+* build process running out of memory ([0291b04](https://github.com/wowjob/ui/commit/0291b0470e23120ccc1040750ec82e3d9aa9d7a1))
+
+
+### Features
+
+* add footer organism ([80c39fd](https://github.com/wowjob/ui/commit/80c39fd290e3380af95595406b3661b2af380f2e))
+
 ## [1.13.3](https://github.com/wowjob/ui/compare/v1.13.2...v1.13.3) (2025-05-14)
 
 

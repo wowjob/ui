@@ -5,7 +5,7 @@ export const Footer = async ({
   theme = 'dark',
 }: {
   copyright: string
-  theme: TStyle['theme']
+  theme?: TStyle['theme']
 }) => {
   return (
     <Flex theme={theme} mobile={{ padding: 32, alignItems: 'center' }}>

@@ -18,6 +18,7 @@ export {
 export {
   ButtonGroup,
   InputField,
+  MarkdownRenderer,
   PasswordField,
   TextareaField,
 } from './molecule'

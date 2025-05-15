@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/wowjob/ui/compare/v1.14.0...v1.15.0) (2025-05-15)
+
+
+### Features
+
+* add markdown renderer molecule ([eea2c1d](https://github.com/wowjob/ui/commit/eea2c1dae198a0f6e67dbef0e0143783d8fbb4ff))
+
 # [1.14.0](https://github.com/wowjob/ui/compare/v1.13.3...v1.14.0) (2025-05-15)
 
 

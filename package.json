@@ -9,9 +9,10 @@
     "prepublishOnly": "npm run build",
     "sr": "bunx semantic-release",
     "pub": "bunx semantic-release --no-ci",
+    "build-type": "tsc --project tsconfig.dts.json",
     "build-css": "bun build-css.js",
     "build-ui": "bun src/css/css/ui.ts",
-    "build": "tsup --config tsup.config.ts && bun run build-css && bun run build-ui",
+    "build": "tsup --config tsup.config.ts && bun run build-css && bun run build-ui && bun run build-type",
     "dev": "concurrently \"tsup src/index.ts --format esm --watch --no-clean\" \"bun run build-css\" \"bun run build-ui\""
   },
   "exports": {

@@ -3,6 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
+    "composite": false,
     "outDir": "dist",
     "noEmit": false,
     "lib": ["ESNext", "DOM"], // ✅ Add "DOM" to support `e.target.value`

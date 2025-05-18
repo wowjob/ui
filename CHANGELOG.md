@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/wowjob/ui/compare/v1.18.0...v1.18.1) (2025-05-18)
+
+
+### Bug Fixes
+
+* full domain name in footer ([966c6ac](https://github.com/wowjob/ui/commit/966c6ac2449de84486795c0b86ac0f87696420c5))
+
 # [1.18.0](https://github.com/wowjob/ui/compare/v1.17.0...v1.18.0) (2025-05-18)
 
 

@@ -1,4 +1,5 @@
-import { Image, mediaTypeMap, TImageConfig } from '../..'
+import { Image, mediaTypeMap } from '../..'
+import type { TImageConfig } from '../..'
 import type { TPicture } from './type'
 
 export const Picture = ({
@@ -35,6 +36,7 @@ export const Picture = ({
         desktop={desktop}
         width={width}
         height={height}
+        theme={theme}
       />
     </picture>
   )

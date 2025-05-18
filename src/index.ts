@@ -18,6 +18,7 @@ export {
 } from './atom'
 export {
   ButtonGroup,
+  Figure,
   InputField,
   MarkdownRenderer,
   PasswordField,

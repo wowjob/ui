@@ -21,12 +21,14 @@ export {
   InputField,
   MarkdownRenderer,
   PasswordField,
+  Picture,
   TextareaField,
 } from './molecule'
 
 export { Footer, JSONForm, SimpleCard, SimpleGridList } from './organism'
 export type { TJSONForm } from './organism'
 
-export type { TActionFormReturn } from './type'
+export { mediaTypeMap } from './type'
+export type { TActionFormReturn, TImageConfig } from './type'
 
 export { getEnv, generateZodSchema } from './util'

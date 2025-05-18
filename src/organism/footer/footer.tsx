@@ -15,10 +15,12 @@ export const Footer = async ({
   copyright,
   theme = 'dark',
   legal,
+  domainUrl = '',
 }: {
   copyright: string
   legal?: TLegal
   theme?: TStyle['theme']
+  domainUrl?: string
 }) => {
   let legalList: {
     href: string
@@ -41,7 +43,7 @@ export const Footer = async ({
         <Flex mobile={{ flexDirection: 'row', justifyContent: 'center' }}>
           {legalList.map(({ label, href }) => (
             <NextLink
-              href={`/legal/${href}`}
+              href={`${domainUrl}/legal/${href}`}
               key={href}
               mobile={{ padding: [8, 16] }}
               target={legal?.target}

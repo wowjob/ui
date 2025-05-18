@@ -1,3 +1,13 @@
+# [1.17.0](https://github.com/wowjob/ui/compare/v1.16.0...v1.17.0) (2025-05-18)
+
+
+### Features
+
+* add media type ([53287a3](https://github.com/wowjob/ui/commit/53287a3aea150de67bccf28e637d9c150836cead))
+* implement figure molecule ([46f4ab0](https://github.com/wowjob/ui/commit/46f4ab06eb2adb6f8ca98893d81c9645cf3a5935))
+* implement image atom ([adeacec](https://github.com/wowjob/ui/commit/adeacec66bdf43461003b9e347abf76717696afc))
+* implement picture molecule ([4ccf756](https://github.com/wowjob/ui/commit/4ccf75621d80be91bdf01268ef4f4da3291b9bbc))
+
 # [1.16.0](https://github.com/wowjob/ui/compare/v1.15.0...v1.16.0) (2025-05-15)
 
 

@@ -9,6 +9,7 @@ export {
   DataList,
   Flex,
   Input,
+  Image,
   Link,
   NextLink,
   TanstackLink,

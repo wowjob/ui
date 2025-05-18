@@ -30,6 +30,6 @@ export { Footer, JSONForm, SimpleCard, SimpleGridList } from './organism'
 export type { TJSONForm } from './organism'
 
 export { mediaTypeMap } from './type'
-export type { TActionFormReturn, TImageConfig } from './type'
+export type { TActionFormReturn, TImageConfig, TMediaPayload } from './type'
 
 export { getEnv, generateZodSchema } from './util'

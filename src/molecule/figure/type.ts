@@ -7,7 +7,7 @@ export type TFigure = {
   srcTablet?: string
   srcDesktop?: string
 
-  figcaption: string
+  figcaption?: string
 
   width?: number
   height?: number

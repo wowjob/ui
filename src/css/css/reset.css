@@ -31,6 +31,10 @@ button {
   background-color: transparent;
 }
 
+img {
+  display: block;
+}
+
 /* @media (min-width: 48rem) {} */
 
 /* @media (min-width: 80rem) {} */

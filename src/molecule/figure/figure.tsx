@@ -13,8 +13,10 @@ export const Figure = ({
   height,
   width,
   figcaption,
-}: TFigure) => (
-  <figure>
+}: TFigure) => {
+  const info = (figcaption || alt || '').trim()
+
+  const picture = (
     <Picture
       alt={alt}
       src={src}
@@ -27,7 +29,15 @@ export const Figure = ({
       height={height}
       theme={theme}
     />
+  )
 
-    <figcaption>{figcaption}</figcaption>
-  </figure>
-)
+  return info ? (
+    <figure>
+      {picture}
+
+      <figcaption>{figcaption}</figcaption>
+    </figure>
+  ) : (
+    picture
+  )
+}

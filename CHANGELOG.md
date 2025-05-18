@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/wowjob/ui/compare/v1.17.0...v1.18.0) (2025-05-18)
+
+
+### Features
+
+* add figure molecule ([3420c68](https://github.com/wowjob/ui/commit/3420c68c1946c59951cad4d123a7584ff918f4eb))
+
 # [1.17.0](https://github.com/wowjob/ui/compare/v1.16.0...v1.17.0) (2025-05-18)
 
 

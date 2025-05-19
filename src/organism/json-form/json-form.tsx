@@ -4,7 +4,12 @@ import { Button, Flex, Text } from '../../atom'
 import type { TJSONForm, TJSONFormStructure } from './json-form.type'
 import { generateZodSchema } from '../../util'
 import { createFormHook, createFormHookContexts } from '@tanstack/react-form'
-import { InputField, TextareaField, PasswordField } from '../../molecule'
+import {
+  InputField,
+  TextareaField,
+  PasswordField,
+  ToastEditorClient,
+} from '../../molecule'
 import type { TTextarea } from '../../atom/textarea/textarea.type'
 import type { TInput } from '../../atom/input/input.type'
 import type { TActionFormReturn } from '../../type'
@@ -37,6 +42,7 @@ const { useAppForm } = createFormHook({
   fieldComponents: {
     InputField,
     TextareaField,
+    ToastEditorClient,
     PasswordField,
   },
   formComponents: {
@@ -158,6 +164,19 @@ export const JSONForm = ({
                           )
                         }
                         errorList={isDirty ? errorList : []}
+                      />
+                    )
+                  }
+
+                  if (fieldData.type === 'markdown') {
+                    return (
+                      <field.ToastEditorClient
+                        {...(fieldData as TTextarea)}
+                        initialValue={String(fieldData.defaultValue) || ''}
+                        onChange={(currentMarkdownValue: string) =>
+                          field.handleChange(currentMarkdownValue)
+                        }
+                        // errorList={isDirty ? errorList : []}
                       />
                     )
                   }

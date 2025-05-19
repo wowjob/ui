@@ -24,6 +24,7 @@ export {
   PasswordField,
   Picture,
   TextareaField,
+  ToastEditorClient,
 } from './molecule'
 
 export { Footer, JSONForm, SimpleCard, SimpleGridList } from './organism'

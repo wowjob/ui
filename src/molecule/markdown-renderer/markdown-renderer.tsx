@@ -1,4 +1,8 @@
-import { createElement, Fragment } from 'react'
+import {
+  createElement,
+  Fragment,
+  unstable_ViewTransition as ViewTransition,
+} from 'react'
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
@@ -41,7 +45,11 @@ export const MarkdownRenderer = ({ markdown }: TMarkdownRendererMap) => {
     // eslint-disable-next-line
     span: (props: any) => <Text as="span" {...props} />,
     // eslint-disable-next-line
-    h1: (props: any) => <Text as="h1" {...props} />,
+    h1: (props: any) => (
+      <ViewTransition name="main-title">
+        <Text as="h1" {...props} />
+      </ViewTransition>
+    ),
     // eslint-disable-next-line
     h2: (props: any) => <Text as="h2" {...props} />,
     // eslint-disable-next-line

@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/wowjob/ui/compare/v1.19.0...v1.19.1) (2025-05-19)
+
+
+### Bug Fixes
+
+* update toast editor for server rendering libraries ([40d4f8c](https://github.com/wowjob/ui/commit/40d4f8c22cc9608a347fd4b8bfc47b785c66dfc0))
+
 # [1.19.0](https://github.com/wowjob/ui/compare/v1.18.1...v1.19.0) (2025-05-19)
 
 

@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/wowjob/ui/compare/v1.18.1...v1.19.0) (2025-05-19)
+
+
+### Features
+
+* implement markdown editor ([9112250](https://github.com/wowjob/ui/commit/9112250815d914868990a578e69136636f27224b))
+
 ## [1.18.1](https://github.com/wowjob/ui/compare/v1.18.0...v1.18.1) (2025-05-18)
 
 

@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/wowjob/ui/compare/v1.19.6...v1.20.0) (2025-05-20)
+
+
+### Features
+
+* remove and forget about markdown editor ([b72aaec](https://github.com/wowjob/ui/commit/b72aaec2a7f90ae6a30a79b057c17f410256a216))
+
 ## [1.19.6](https://github.com/wowjob/ui/compare/v1.19.5...v1.19.6) (2025-05-20)
 
 

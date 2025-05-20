@@ -31,6 +31,7 @@ export const ToastEditorClient = ({
   onChange?: (markdonValue: string) => void
 }) => {
   const editorRef = useRef<EditorProps>(null)
+  const [showEditor, setShowEditor] = useState(false)
   const [markdownValue, setMarkdownValue] = useState(initialValue)
   const handleChange = () => {
     const currentMarkdownValue =
@@ -43,6 +44,12 @@ export const ToastEditorClient = ({
 
   // biome-ignore lint: lint/correctness/useExhaustiveDependencies
   useEffect(() => {
+    setTimeout(() => {
+      setShowEditor(true)
+    }, 500)
+  }, [])
+
+  useEffect(() => {
     // Sync editor content if the parent prop changes
     if (editorRef.current && initialValue !== markdownValue) {
       ;(editorRef.current as any).getInstance().setMarkdown(initialValue)
@@ -50,7 +57,7 @@ export const ToastEditorClient = ({
     }
   }, [initialValue])
 
-  return (
+  return showEditor ? (
     <Flex
       mobile={{ height: height || 480, maxWidth: '100%' }}
       data-name="toast-editor-wrapper"
@@ -82,5 +89,5 @@ export const ToastEditorClient = ({
         />
       )}
     </Flex>
-  )
+  ) : null
 }

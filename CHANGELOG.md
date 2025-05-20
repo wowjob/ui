@@ -1,3 +1,10 @@
+## [1.19.4](https://github.com/wowjob/ui/compare/v1.19.3...v1.19.4) (2025-05-20)
+
+
+### Bug Fixes
+
+* replace toast ui markdown editor with uiw markdown editor ([11a3713](https://github.com/wowjob/ui/commit/11a3713a454788ce8c411d345739ecfcd5abe648))
+
 ## [1.19.3](https://github.com/wowjob/ui/compare/v1.19.2...v1.19.3) (2025-05-20)
 
 

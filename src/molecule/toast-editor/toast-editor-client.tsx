@@ -1,6 +1,6 @@
 'use client'
 
-import { type ChangeEvent, useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import '@toast-ui/editor/dist/toastui-editor.css'
 import { Flex, Input } from '../..'
 import dynamic from 'next/dynamic'

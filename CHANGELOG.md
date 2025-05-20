@@ -1,3 +1,10 @@
+## [1.19.6](https://github.com/wowjob/ui/compare/v1.19.5...v1.19.6) (2025-05-20)
+
+
+### Bug Fixes
+
+* try with suspense ([98b7e04](https://github.com/wowjob/ui/commit/98b7e045600d85fd628274166faa8196b7cd0f3e))
+
 ## [1.19.5](https://github.com/wowjob/ui/compare/v1.19.4...v1.19.5) (2025-05-20)
 
 

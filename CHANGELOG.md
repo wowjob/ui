@@ -1,3 +1,10 @@
+## [1.19.5](https://github.com/wowjob/ui/compare/v1.19.4...v1.19.5) (2025-05-20)
+
+
+### Bug Fixes
+
+* remove dynamic import ([f033039](https://github.com/wowjob/ui/commit/f0330393d2146c500efad96d513a5faec64784d0))
+
 ## [1.19.4](https://github.com/wowjob/ui/compare/v1.19.3...v1.19.4) (2025-05-20)
 
 

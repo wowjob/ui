@@ -1,3 +1,10 @@
+## [1.19.3](https://github.com/wowjob/ui/compare/v1.19.2...v1.19.3) (2025-05-20)
+
+
+### Bug Fixes
+
+* one more stupid try ([12627d3](https://github.com/wowjob/ui/commit/12627d3b62607c3f862ce14785304bdeb495e6e3))
+
 ## [1.19.2](https://github.com/wowjob/ui/compare/v1.19.1...v1.19.2) (2025-05-20)
 
 

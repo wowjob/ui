@@ -20,7 +20,6 @@ export {
   ButtonGroup,
   Figure,
   InputField,
-  MarkdownEditor,
   MarkdownRenderer,
   PasswordField,
   Picture,

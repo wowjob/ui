@@ -1,10 +1,13 @@
 'use client'
-
+import { Suspense, lazy } from 'react'
 import '@uiw/react-md-editor/markdown-editor.css'
 import '@uiw/react-markdown-preview/markdown.css'
 import { useState } from 'react'
 import { Flex, Input } from '../..'
-import MDEditor from '@uiw/react-md-editor'
+
+const LazyMDEditor = lazy(() =>
+  import('@uiw/react-md-editor').then((mod) => ({ default: mod.default }))
+)
 
 export const MarkdownEditor = ({
   initialValue,
@@ -32,7 +35,13 @@ export const MarkdownEditor = ({
     <Flex>
       <Input name={name} type="hidden" value={value} />
 
-      <MDEditor value={value} onChange={handleChange} data-color-mode="light" />
+      <Suspense fallback={null}>
+        <LazyMDEditor
+          value={value}
+          onChange={handleChange}
+          data-color-mode="light"
+        />
+      </Suspense>
     </Flex>
   )
 }

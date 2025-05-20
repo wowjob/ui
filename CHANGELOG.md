@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/wowjob/ui/compare/v1.19.1...v1.19.2) (2025-05-20)
+
+
+### Bug Fixes
+
+* try removing trac of editor with error to see if builds pass ([e947bb0](https://github.com/wowjob/ui/commit/e947bb03e4bbc7ef396b1fc9b0b3cd2d152bccf4))
+
 ## [1.19.1](https://github.com/wowjob/ui/compare/v1.19.0...v1.19.1) (2025-05-19)
 
 

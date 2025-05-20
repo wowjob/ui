@@ -13,7 +13,7 @@
     "@supabase/supabase-js": "^2.49.1",
     "@tanstack/react-form": "^1.1.0",
     "@tanstack/react-router": "^1.114.23",
-    "@toast-ui/react-editor": "^3.2.3",
+    "@uiw/react-md-editor": "^4.0.6",
     "eslint-plugin-react-hooks": "^0.0.0-experimental-4a45ba92-20250515",
     "next": "^15.3.1",
     "react": "^0.0.0-experimental-4a45ba92-20250515",

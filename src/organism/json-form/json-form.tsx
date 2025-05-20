@@ -8,7 +8,7 @@ import {
   InputField,
   TextareaField,
   PasswordField,
-  ToastEditorClient,
+  MarkdownEditor,
 } from '../../molecule'
 import type { TTextarea } from '../../atom/textarea/textarea.type'
 import type { TInput } from '../../atom/input/input.type'
@@ -42,7 +42,7 @@ const { useAppForm } = createFormHook({
   fieldComponents: {
     InputField,
     TextareaField,
-    ToastEditorClient,
+    MarkdownEditor,
     PasswordField,
   },
   formComponents: {
@@ -170,7 +170,7 @@ export const JSONForm = ({
 
                   if (fieldData.type === 'markdown') {
                     return (
-                      <field.ToastEditorClient
+                      <field.MarkdownEditor
                         {...(fieldData as TTextarea)}
                         initialValue={String(fieldData.defaultValue) || ''}
                         onChange={(currentMarkdownValue: string) =>

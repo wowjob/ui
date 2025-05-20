@@ -20,11 +20,11 @@ export {
   ButtonGroup,
   Figure,
   InputField,
+  MarkdownEditor,
   MarkdownRenderer,
   PasswordField,
   Picture,
   TextareaField,
-  ToastEditorClient,
 } from './molecule'
 
 export { Footer, JSONForm, SimpleCard, SimpleGridList } from './organism'

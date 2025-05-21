@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/wowjob/ui/compare/v1.20.0...v1.21.0) (2025-05-21)
+
+
+### Features
+
+* implement complex icon and allow footer to have children ([04f3b29](https://github.com/wowjob/ui/commit/04f3b29e5680920985793b837c4b141e3ef4f095))
+
 # [1.20.0](https://github.com/wowjob/ui/compare/v1.19.6...v1.20.0) (2025-05-20)
 
 

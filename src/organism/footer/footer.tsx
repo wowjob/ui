@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { Flex, NextLink, Text, TStyle } from '../..'
 
 type TLegalItem = {
@@ -16,11 +17,13 @@ export const Footer = async ({
   theme = 'dark',
   legal,
   domainUrl = '',
+  children,
 }: {
   copyright: string
   legal?: TLegal
   theme?: TStyle['theme']
   domainUrl?: string
+  children?: ReactNode
 }) => {
   let legalList: {
     href: string
@@ -53,6 +56,8 @@ export const Footer = async ({
           ))}
         </Flex>
       )}
+
+      {children}
 
       <Text>{copyright}</Text>
     </Flex>

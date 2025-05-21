@@ -4,6 +4,7 @@ export type { TCSSPropValue, TEnv, TStyle } from './css'
 
 export {
   Button,
+  ComplexIcon,
   CSSDevelopment,
   CSSProduction,
   DataList,

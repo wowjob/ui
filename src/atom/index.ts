@@ -1,4 +1,5 @@
 export { Button } from './button'
+export { ComplexIcon } from './complex-icon'
 export { CSSDevelopment, CSSProduction } from './css'
 export { DataList } from './data-list'
 export { Flex } from './flex'

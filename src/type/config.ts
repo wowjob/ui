@@ -31,7 +31,14 @@ export const socialList = [
   'x',
   'youtube',
 ] as const
-
 type TSocial = (typeof socialList)[number]
+
+export const socialPrefix: Partial<Record<TSocial, string>> = {
+  tiktok: '@',
+  threads: '@',
+  youtube: '@',
+  linkedin: 'in/',
+  stackoverflow: 'users/',
+}
 
 export type TSocialJSON = Partial<Record<TSocial, string>>

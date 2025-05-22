@@ -30,7 +30,7 @@ export {
 export { Footer, JSONForm, SimpleCard, SimpleGridList } from './organism'
 export type { TJSONForm } from './organism'
 
-export { mediaTypeMap, socialList } from './type'
+export { mediaTypeMap, socialList, socialPrefix } from './type'
 export type {
   TActionFormReturn,
   TImageConfig,

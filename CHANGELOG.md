@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/wowjob/ui/compare/v1.22.1...v1.22.2) (2025-05-22)
+
+
+### Bug Fixes
+
+* add social prefix data ([eea3e99](https://github.com/wowjob/ui/commit/eea3e9972c81aad513f0c01c416f08463f077c6f))
+
 ## [1.22.1](https://github.com/wowjob/ui/compare/v1.22.0...v1.22.1) (2025-05-22)
 
 

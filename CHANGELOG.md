@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/wowjob/ui/compare/v1.22.0...v1.22.1) (2025-05-22)
+
+
+### Bug Fixes
+
+* TODO: video explainers ([aa5eab9](https://github.com/wowjob/ui/commit/aa5eab9395f3b33264b0d950513a9458c27ec79a))
+
 # [1.22.0](https://github.com/wowjob/ui/compare/v1.21.1...v1.22.0) (2025-05-22)
 
 

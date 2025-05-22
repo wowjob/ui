@@ -13,13 +13,13 @@ type TLegal = {
 }
 
 export const Footer = async ({
-  copyright,
+  copyright = '',
   theme = 'dark',
   legal,
   domainUrl = '',
   children,
 }: {
-  copyright: string
+  copyright?: string
   legal?: TLegal
   theme?: TStyle['theme']
   domainUrl?: string
@@ -59,7 +59,7 @@ export const Footer = async ({
 
       {children}
 
-      <Text>{copyright}</Text>
+      {copyright && <Text>{copyright}</Text>}
     </Flex>
   )
 }

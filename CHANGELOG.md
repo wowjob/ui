@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/wowjob/ui/compare/v1.21.1...v1.22.0) (2025-05-22)
+
+
+### Features
+
+* add social list and website config types ([8d78500](https://github.com/wowjob/ui/commit/8d785001ec9f90882eee70887b309b19c5243fef))
+
 ## [1.21.1](https://github.com/wowjob/ui/compare/v1.21.0...v1.21.1) (2025-05-22)
 
 

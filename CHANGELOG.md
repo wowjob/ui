@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/wowjob/ui/compare/v1.21.0...v1.21.1) (2025-05-22)
+
+
+### Bug Fixes
+
+* footer copyright optional ([a0092c1](https://github.com/wowjob/ui/commit/a0092c1e3fdd07b91ceac4e2db90d38faa5c3bba))
+
 # [1.21.0](https://github.com/wowjob/ui/compare/v1.20.0...v1.21.0) (2025-05-21)
 
 

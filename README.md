@@ -1,5 +1,7 @@
 # WOWJOB UI – The Zero-Build-Time, Flexible CSS Utility Library
 
+TODO: video explainers
+
 - super duper
 
 Welcome to **WOWJOB UI CSS**! This library is designed to bring **simplicity**, **speed**, and **flexibility** to your styling workflow. Whether you’re building with **vanilla JS**, **HTML/CSS**, **React**, **Next.js**, **Vite**, **Astro**, or any other framework or library, **WOWJOB UI CSS** will slip in seamlessly with **zero build time** or extra configuration.
